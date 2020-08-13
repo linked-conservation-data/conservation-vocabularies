@@ -1,0 +1,290 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix bvc: <https://w3id.org/bod-vocab/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/bod-vocab/> a skos:ConceptScheme;
+  dc:creator "Bodleian Library"@en;
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  skos:hasTopConcept bvc:05daa45e-9219-4219-9053-24a7d1287467, bvc:076437b8-0325-409b-b7b5-256818382d55,
+    bvc:0a2681af-c6a4-4400-a025-b59536f39c29, bvc:0f58dfff-0aa7-4712-a60b-5bd161742124,
+    bvc:1888fa9e-2aac-47be-9fc4-8e49dba0bf1a, bvc:1d984362-9583-4857-9ee4-3b65f83e667d,
+    bvc:1ed00e7f-6900-40c7-8f8a-ab7c197b9b23, bvc:2597c966-1d84-429a-85f2-2baebc2fbf59,
+    bvc:2e29cec0-dda1-4c9f-9daf-1e6cacf9d1de, bvc:361e9288-f4cc-4bff-a97e-512aab091013,
+    bvc:3b45b7ea-383a-4c81-a503-2bb082e924bd, bvc:3ecee74f-1ddc-4653-a972-1e1c316f1175,
+    bvc:41364e21-fe25-412f-b90a-5dc7a9b25962, bvc:43de7964-817b-43b1-8008-92bfd568cca4,
+    bvc:441cacde-d938-4a5c-b8a0-32dc87c4fd97, bvc:4b7cfe9d-7ea1-4186-a46f-4fabe3bddc5d,
+    bvc:4fc15b38-9178-49f3-92e6-a9ff374ee752, bvc:53116859-2db2-4a1d-96bd-efb998a36714,
+    bvc:5ae8d787-7545-4243-8ce4-93aef92f4241, bvc:6177d6bf-c8fa-41b6-b717-75cb6c747fd2,
+    bvc:77f4e34a-635b-4f5c-a104-87fb6f7d8226, bvc:78cc9968-a2f2-4fa1-b003-4ed8bb0e11d2,
+    bvc:803c2cdd-7d07-462e-9f9d-0ee818717b4c, bvc:8165c584-bcf0-45c5-a171-c1f527b79336,
+    bvc:8649df1d-c2fe-4cdb-a01a-bf50d6fb3a1e, bvc:89ff4c9d-d2cb-412e-b156-8df74cda8432,
+    bvc:95078233-341f-438a-afcd-bbc6518c0623, bvc:9733704a-c855-4d49-9af5-e47856a56e45,
+    bvc:9990c6ba-935e-4f82-8fb1-658eb3cb7620, bvc:a5aa6db0-e90e-4c00-9de0-31134bb24543,
+    bvc:b4fbacb4-d653-4dc6-b287-726ac4692376, bvc:c72cd5af-4638-4043-8703-45be491fdf10,
+    bvc:c9b8eede-89d8-449d-8bf1-7faedfeb3daf, bvc:d16838d3-5b7a-4440-bace-ce299b18b34b,
+    bvc:d4b462b5-3a5a-4a0a-bdfa-00f8ac7000df, bvc:d4bbd777-f95d-4ecd-b9a2-b991598b5e39,
+    bvc:d6105cee-6db6-4408-9ec3-07e16fa5c0db, bvc:e02e52b2-2dc0-4b12-b337-9c0aac0610b6,
+    bvc:f7fb9c05-d0eb-4414-a9f3-c8d6c04077fe, bvc:fcd7338f-4b1b-4876-89e9-86055ff453d0,
+    bvc:fe76407c-168a-4527-aaca-5790ea4ac818 .
+
+bvc:78cc9968-a2f2-4fa1-b003-4ed8bb0e11d2 a skos:Concept;
+  skos:closeMatch aat:300411878;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "machine-made"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:41364e21-fe25-412f-b90a-5dc7a9b25962 a skos:Concept;
+  skos:closeMatch aat:300014109;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "paper"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:77f4e34a-635b-4f5c-a104-87fb6f7d8226 a skos:Concept;
+  skos:exactMatch aat:300014801;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "adhesive"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:441cacde-d938-4a5c-b8a0-32dc87c4fd97 a skos:Concept;
+  skos:closeMatch aat:300162391;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "aerocotton"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f7fb9c05-d0eb-4414-a9f3-c8d6c04077fe a skos:Concept;
+  skos:closeMatch aat:300162391;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "aerolinen"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:803c2cdd-7d07-462e-9f9d-0ee818717b4c a skos:Concept;
+  skos:exactMatch aat:300234598;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "alum tawed leather"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b4fbacb4-d653-4dc6-b287-726ac4692376 a skos:Concept;
+  skos:exactMatch aat:300192836;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "animal glue"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:05daa45e-9219-4219-9053-24a7d1287467 a skos:Concept;
+  skos:exactMatch aat:300014589;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bleached beeswax"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:89ff4c9d-d2cb-412e-b156-8df74cda8432 a skos:Concept;
+  skos:exactMatch aat:300232186;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "braid"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8165c584-bcf0-45c5-a171-c1f527b79336 a skos:Concept;
+  skos:closeMatch aat:300379362;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "buffered water"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6177d6bf-c8fa-41b6-b717-75cb6c747fd2 a skos:Concept;
+  skos:closeMatch aat:300227525;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "calfskin"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:076437b8-0325-409b-b7b5-256818382d55 a skos:Concept;
+  skos:exactMatch aat:300014247;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cord"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fe76407c-168a-4527-aaca-5790ea4ac818 a skos:Concept;
+  skos:exactMatch aat:300014067;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cotton"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3ecee74f-1ddc-4653-a972-1e1c316f1175 a skos:Concept;
+  skos:exactMatch aat:300210319;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "deionised water"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:43de7964-817b-43b1-8008-92bfd568cca4 a skos:Concept;
+  skos:exactMatch aat:300251539;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "EVA"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fcd7338f-4b1b-4876-89e9-86055ff453d0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:narrowMatch aat:300191774, aat:300386402;
+  skos:prefLabel "fish swim bladder"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0f58dfff-0aa7-4712-a60b-5bd161742124 a skos:Concept;
+  skos:exactMatch aat:300014642;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gel"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1888fa9e-2aac-47be-9fc4-8e49dba0bf1a a skos:Concept;
+  skos:exactMatch aat:300011812;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gelatine"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d6105cee-6db6-4408-9ec3-07e16fa5c0db a skos:Concept;
+  skos:exactMatch aat:300255984;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "goatskin"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c9b8eede-89d8-449d-8bf1-7faedfeb3daf a skos:Concept;
+  skos:exactMatch aat:300252173;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "goldbeater's skin"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5ae8d787-7545-4243-8ce4-93aef92f4241 a skos:Concept;
+  skos:exactMatch aat:300411543;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "handmade paper"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c72cd5af-4638-4043-8703-45be491fdf10 a skos:Concept;
+  skos:exactMatch aat:300015236;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "IMS"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d4b462b5-3a5a-4a0a-bdfa-00f8ac7000df a skos:Concept;
+  skos:exactMatch aat:300015237;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "isopropanol"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9990c6ba-935e-4f82-8fb1-658eb3cb7620 a skos:Concept;
+  skos:exactMatch aat:300014143;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Japanese paper"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1ed00e7f-6900-40c7-8f8a-ab7c197b9b23 a skos:Concept;
+  skos:exactMatch aat:300251577;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "leather dressing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:53116859-2db2-4a1d-96bd-efb998a36714 a skos:Concept;
+  skos:closeMatch aat:300014069;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "linen"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:361e9288-f4cc-4bff-a97e-512aab091013 a skos:Concept;
+  skos:exactMatch aat:300380080;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Melinex"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8649df1d-c2fe-4cdb-a01a-bf50d6fb3a1e a skos:Concept;
+  skos:exactMatch aat:300379550;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "methyl cellulose"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2e29cec0-dda1-4c9f-9daf-1e6cacf9d1de a skos:Concept;
+  skos:exactMatch aat:300011851;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "parchment"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0a2681af-c6a4-4400-a025-b59536f39c29 a skos:Concept;
+  skos:exactMatch aat:300014509;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "PVA"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:95078233-341f-438a-afcd-bbc6518c0623 a skos:Concept;
+  skos:closeMatch aat:300266365;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rabbit skin glue"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2597c966-1d84-429a-85f2-2baebc2fbf59 a skos:Concept;
+  skos:closeMatch aat:300379920;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "RO water"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d4bbd777-f95d-4ecd-b9a2-b991598b5e39 a skos:Concept;
+  skos:exactMatch aat:300193374;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sheepskin"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d16838d3-5b7a-4440-bace-ce299b18b34b a skos:Concept;
+  skos:exactMatch aat:300015312;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "size"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1d984362-9583-4857-9ee4-3b65f83e667d a skos:Concept;
+  skos:exactMatch aat:300263004;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tanned leather"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a5aa6db0-e90e-4c00-9de0-31134bb24543 a skos:Concept;
+  skos:exactMatch aat:300253099;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tape"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e02e52b2-2dc0-4b12-b337-9c0aac0610b6 a skos:Concept;
+  skos:exactMatch aat:300014250;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "thread"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4fc15b38-9178-49f3-92e6-a9ff374ee752 a skos:Concept;
+  skos:exactMatch aat:300014592;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "unbleached beeswax"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4b7cfe9d-7ea1-4186-a46f-4fabe3bddc5d a skos:Concept;
+  skos:exactMatch aat:300011772;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "water"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3b45b7ea-383a-4c81-a503-2bb082e924bd a skos:Concept;
+  skos:closeMatch aat:300379694;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wheat flour paste"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9733704a-c855-4d49-9af5-e47856a56e45 a skos:Concept;
+  skos:exactMatch aat:300212564;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wheat starch paste"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
