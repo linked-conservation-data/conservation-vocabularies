@@ -21,7 +21,7 @@
 <https://w3id.org/bod-vocab/bod-vocab--aat/20200812> {
 
   <https://w3id.org/bod-vocab/bod-vocab--aat/20200812> 
-    dct:identifier "trig-example-1" ;
+    dct:identifier "bod-vocab20200812--aat-20200518" ;
     dc:creator "Bodleian Library";
     dc:subject "alignment";
     dct:created "2020-08-12T00:00:00.000+01:00"^^xsd:dateTime ;
