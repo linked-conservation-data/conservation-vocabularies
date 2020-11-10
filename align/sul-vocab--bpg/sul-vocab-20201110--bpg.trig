@@ -1,0 +1,67 @@
+@prefix bpg: <http://www.conservation-wiki.com/wiki/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix svc: <https://w3id.org/sul-vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/sul-vocab/sul-vocab--bpg/20201110> {
+
+  <https://w3id.org/sul-vocab/sul-vocab--bib/20201110> 
+    dct:identifier "sul-vocab-20201110--bpg" ;
+    dc:creator "Stanford Libraries";
+    dc:subject "alignment";
+    dct:created "2020-11-10T00:00:00.000+01:00"^^xsd:dateTime ;
+    dct:description "Alignment of Stanford vocabulary with the BPG wiki for the LCD pilot"@en ;
+
+  <https://w3id.org/sul-vocab/> a skos:ConceptScheme;
+    dc:creator "Stanford Libraries";
+    dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+    skos:hasTopConcept svc:398881b3-f39a-43ed-b379-51acb12a2526, svc:5b12f159-aafd-4f4c-b6a4-6bcfb47e1429,
+      svc:5c969c5c-9d42-4119-99fc-fc714df2608e, svc:6d3a056b-9a62-407d-9546-cefeb5610faf,
+      svc:b00b03db-a498-4627-b863-b892abcbbe05, svc:e8173325-216d-49b9-a645-81ea4f49e142,
+      svc:fc52ee3a-cf73-407a-a3ea-430d9ac6fd2e .
+
+  svc:6d3a056b-9a62-407d-9546-cefeb5610faf a skos:Concept;
+    skos:exactMatch bpg:Loss;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "losses"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+  svc:b00b03db-a498-4627-b863-b892abcbbe05 a skos:Concept;
+    skos:exactMatch bpg:Powdering;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "powdery (leather condition state)"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+  svc:5b12f159-aafd-4f4c-b6a4-6bcfb47e1429 a skos:Concept;
+    skos:exactMatch bpg:Tape_removal;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "tape removal"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+  svc:e8173325-216d-49b9-a645-81ea4f49e142 a skos:Concept;
+    skos:closeMatch <http://www.conservation-wiki.com/wiki/BPG_Board_Reattachment#Japanese_Paper_Hinge>;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "paper hinge"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+  svc:fc52ee3a-cf73-407a-a3ea-430d9ac6fd2e a skos:Concept;
+    skos:closeMatch bpg:BPG_Leaf_Attachment_and_Sewing_Repair;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "leaf attachment"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+  svc:5c969c5c-9d42-4119-99fc-fc714df2608e a skos:Concept;
+    skos:closeMatch bpg:BPG_Mold;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "mold damage"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+  svc:398881b3-f39a-43ed-b379-51acb12a2526 a skos:Concept;
+    skos:closeMatch <http://www.conservation-wiki.com/wiki/BPG_Surface_Cleaning#Eraser_Materials>;
+    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:prefLabel "vinyl eraser"@en;
+    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+}
