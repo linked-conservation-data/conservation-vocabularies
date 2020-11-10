@@ -1,0 +1,14 @@
+"ConceptScheme URI","https://w3id.org/mibact-sapienza/",,,,
+"PREFIX","mbs","https://w3id.org/mibact-sapienza/",,,
+"PREFIX","aat","http://vocab.getty.edu/aat/",,,
+"dc:creator","Sapienza University of Rome",,,,
+"dct:rights","https://creativecommons.org/licenses/by/4.0/",,,,
+,,,,,
+"URI","skos:prefLabel@en","skos:exactMatch","skos:closeMatch","skos:broadMatch","skos:narrowMatch"
+"mbs:1","historical centre",,,,"aat:300387341"
+"mbs:2","urban space",,,,"aat:300008072"
+"mbs:3","urban unit","aat:300004790",,,
+"mbs:4","urban units-aggregates ",,,"aat:300004790",
+"mbs:5","urban units-residential or specialistic punctual buildings",,,"aat:300004790",
+"mbs:6","building unit","aat: 300004795",,,
+"mbs:7","building front","aat:300389894",,,
