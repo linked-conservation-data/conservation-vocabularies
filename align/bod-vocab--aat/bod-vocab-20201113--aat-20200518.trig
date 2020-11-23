@@ -25,7 +25,7 @@
     dc:creator "Bodleian Library";
     dc:subject "alignment";
     dct:created "2020-11-13T00:00:00.000+01:00"^^xsd:dateTime ;
-    dct:description "Alignment of Bodleian vocabulary with AAT for the LCD pilot"@en ;
+    dct:description "Alignment of Bodleian vocabulary with AAT for the LCD pilot"@en .
 
   <https://w3id.org/bod-vocab/> a skos:ConceptScheme;
     dc:creator "Bodleian Library"@en;

@@ -25,7 +25,7 @@
     dc:creator "Library of Congress";
     dc:subject "alignment";
     dct:created "2020-11-12T00:00:00.000+01:00"^^xsd:dateTime ;
-    dct:description "Alignment of the Library of Congress vocabulary with CAMEO for the LCD pilot"@en ;
+    dct:description "Alignment of the Library of Congress vocabulary with CAMEO for the LCD pilot"@en .
 
   <https://w3id.org/loc-vocab/> a skos:ConceptScheme;
     dc:creator "Library of Congress"@en;
