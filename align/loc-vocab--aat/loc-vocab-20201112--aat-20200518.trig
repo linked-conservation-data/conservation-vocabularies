@@ -1,0 +1,943 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix loc: <https://w3id.org/loc-vocab/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/loc-vocab/loc-vocab--aat/20201112> {
+
+  <https://w3id.org/loc-vocab/loc-vocab--aat/20201112> 
+    dct:identifier "loc-vocab20201112--aat-20200518" ;
+    dc:creator "Library of Congress";
+    dc:subject "alignment";
+    dct:created "2020-11-12T00:00:00.000+01:00"^^xsd:dateTime ;
+    dct:description "Alignment of the Library of Congress vocabulary with AAT for the LCD pilot"@en ;
+
+  <https://w3id.org/loc-vocab/> a skos:ConceptScheme;
+    dc:creator "Library of Congress"@en;
+    dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+    skos:hasTopConcept loc:04356400-0ef6-4fa2-9a44-cb59df92147b, loc:06a37aa1-5505-4a84-ae13-0dafdd49dcfa,
+      loc:0ab43ae8-6421-4462-92d9-baf439512fbf, loc:0cb43f82-1414-4bea-8b22-dca1aa34430e,
+      loc:0d84bb4c-2503-4519-b8bd-6679bb5a5e92, loc:117be4d5-9536-49fb-90b0-3cc4779e12fa,
+      loc:13d682c4-bf88-4c06-a85f-1456180b6418, loc:18738fbd-b109-4b9b-9c90-64e83b194673,
+      loc:187b6d65-d706-44f9-85a7-0d4403851574, loc:1a0795d7-b397-41bb-87dc-ab4425773578,
+      loc:215b20ae-a874-4721-acd8-0987c038dcb6, loc:2787cd6b-cd07-47ee-a0cd-dfb9d841bf65,
+      loc:27a2f7a6-c9ed-42b2-bf1c-d3218ff35709, loc:2dacfb85-947b-4616-8eab-8e041340dec7,
+      loc:2de08376-1314-4668-b0a7-8987ae3542b4, loc:3524f46a-7d85-4578-b560-d2aa0f5f9498,
+      loc:3572aa95-7e9a-48f6-9e31-134f2dafb51b, loc:36a8bf21-ec16-4aae-9864-b08a437956c4,
+      loc:395066d5-d6f1-469b-bd06-08f12a5ec99a, loc:397089a9-ac53-45bb-a369-c7a24f6426e8,
+      loc:397b812c-cf26-4c87-991b-58677b4703a0, loc:06fedf92-7130-4a78-8cd8-8a6c0c997b51,
+      loc:082a5a60-5515-4936-80c8-2c3024c9cc6f, loc:419818b8-0f71-41ca-ba3d-e3464ebd50e5,
+      loc:2d53412d-a88d-49c1-babd-5d37fe5d20c8, loc:4d97c66a-6fea-463c-ad66-d60c0e2f076e,
+      loc:464c7f88-a488-4590-b06b-85214a103e2c, loc:4fb0f637-22e5-40d7-aada-e40f9f08877d,
+      loc:4ff5ec0f-b891-42fd-b805-2ea1b2adc04c, loc:514f52d7-37a1-45a3-8dc6-a6ac9d0aecef,
+      loc:51a0aac3-9597-4ac2-a387-be99c8a3d038, loc:55ebabda-4d92-4524-a306-e2290e7d714e,
+      loc:2b639eae-6578-4b7e-8843-fa36c478dfbb, loc:59520edb-4821-46fb-86ae-63a387f4ad58,
+      loc:16409fb9-75f8-4c95-8189-a129a07a668b, loc:5c1a66ed-5594-4120-8453-db9a4506a1bd,
+      loc:32479873-0580-466f-927d-8503c1a1c363, loc:46ab8e0c-0efa-4e39-8ab9-79bd56c8c58d,
+      loc:5d916c8f-31fc-48a4-9f3e-2f355f3392f3, loc:6032dbc7-b830-4ebb-a3af-8f9496bb9912,
+      loc:60b5b0c5-afaf-4eea-96b7-953338ddfb3d, loc:6263a37f-1370-4c19-b232-c8190204436d,
+      loc:63b7ad04-90ad-4410-964e-114429e14897, loc:6402063d-6d7c-4679-9016-a5d0b2ba0d58,
+      loc:644a5b9f-e45a-462d-ad07-69941d848419, loc:65edc032-82ae-4808-b449-efa6a228a6ca,
+      loc:66a80fd8-c482-4191-be88-5dd3b908742e, loc:687ccb00-81d0-479f-9d72-044b91546825,
+      loc:6962c43b-6702-4080-b1fa-706e5215a643, loc:6c600be0-dd45-4cdf-befd-230e2e82a11f,
+      loc:6ded13fd-8cfc-48d2-8afa-f26800d19689, loc:71be10c9-0ee0-4008-a7b2-e59b121c7b79,
+      loc:71f754eb-1ddd-4104-a17d-e7ad7fbda06e, loc:73eba084-bb39-4076-9a71-3c83bc2c00bc,
+      loc:75ca0bfb-f8e5-4342-8bd9-84e406696075, loc:75fd4fee-032f-41ab-8968-191d2baa77a0,
+      loc:76982320-64fb-4cf9-afb8-61368bde16b7, loc:773e0a72-8045-4b84-b0e5-12094f53558b,
+      loc:7ab02df9-5e78-454f-9536-963cac18f688, loc:7c11b404-e223-4865-9a47-3697d714bf8a,
+      loc:7d20256f-55f7-4121-83b0-94c71b13fdc0, loc:7feda159-b858-4508-8c6e-ae76c4109d36,
+      loc:80155d27-5aa6-4e7b-9d6d-1bd6a2f2ced1, loc:8152ba03-13d3-421d-a0d4-507bbe7ca072,
+      loc:81ac5b9a-0d45-42b0-af7f-ecf7a597a509, loc:8281d90b-25c7-47cf-84e8-7d2ea8dc6bc7,
+      loc:83291570-20bb-4f6e-b07d-2946ca5b8e78, loc:832a6f76-36dc-4521-bd8f-ed5ce99855e3,
+      loc:84bca2bb-0d13-4d55-884f-4cbb7b78025f, loc:8504f8fd-f834-4fb9-8636-e6e0b0bf17bb,
+      loc:881009e9-746c-4878-90bc-e114f873a308, loc:88a92c9d-ef3b-40b1-800f-0ec9b03a83a4,
+      loc:916bb481-c1ab-4570-a9a1-5a6ffc4d6eec, loc:91854a25-68bc-4b94-859c-085bd0b64021,
+      loc:9360aee6-8c01-420e-8272-7c09bfffcaad, loc:9427a904-6d88-4b95-b064-86aba33178dd,
+      loc:94de5f5a-cf26-4fca-9357-2c66caad02a4, loc:967ee083-e63c-4f0f-b7dc-cc7e9fafce12,
+      loc:96d08d51-8553-48a5-9fcf-17290dd60b8b, loc:979ee8f9-f25e-4af7-9b54-b3047cd4e903,
+      loc:97e158d7-3ca3-458e-9594-954b45e8e07b, loc:982aee63-6edb-4184-b5fe-f906912aaf11,
+      loc:9831d1b6-b363-4a48-8c78-6015a913eddf, loc:98593cb8-c7c9-4ad1-83d7-0c7e99d4e0d3,
+      loc:98b2a250-5e08-4196-806b-f6bb46fdfd82, loc:993c18e0-8fb3-4789-8685-1949406e8edf,
+      loc:9b0aabbc-6d71-4e8d-9f61-f14db87a2d4e, loc:9c4129bf-8ef2-4d0d-b9b6-1c900befefe3,
+      loc:a3c95700-1325-4930-ae44-05e647a1e12f, loc:a4e867b3-d919-4f4c-832c-fcd526c0061b,
+      loc:a7dbe68a-8dfd-4842-aef7-078c093c2455, loc:a892b41b-31e4-48ec-bd0e-76079c4be9f0,
+      loc:a96b5a7a-4884-4442-89e8-c5890cd25020, loc:a9b48f6a-223a-494c-98a0-74c85cd182a6,
+      loc:a9d8c22d-2f97-4449-a7c1-129ab0d99102, loc:abf341f9-f5b6-432e-afe4-0bf0602a6e8d,
+      loc:acb60fc6-53b4-4120-8776-06dcaf06e25f, loc:adee3da6-556a-441e-9075-420d18efafaf,
+      loc:af102085-70f2-402c-82e3-1ed349c2d6ec, loc:b18016ee-2ad0-492e-8ad3-5c6b73a21318,
+      loc:b2a7e932-d179-458a-8c00-7ace207a6954, loc:b5b0cb2b-243c-4200-b408-1e7016a30005,
+      loc:ba8b789a-897f-479e-a3f1-ada7dc854ffa, loc:bcc78dc8-9637-455c-a2b7-e60099818a19,
+      loc:bcf568a8-1f37-4406-884c-c1ad14fbaceb, loc:bdcdeb57-dc47-4058-96c3-cfccea0f735b,
+      loc:bde6be40-b2ec-42b3-82cc-4c681ed881fc, loc:c0503f7f-a29d-444c-8a43-9d4480be2a19,
+      loc:c0796744-7e9c-4521-9b67-63e22a8ddc57, loc:c16d35e3-d869-46c8-9ab9-f3ba9c18fb39,
+      loc:c1b9a003-6ef0-4070-8f64-a424beae016d, loc:c61e2f47-ffa6-40da-b648-738a17442d9e,
+      loc:c73f4b95-c0a8-4c9f-916b-1a6ed4a1f33d, loc:c84b2819-1865-4eb0-97c1-e842e2c7721c,
+      loc:c9718ed8-8891-4617-a239-94e5d09c3b45, loc:d10e4374-db00-49eb-94f8-5033faac762b,
+      loc:d2a385a1-f525-4b9c-83a4-5849c631c845, loc:d80a51e0-d6b6-493c-a5fd-eeb1a7979c02,
+      loc:dbe22ff9-13ca-4907-9931-acea6e73c5a1, loc:dc378ea6-7cad-494a-ba42-31b4eda0742c,
+      loc:dda34106-bb2d-4196-b010-da5bbfa78f8f, loc:dfc4dc7d-b28d-4d20-ab18-9dca40ab3db9,
+      loc:e0c9f3ed-8b17-48bc-9a62-a9c247d022c4, loc:e371875c-61a0-4ccb-8371-44dfbe01d599,
+      loc:e645fa14-55fb-4aea-91f6-c47c534d858f, loc:e6bd1262-d5b9-4da1-99ee-fb3102b2fe10,
+      loc:e84e1c09-8e85-498c-9811-9fc712c0a970, loc:e9350b60-96e4-488f-9f11-3a2c21079927,
+      loc:ed1dc69b-b998-45da-ab17-d29850e971f1, loc:edec7bcb-d127-4512-9f05-67b52435b12b,
+      loc:f095c279-10da-46b4-89f9-95fcbe591d30, loc:f21c96ad-3103-409b-90af-d083ed163e06,
+      loc:f6e3f6ba-a3fb-4c70-9924-a149e95e8576, loc:f71d7869-e425-413f-bd37-33c38e8d046f,
+      loc:f8094889-33b5-4f52-a557-7b88e4240985, loc:fb04f717-22f2-44b0-94f3-60064276ffef,
+      loc:fb2ece97-36da-4665-ab00-231ff33584c1, loc:fd0dcd79-f862-4a87-93ce-17277abfe83a,
+      loc:feff19c0-aa31-4378-ae08-57400892248a, loc:ff65e8b4-89f1-4a25-b44d-d955e8cb6e5d .
+
+  loc:f21c96ad-3103-409b-90af-d083ed163e06 a skos:Concept;
+    skos:exactMatch aat:300011914;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "wood"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c84b2819-1865-4eb0-97c1-e842e2c7721c a skos:Concept;
+    skos:exactMatch aat:300015012;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "ink"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:71be10c9-0ee0-4008-a7b2-e59b121c7b79 a skos:Concept;
+    skos:exactMatch aat:300053083;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "broken"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:bcc78dc8-9637-455c-a2b7-e60099818a19 a skos:Concept;
+    skos:exactMatch aat:300053737;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "repaired"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:ff65e8b4-89f1-4a25-b44d-d955e8cb6e5d a skos:Concept;
+    skos:exactMatch aat:300056186;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "acidic"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:dbe22ff9-13ca-4907-9931-acea6e73c5a1 a skos:Concept;
+    skos:exactMatch aat:300131111;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "detached"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:edec7bcb-d127-4512-9f05-67b52435b12b a skos:Concept;
+    skos:exactMatch aat:300155059;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "distortion"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:d80a51e0-d6b6-493c-a5fd-eeb1a7979c02 a skos:Concept;
+    skos:exactMatch aat:300234157;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "cut"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:dc378ea6-7cad-494a-ba42-31b4eda0742c a skos:Concept;
+    skos:exactMatch aat:300256571;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "lifted"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:397089a9-ac53-45bb-a369-c7a24f6426e8 a skos:Concept;
+    skos:exactMatch aat:300263354;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "losses"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:187b6d65-d706-44f9-85a7-0d4403851574 a skos:Concept;
+    skos:exactMatch aat:300378932;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "mold"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:1a0795d7-b397-41bb-87dc-ab4425773578 a skos:Concept;
+    skos:exactMatch aat:300379497;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "staining"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:e645fa14-55fb-4aea-91f6-c47c534d858f a skos:Concept;
+    skos:exactMatch aat:300404520;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "damaged"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:5d916c8f-31fc-48a4-9f3e-2f355f3392f3 a skos:Concept;
+    skos:closeMatch aat:300248893;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "guarding"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:e371875c-61a0-4ccb-8371-44dfbe01d599 a skos:Concept;
+    skos:closeMatch aat:300379343;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "stain reduction"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:215b20ae-a874-4721-acd8-0987c038dcb6 a skos:Concept;
+    skos:closeMatch aat:300012862;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "charcoal"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:f71d7869-e425-413f-bd37-33c38e8d046f a skos:Concept;
+    skos:closeMatch aat:300041365;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "etching"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:3572aa95-7e9a-48f6-9e31-134f2dafb51b a skos:Concept;
+    skos:closeMatch aat:300053092;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "filling of losses"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:9360aee6-8c01-420e-8272-7c09bfffcaad a skos:Concept;
+    skos:closeMatch aat:300053758;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "drying and flattening"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a9d8c22d-2f97-4449-a7c1-129ab0d99102 a skos:Concept;
+    skos:closeMatch aat:300081023;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "iron gall ink"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:80155d27-5aa6-4e7b-9d6d-1bd6a2f2ced1 a skos:Concept;
+    skos:closeMatch aat:300162124;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "lining"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:04356400-0ef6-4fa2-9a44-cb59df92147b a skos:Concept;
+    skos:closeMatch aat:300187371;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "printer's ink"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:6263a37f-1370-4c19-b232-c8190204436d a skos:Concept;
+    skos:closeMatch aat:300202819;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "board"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:97e158d7-3ca3-458e-9594-954b45e8e07b a skos:Concept;
+    skos:closeMatch aat:300202819;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "binder's board"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:e6bd1262-d5b9-4da1-99ee-fb3102b2fe10 a skos:Concept;
+    skos:closeMatch aat:300224146;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "tape removal"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:967ee083-e63c-4f0f-b7dc-cc7e9fafce12 a skos:Concept;
+    skos:closeMatch aat:300227846;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "lining"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:0cb43f82-1414-4bea-8b22-dca1aa34430e a skos:Concept;
+    skos:closeMatch aat:300239507;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "clasps"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:55ebabda-4d92-4524-a306-e2290e7d714e a skos:Concept;
+    skos:closeMatch aat:300254358;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "hinging"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:6ded13fd-8cfc-48d2-8afa-f26800d19689 a skos:Concept;
+    skos:closeMatch aat:300379550;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "methylcellulose"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c73f4b95-c0a8-4c9f-916b-1a6ed4a1f33d a skos:Concept;
+    skos:closeMatch aat:300379876;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "sodium CMC"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:75fd4fee-032f-41ab-8968-191d2baa77a0 a skos:Concept;
+    skos:closeMatch aat:300411878;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "machine made paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:f095c279-10da-46b4-89f9-95fcbe591d30 a skos:Concept;
+    skos:closeMatch aat:300011726;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "sodium hydroxide"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:feff19c0-aa31-4378-ae08-57400892248a a skos:Concept;
+    skos:closeMatch aat:300011845;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "leather (calf)"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:f6e3f6ba-a3fb-4c70-9924-a149e95e8576 a skos:Concept;
+    skos:closeMatch aat:300011845;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "leather (goat)"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:117be4d5-9536-49fb-90b0-3cc4779e12fa a skos:Concept;
+    skos:closeMatch aat:300011845;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "leather (sheep)"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:3524f46a-7d85-4578-b560-d2aa0f5f9498 a skos:Concept;
+    skos:closeMatch aat:300011851;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "sheep parchment"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:66a80fd8-c482-4191-be88-5dd3b908742e a skos:Concept;
+    skos:closeMatch aat:300013754;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "lead white conversion"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:2de08376-1314-4668-b0a7-8987ae3542b4 a skos:Concept;
+    skos:closeMatch aat:300014143;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "Asian paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c1b9a003-6ef0-4070-8f64-a424beae016d a skos:Concept;
+    skos:closeMatch aat:300015012;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "ink (other)"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:b5b0cb2b-243c-4200-b408-1e7016a30005 a skos:Concept;
+    skos:closeMatch aat:300015029;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "paint/pigment"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a3c95700-1325-4930-ae44-05e647a1e12f a skos:Concept;
+    skos:closeMatch aat:300015045;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "watercolor"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:bcf568a8-1f37-4406-884c-c1ad14fbaceb a skos:Concept;
+    skos:closeMatch aat:300015237;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "isopropanol"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:76982320-64fb-4cf9-afb8-61368bde16b7 a skos:Concept;
+    skos:closeMatch aat:300015273;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "MEK"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:916bb481-c1ab-4570-a9a1-5a6ffc4d6eec a skos:Concept;
+    skos:closeMatch aat:300022445;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "crayon"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:ba8b789a-897f-479e-a3f1-ada7dc854ffa a skos:Concept;
+    skos:closeMatch aat:300022453;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "ballpoint pen"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:dfc4dc7d-b28d-4d20-ab18-9dca40ab3db9 a skos:Concept;
+    skos:closeMatch aat:300022453;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "pen"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:ed1dc69b-b998-45da-ab17-d29850e971f1 a skos:Concept;
+    skos:closeMatch aat:300022458;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "felt tipped pen"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c61e2f47-ffa6-40da-b648-738a17442d9e a skos:Concept;
+    skos:closeMatch aat:300022458;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "marker"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:0ab43ae8-6421-4462-92d9-baf439512fbf a skos:Concept;
+    skos:closeMatch aat:300041340;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "engraving"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:60b5b0c5-afaf-4eea-96b7-953338ddfb3d a skos:Concept;
+    skos:closeMatch aat:300041405;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "woodblock"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c0796744-7e9c-4521-9b67-63e22a8ddc57 a skos:Concept;
+    skos:closeMatch aat:300053725;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "facing"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:e0c9f3ed-8b17-48bc-9a62-a9c247d022c4 a skos:Concept;
+    skos:closeMatch aat:300130954;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "agarose gel"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:b2a7e932-d179-458a-8c00-7ace207a6954 a skos:Concept;
+    skos:closeMatch aat:300151452;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "Rhoplex"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:993c18e0-8fb3-4789-8685-1949406e8edf a skos:Concept;
+    skos:closeMatch aat:300193368;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "suede"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:d2a385a1-f525-4b9c-83a4-5849c631c845 a skos:Concept;
+    skos:closeMatch aat:300219960;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "board edge consolidation"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:8504f8fd-f834-4fb9-8636-e6e0b0bf17bb a skos:Concept;
+    skos:closeMatch aat:300219960;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "media consolidation"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:63b7ad04-90ad-4410-964e-114429e14897 a skos:Concept;
+    skos:closeMatch aat:300243428;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "silk"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:fd0dcd79-f862-4a87-93ce-17277abfe83a a skos:Concept;
+    skos:closeMatch aat:300257594;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "disbinding"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:27a2f7a6-c9ed-42b2-bf1c-d3218ff35709 a skos:Concept;
+    skos:closeMatch aat:300261522;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "lining removal"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:18738fbd-b109-4b9b-9c90-64e83b194673 a skos:Concept;
+    skos:closeMatch aat:300263617;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "edge coloring"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:4fb0f637-22e5-40d7-aada-e40f9f08877d a skos:Concept;
+    skos:closeMatch aat:300264681;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "amatl"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:4d97c66a-6fea-463c-ad66-d60c0e2f076e a skos:Concept;
+    skos:closeMatch aat:300379073;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "gold stamping"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c16d35e3-d869-46c8-9ab9-f3ba9c18fb39 a skos:Concept;
+    skos:closeMatch aat:300379820;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "EDTA"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a9b48f6a-223a-494c-98a0-74c85cd182a6 a skos:Concept;
+    skos:closeMatch aat:300379872;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "magnesium bicarbonate"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:51a0aac3-9597-4ac2-a387-be99c8a3d038 a skos:Concept;
+    skos:closeMatch aat:300380470;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "B-72"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:84bca2bb-0d13-4d55-884f-4cbb7b78025f a skos:Concept;
+    skos:closeMatch aat:300389871;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "DMF"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:96d08d51-8553-48a5-9fcf-17290dd60b8b a skos:Concept;
+    skos:exactMatch aat:300162666;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "wooden boards"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:832a6f76-36dc-4521-bd8f-ed5ce99855e3 a skos:Concept;
+    skos:exactMatch aat:300011021;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "gold"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:2787cd6b-cd07-47ee-a0cd-dfb9d841bf65 a skos:Concept;
+    skos:exactMatch aat:300011098;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "graphite"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:419818b8-0f71-41ca-ba3d-e3464ebd50e5 a skos:Concept;
+    skos:exactMatch aat:300011727;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "chalk"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:773e0a72-8045-4b84-b0e5-12094f53558b a skos:Concept;
+    skos:exactMatch aat:300011737;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "calcium hydroxide"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:abf341f9-f5b6-432e-afe4-0bf0602a6e8d a skos:Concept;
+    skos:exactMatch aat:300011772;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "water"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:0d84bb4c-2503-4519-b8bd-6679bb5a5e92 a skos:Concept;
+    skos:exactMatch aat:300011812;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "gelatin"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:5c1a66ed-5594-4120-8453-db9a4506a1bd a skos:Concept;
+    skos:exactMatch aat:300011845;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "leather"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:397b812c-cf26-4c87-991b-58677b4703a0 a skos:Concept;
+    skos:exactMatch aat:300011851;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "parchment"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:65edc032-82ae-4808-b449-efa6a228a6ca a skos:Concept;
+    skos:exactMatch aat:300011852;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "vellum"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:982aee63-6edb-4184-b5fe-f906912aaf11 a skos:Concept;
+    skos:exactMatch aat:300014109;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:e84e1c09-8e85-498c-9811-9fc712c0a970 a skos:Concept;
+    skos:exactMatch aat:300014127;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "papyrus"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:395066d5-d6f1-469b-bd06-08f12a5ec99a a skos:Concept;
+    skos:exactMatch aat:300014184;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "laid paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:d10e4374-db00-49eb-94f8-5033faac762b a skos:Concept;
+    skos:exactMatch aat:300014187;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "wove paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:adee3da6-556a-441e-9075-420d18efafaf a skos:Concept;
+    skos:exactMatch aat:300014507;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "PVA"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:98b2a250-5e08-4196-806b-f6bb46fdfd82 a skos:Concept;
+    skos:exactMatch aat:300014822;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "isinglass"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:2dacfb85-947b-4616-8eab-8e041340dec7 a skos:Concept;
+    skos:exactMatch aat:300015058;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "acrylic paint"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a7dbe68a-8dfd-4842-aef7-078c093c2455 a skos:Concept;
+    skos:exactMatch aat:300015231;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "ethanol"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:88a92c9d-ef3b-40b1-800f-0ec9b03a83a4 a skos:Concept;
+    skos:exactMatch aat:300015261;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "ethyl acetate"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:7d20256f-55f7-4121-83b0-94c71b13fdc0 a skos:Concept;
+    skos:exactMatch aat:300022441;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "colored pencil"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:7feda159-b858-4508-8c6e-ae76c4109d36 a skos:Concept;
+    skos:exactMatch aat:300041379;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "lithograph"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:8281d90b-25c7-47cf-84e8-7d2ea8dc6bc7 a skos:Concept;
+    skos:exactMatch aat:300053027;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "surface cleaning"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:06a37aa1-5505-4a84-ae13-0dafdd49dcfa a skos:Concept;
+    skos:exactMatch aat:300053042;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "washing"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:979ee8f9-f25e-4af7-9b54-b3047cd4e903 a skos:Concept;
+    skos:exactMatch aat:300053047;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "bleaching"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a96b5a7a-4884-4442-89e8-c5890cd25020 a skos:Concept;
+    skos:exactMatch aat:300053723;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "inpainting"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:4ff5ec0f-b891-42fd-b805-2ea1b2adc04c a skos:Concept;
+    skos:exactMatch aat:300053874;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "sizing"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:6032dbc7-b830-4ebb-a3af-8f9496bb9912 a skos:Concept;
+    skos:exactMatch aat:300070114;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "gouache"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:b18016ee-2ad0-492e-8ad3-5c6b73a21318 a skos:Concept;
+    skos:exactMatch aat:300212558;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "rice starch paste"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:6962c43b-6702-4080-b1fa-706e5215a643 a skos:Concept;
+    skos:exactMatch aat:300212564;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "wheat starch paste"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:9427a904-6d88-4b95-b064-86aba33178dd a skos:Concept;
+    skos:exactMatch aat:300219637;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "dry cleaning"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:bdcdeb57-dc47-4058-96c3-cfccea0f735b a skos:Concept;
+    skos:exactMatch aat:300219960;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "consolidation"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:6c600be0-dd45-4cdf-befd-230e2e82a11f a skos:Concept;
+    skos:exactMatch aat:300219960;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "fixing/consolidation"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:687ccb00-81d0-479f-9d72-044b91546825 a skos:Concept;
+    skos:exactMatch aat:300226345;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "flattening"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:8152ba03-13d3-421d-a0d4-507bbe7ca072 a skos:Concept;
+    skos:exactMatch aat:300226357;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "humidification"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:7ab02df9-5e78-454f-9536-963cac18f688 a skos:Concept;
+    skos:exactMatch aat:300231565;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "textile"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:514f52d7-37a1-45a3-8dc6-a6ac9d0aecef a skos:Concept;
+    skos:exactMatch aat:300252855;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "blind tooling"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:acb60fc6-53b4-4120-8776-06dcaf06e25f a skos:Concept;
+    skos:exactMatch aat:300256003;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "gold tooling"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c9718ed8-8891-4617-a239-94e5d09c3b45 a skos:Concept;
+    skos:exactMatch aat:300261722;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "mending"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:af102085-70f2-402c-82e3-1ed349c2d6ec a skos:Concept;
+    skos:exactMatch aat:300262673;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "bookcloth"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:9831d1b6-b363-4a48-8c78-6015a913eddf a skos:Concept;
+    skos:exactMatch aat:300263621;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "fore-edge painting"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:13d682c4-bf88-4c06-a85f-1456180b6418 a skos:Concept;
+    skos:exactMatch aat:300264840;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "fills"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:fb04f717-22f2-44b0-94f3-60064276ffef a skos:Concept;
+    skos:exactMatch aat:300266365;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "rabbit skin glue"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:7c11b404-e223-4865-9a47-3697d714bf8a a skos:Concept;
+    skos:exactMatch aat:300379696;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "funori"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:83291570-20bb-4f6e-b07d-2946ca5b8e78 a skos:Concept;
+    skos:exactMatch aat:300380081;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "Aquazol"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:9b0aabbc-6d71-4e8d-9f61-f14db87a2d4e a skos:Concept;
+    skos:exactMatch aat:300380411;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "sodium borohydride"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:f8094889-33b5-4f52-a557-7b88e4240985 a skos:Concept;
+    skos:exactMatch aat:300386774;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "board slotting"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:71f754eb-1ddd-4104-a17d-e7ad7fbda06e a skos:Concept;
+    skos:exactMatch aat:300411320;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "paperboard"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:e9350b60-96e4-488f-9f11-3a2c21079927 a skos:Concept;
+    skos:exactMatch aat:300411543;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "handmade paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:6402063d-6d7c-4679-9016-a5d0b2ba0d58 a skos:Concept;
+    skos:exactMatch aat:300014137;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "newsprint"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:36a8bf21-ec16-4aae-9864-b08a437956c4 a skos:Concept;
+    skos:exactMatch aat:300014823;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "hide glue"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:c0503f7f-a29d-444c-8a43-9d4480be2a19 a skos:Concept;
+    skos:exactMatch aat:300015244;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "benzene"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:91854a25-68bc-4b94-859c-085bd0b64021 a skos:Concept;
+    skos:exactMatch aat:300015247;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "toluene"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:81ac5b9a-0d45-42b0-af7f-ecf7a597a509 a skos:Concept;
+    skos:exactMatch aat:300015249;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "xylene"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:98593cb8-c7c9-4ad1-83d7-0c7e99d4e0d3 a skos:Concept;
+    skos:exactMatch aat:300015269;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "acetone"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:dda34106-bb2d-4196-b010-da5bbfa78f8f a skos:Concept;
+    skos:exactMatch aat:300041384;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "chromolithograph"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:06fedf92-7130-4a78-8cd8-8a6c0c997b51 a skos:Concept;
+    skos:exactMatch aat:300053876;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "tooling"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:082a5a60-5515-4936-80c8-2c3024c9cc6f a skos:Concept;
+    skos:exactMatch aat:300133711;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "velvet"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:73eba084-bb39-4076-9a71-3c83bc2c00bc a skos:Concept;
+    skos:exactMatch aat:300192656;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "shagreen"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:2d53412d-a88d-49c1-babd-5d37fe5d20c8 a skos:Concept;
+    skos:exactMatch aat:300212174;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "calcium carbonate"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:75ca0bfb-f8e5-4342-8bd9-84e406696075 a skos:Concept;
+    skos:exactMatch aat:300226579;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "leafcasting"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:464c7f88-a488-4590-b06b-85214a103e2c a skos:Concept;
+    skos:exactMatch aat:300266781;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "ammonium hydroxide"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:59520edb-4821-46fb-86ae-63a387f4ad58 a skos:Concept;
+    skos:exactMatch aat:300379452;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "hydrogen peroxide"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:94de5f5a-cf26-4fca-9357-2c66caad02a4 a skos:Concept;
+    skos:exactMatch aat:300379928;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "calcium phytate"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a4e867b3-d919-4f4c-832c-fcd526c0061b a skos:Concept;
+    skos:exactMatch aat:300380044;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "amylase"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:644a5b9f-e45a-462d-ad07-69941d848419 a skos:Concept;
+    skos:exactMatch aat:300380295;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "magnesium hydroxide"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:a892b41b-31e4-48ec-bd0e-76079c4be9f0 a skos:Concept;
+    skos:exactMatch aat:300386433;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "Gellan gum"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:2b639eae-6578-4b7e-8843-fa36c478dfbb a skos:Concept;
+    skos:exactMatch aat:300404901;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "Berlin tissue"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:fb2ece97-36da-4665-ab00-231ff33584c1 a skos:Concept;
+    skos:exactMatch aat:300438725;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "calcium bicarbonate"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:16409fb9-75f8-4c95-8189-a129a07a668b a skos:Concept;
+    skos:exactMatch aat:300438816;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "protease"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:9c4129bf-8ef2-4d0d-b9b6-1c900befefe3 a skos:Concept;
+    skos:broadMatch aat:300014109, aat:300411543;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "handmade Western paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:32479873-0580-466f-927d-8503c1a1c363 a skos:Concept;
+    skos:broadMatch aat:300014109;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "Western paper"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:46ab8e0c-0efa-4e39-8ab9-79bd56c8c58d a skos:Concept;
+    skos:broadMatch aat:300011851, aat:300255984;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "goat parchment"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:bde6be40-b2ec-42b3-82cc-4c681ed881fc a skos:Concept;
+    skos:broadMatch aat:300014069, aat:300014250;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "linen thread"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+
+  loc:881009e9-746c-4878-90bc-e114f873a308 a skos:Concept;
+    skos:broadMatch aat:300014250, aat:300191700;
+    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:prefLabel "silk thread"@en;
+    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+}
