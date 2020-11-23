@@ -1,0 +1,53 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix mbs: <https://w3id.org/mibact-sapienza/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://w3id.org/mibact-sapienza/> a skos:ConceptScheme;
+  dc:creator "Sapienza University of Rome"@en;
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  skos:hasTopConcept mbs:1, mbs:2, mbs:3, mbs:4, mbs:5, mbs:6, mbs:7 .
+
+mbs:1 a skos:Concept;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:narrowMatch aat:300387341;
+  skos:prefLabel "historic centres"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
+
+mbs:2 a skos:Concept;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:narrowMatch aat:300008072;
+  skos:prefLabel "urban spaces"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
+
+mbs:3 a skos:Concept;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:narrowMatch aat:300264550;
+  skos:prefLabel "urban units"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
+
+mbs:4 a skos:Concept;
+  skos:exactMatch aat:300000202;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:prefLabel "urban units-aggregates"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
+
+mbs:5 a skos:Concept;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:narrowMatch aat:300264550;
+  skos:prefLabel "urban units-residential or special isolated buildings"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
+
+mbs:6 a skos:Concept;
+  skos:exactMatch aat:300004790;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:prefLabel "building units"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
+
+mbs:7 a skos:Concept;
+  skos:exactMatch aat:300389894;
+  skos:inScheme <https://w3id.org/mibact-sapienza/>;
+  skos:prefLabel "building fronts"@en;
+  skos:topConceptOf <https://w3id.org/mibact-sapienza/> .
