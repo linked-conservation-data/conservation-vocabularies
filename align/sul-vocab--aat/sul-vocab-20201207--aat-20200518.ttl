@@ -1,0 +1,1011 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix svc: <https://w3id.org/sul-vocab/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/sul-vocab/> a skos:ConceptScheme;
+  dc:creator "Stanford Libraries"@en;
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  skos:hasTopConcept svc:06a00a3d-293e-4331-8c74-1f0004a80908, svc:06e0a430-31a5-4871-b1cf-7b24cb576353,
+    svc:076c78e0-a66d-4864-8baf-d57888a894ca, svc:0b4585f5-b40f-4dc7-815e-f04138231528,
+    svc:0eac9923-e892-46c9-b848-d5b83aa533bf, svc:0f77e0b1-a75c-4765-9d88-b2fff9ae21b8,
+    svc:0f7f8b42-0ec8-4104-b7cb-36a50a0eed18, svc:117b52bb-c7b2-4a30-9436-2537bd95c4e2,
+    svc:12b65c7a-4c5b-49b8-ad0a-630d925d8ff8, svc:164fa62c-00c3-472b-8d5e-c70f36d0443e,
+    svc:16d7a2ac-ba36-4690-bc88-2386faf148ab, svc:18b83ce3-25e7-43ab-8a87-4ebae0163612,
+    svc:1958359c-9810-43cb-b538-2c90c1656fd8, svc:1acc52a5-49e4-4b48-a2d1-9e825c77632f,
+    svc:208d093b-8933-40de-8ced-d0b319acf0f4, svc:20d3b60f-7c31-4be8-8ecb-6df87c330ace,
+    svc:25d585d3-336f-4904-bf24-b2ff5f7ce280, svc:28acc7d7-c73e-4c73-b58a-8626bb9a1878,
+    svc:2ab6b31b-45d2-4696-b03c-08418903139b, svc:1d28c0c0-22b3-4c43-b757-71da04bfc568,
+    svc:306fbedd-34ca-4cf6-85fe-3ba622d0d6d1, svc:36ededb5-3dad-4f46-bc4b-d91f3eaf5a14,
+    svc:38b8af19-0c33-4680-9e86-88de743615c3, svc:3b468521-6359-4feb-9039-90965c3b1798,
+    svc:3d1d4e72-e2d6-4252-ad5d-70a6008055e8, svc:3e94b2cb-2051-4601-bc2a-0e74ae058600,
+    svc:40088169-31a6-4cb7-9786-5ee13458a85c, svc:40f83af1-2484-42ea-9beb-7bd4b82c7dba,
+    svc:26a72328-77c2-4af3-b490-78af2e18a301, svc:42b5a77f-1515-497d-98a0-ee8e926c332b,
+    svc:0e7a96db-97f7-44e8-8b7d-3030a86dfdb1, svc:43431a4e-805d-4d9c-bbeb-0cb09e1ffe77,
+    svc:4705ae4f-02e7-4b56-85b3-6376c8418841, svc:47e3901b-1316-4d34-80be-1ddf4766186b,
+    svc:485f3bec-2d30-4911-b3ee-d0f43761265e, svc:497c616b-f884-4862-8a17-149526757145,
+    svc:514ffbf8-7a5f-40f5-ae91-de56cf02d608, svc:5373a19a-99ba-4c2f-bd0f-24dae9323d8e,
+    svc:552fb840-468a-4c02-9efe-d46d8a4bcb73, svc:04a9b520-244f-4525-819d-06025295d8b8,
+    svc:5b2d378f-1868-4a12-9974-c52c6e89004d, svc:5bc50df0-363f-44fc-aefc-1de4bd807797,
+    svc:1b301859-6cef-4792-8060-fea38f45c7ed, svc:32198755-8723-4796-84b6-3716e673ecdb,
+    svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8, svc:3a8df669-feaf-4736-8c58-dae6249cb5d6,
+    svc:5c969c5c-9d42-4119-99fc-fc714df2608e, svc:602d1a9d-8a26-4ed7-a258-8a5468929758,
+    svc:62dd227f-a244-4695-b9d1-fad4069718a0, svc:67207703-5fac-41f4-8850-5226600123fc,
+    svc:6f71c7a3-c6a8-4418-b861-20fa60b24fbb, svc:34fb2e2c-41df-46ab-b484-ab2c2921f915,
+    svc:7069f2bb-95a5-483f-9a45-14f0ef3a755d, svc:70967813-c6be-4519-b284-99108cca249a,
+    svc:70dac390-06d8-44e5-a342-14862bcacce0, svc:71c903ed-4b6c-430c-8ffd-a842d3d501f7,
+    svc:72539753-592c-4ad3-81c7-c3317039ed3e, svc:7275189b-b087-45c0-a06b-59108df18519,
+    svc:75d6a99d-50c1-439c-a6b2-ee5d51becfe2, svc:79766733-f798-45ea-8d42-019c8af730f8,
+    svc:7a98d0be-2ac6-4582-acf3-db2a2c9a1c7b, svc:7f268558-4748-4e15-8f7e-7ed7123892c0,
+    svc:85079751-ae34-430b-bff0-378b19a8b016, svc:8841624a-f193-4b9d-a224-534fb7459cbb,
+    svc:8850c675-f1ee-4a0a-84b3-909e5c7340eb, svc:896d1743-8bf7-4f16-923a-bd3c89814500,
+    svc:89eb55de-74bb-4e84-8025-fe27ade76ff6, svc:8cdc1588-36fe-4cc1-ab56-c10498bbc69a,
+    svc:8d7a1071-075a-4903-95cf-61d2c2307575, svc:8dc2f1d1-2c59-4541-937a-cdff2e08a975,
+    svc:8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a, svc:8eb6c1c7-9ff7-4751-a6ff-02d586e96baa,
+    svc:8ec91991-ff8f-4879-b08f-f9ce9741f960, svc:8fa5e512-d49a-4cca-bb59-871d8ea00afd,
+    svc:9086f43b-2e3f-429d-9dc3-961e97b9befd, svc:915ae58b-9d7e-4233-8420-9744a2748e0e,
+    svc:93c99abc-d368-44f3-8d72-93f62d135e69, svc:95545ef7-cbdd-4ed2-a609-dc18f1f231ee,
+    svc:96a3205f-9cb8-43a6-8987-eb2474768922, svc:96ccbc03-1013-4722-a66f-982f9a9e4982,
+    svc:99c4d402-e4aa-4ef7-889f-426fbde37f27, svc:9acecc44-d175-4d1e-aabf-7970882efede,
+    svc:9fdf9a9a-7b40-4668-ade3-e3af487e9973, svc:a09a4c30-886e-4c2a-afb5-5ea0451cb409,
+    svc:a0c86bb0-0496-4ecb-8c82-4a7ed6e720ab, svc:a572cac4-0520-4863-94bd-27cd51456cd9,
+    svc:a946c0a0-0479-43c8-b59b-211177322895, svc:ab554929-a2eb-4c05-a709-40bb76be7037,
+    svc:acfc5013-3a98-4cef-b7f9-b53d8b0866f9, svc:afef1a19-b3c6-4ae1-835f-795a46dcfd27,
+    svc:b00b03db-a498-4627-b863-b892abcbbe05, svc:b2540530-85f9-4f75-84ea-f115ab4932ec,
+    svc:b3a90756-a866-4043-be31-e71786f95d4c, svc:b3eaf2b6-1241-407e-90a3-7732cdf052d9,
+    svc:b57f4a20-b3a6-44d6-a656-e507a3005f2f, svc:b905b63a-47d0-43e4-806f-5f5ceb9c4f86,
+    svc:b9446e20-b8fe-4101-81a0-10d9ba4549b1, svc:b9fd32b8-b856-450d-8a14-5e335be1b943,
+    svc:ba36bb81-8115-47b8-883e-f724d035c359, svc:bc0e5c58-aaa5-4e85-8a94-892871b00a9e,
+    svc:bc66ae4b-33ae-4a8e-ad33-5ecabcd08da3, svc:bec752f3-c694-4e75-b98d-c81ad4e7b019,
+    svc:bf37c1a2-1f95-4230-9ea4-74edfadd1927, svc:bfaaba8b-e85a-4e1f-9bd1-4abbc4de975a,
+    svc:bfdeca17-1eea-4145-b7e6-dc63bd8c0856, svc:c5312759-f3a1-49f8-bc49-e4c9fd6d8a91,
+    svc:c6bf36b3-1d02-4dee-a232-57f951e0c732, svc:c9c5e34b-0c12-4f15-919c-898a2ca0e41a,
+    svc:c9e437f8-1727-4a34-8741-3022225c4267, svc:caa2e47b-640c-4bde-b3cf-c8b8881bcb82,
+    svc:ccd4166e-f62f-4cb7-b800-b65631159a52, svc:d0f801a4-56a7-47a1-956c-c4e64324c02b,
+    svc:d0ff8817-9098-449c-b964-51f8a4487e3d, svc:d110717b-2a8f-44dd-8180-99e3e645f74d,
+    svc:d123dfa2-86b1-49a4-93f0-c8828f206da2, svc:d222fb37-76ee-4f3e-ae8b-66e21e334ee2,
+    svc:d29b09b8-f74a-4040-bd46-586324df566b, svc:d4eb8b9f-ded5-4194-a890-439f30adffbe,
+    svc:d530ef46-cc1f-40f4-8e22-37c5b0bcfeef, svc:d5b5ebec-3c9d-4f97-81b0-eb030570dd15,
+    svc:d6cf45ad-a83b-4a1b-a37f-b027787c2c8d, svc:d80937d9-f26d-490b-ac96-a97899e2a85b,
+    svc:dba6e6e8-5ada-45aa-82e8-fef0e8a649ec, svc:dbc18d9f-643d-4854-9542-df9f8b5b60d1,
+    svc:dc449fb0-76ee-459a-b1b2-60ea1fe778f0, svc:de69a040-c348-4495-b194-b16fa0cae21c,
+    svc:deafea86-7599-4ce9-bb21-791c7d920d81, svc:df2392bd-3259-4778-8011-c4138fd69955,
+    svc:e017aabb-ae0d-4634-bcb2-a2c4f9f5dcaa, svc:e01c1e07-facb-4118-a4c2-8e584b462008,
+    svc:e0acf397-1c94-481a-9d65-1b82f95f5830, svc:e2e991b4-c766-4053-a69a-c6a0c6930ffd,
+    svc:e8b3bf39-2656-4970-9d5c-94eaa2c8c652, svc:e9fefb5c-2ed2-4dfd-aea0-33a782b1f063,
+    svc:eb31cd51-b81b-41b2-b661-bbb085c1119e, svc:ec33177f-d53e-48c6-bec6-891b1cf73706,
+    svc:f1861071-f142-45e7-af72-82ebea4deaf1, svc:f1bbda1e-9230-408b-b300-89b0f785e9e1,
+    svc:f1f80f56-7223-43c6-b307-cb77d86ad9fc, svc:f2e2ea69-8db9-4bad-b771-a72efc5ead8a,
+    svc:f2ffb4ad-8d5e-4e68-8f54-788542b67ef1, svc:f317e042-7bf6-43bd-a313-6e35a1e96aba,
+    svc:f46e7ddf-9323-4962-a966-79d3f6a9292f, svc:f812c24b-1bf9-4767-a2c2-4e4860ae2b5a,
+    svc:f9b70808-1b35-46c3-bbc6-356a1ed3d8f6, svc:fa8e051d-a12f-49a8-a10f-7a3195054ea4,
+    svc:fab56298-7e2a-4275-9e32-be43f343f5f2, svc:fb4eac08-0449-4ad8-8871-405b1bb75655,
+    svc:fc647dde-2a7c-41d9-ba33-d8c3470d1664, svc:fe14911b-d7c7-44ab-bf4b-ca28121615bf,
+    svc:feb220f6-5f92-4660-854d-c01ec3e25a02, svc:ff021026-2658-4b2c-a22e-400db1d0e429 .
+
+svc:d530ef46-cc1f-40f4-8e22-37c5b0bcfeef a skos:Concept;
+  skos:exactMatch aat:300011051;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "wash (coloring type)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:bfdeca17-1eea-4145-b7e6-dc63bd8c0856 a skos:Concept;
+  skos:exactMatch aat:300011737;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "calcium hydroxide"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:0b4585f5-b40f-4dc7-815e-f04138231528 a skos:Concept;
+  skos:exactMatch aat:300011845;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "leather"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d80937d9-f26d-490b-ac96-a97899e2a85b a skos:Concept;
+  skos:exactMatch aat:300011849;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "pigskin"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:deafea86-7599-4ce9-bb21-791c7d920d81 a skos:Concept;
+  skos:exactMatch aat:300011851;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "parchment"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:12b65c7a-4c5b-49b8-ad0a-630d925d8ff8 a skos:Concept;
+  skos:exactMatch aat:300011852;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "vellum"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:3e94b2cb-2051-4601-bc2a-0e74ae058600 a skos:Concept;
+  skos:exactMatch aat:300014067;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "cotton cloth"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:c5312759-f3a1-49f8-bc49-e4c9fd6d8a91 a skos:Concept;
+  skos:exactMatch aat:300014069;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "linen"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:fc647dde-2a7c-41d9-ba33-d8c3470d1664 a skos:Concept;
+  skos:exactMatch aat:300014109;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:df2392bd-3259-4778-8011-c4138fd69955 a skos:Concept;
+  skos:exactMatch aat:300014143;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "Japanese paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:076c78e0-a66d-4864-8baf-d57888a894ca a skos:Concept;
+  skos:exactMatch aat:300014233;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "mill board"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:a572cac4-0520-4863-94bd-27cd51456cd9 a skos:Concept;
+  skos:exactMatch aat:300014242;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "pulp board"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b9fd32b8-b856-450d-8a14-5e335be1b943 a skos:Concept;
+  skos:exactMatch aat:300014685;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "tapes (sewing support)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:164fa62c-00c3-472b-8d5e-c70f36d0443e a skos:Concept;
+  skos:exactMatch aat:300014801;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "adhesive"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:6f71c7a3-c6a8-4418-b861-20fa60b24fbb a skos:Concept;
+  skos:exactMatch aat:300015045;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "watercolor (material)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:99c4d402-e4aa-4ef7-889f-426fbde37f27 a skos:Concept;
+  skos:exactMatch aat:300015058;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "acrylics (coloring media)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:06e0a430-31a5-4871-b1cf-7b24cb576353 a skos:Concept;
+  skos:exactMatch aat:300015217;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "solvent"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:5b2d378f-1868-4a12-9974-c52c6e89004d a skos:Concept;
+  skos:exactMatch aat:300015312;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "size (material)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:a946c0a0-0479-43c8-b59b-211177322895 a skos:Concept;
+  skos:exactMatch aat:300015644;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "original"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:3d1d4e72-e2d6-4252-ad5d-70a6008055e8 a skos:Concept;
+  skos:exactMatch aat:300022441;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "colored pencil"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8eb6c1c7-9ff7-4751-a6ff-02d586e96baa a skos:Concept;
+  skos:exactMatch aat:300025823;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "conservation technician"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:e2e991b4-c766-4053-a69a-c6a0c6930ffd a skos:Concept;
+  skos:exactMatch aat:300027267;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "report"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f2ffb4ad-8d5e-4e68-8f54-788542b67ef1 a skos:Concept;
+  skos:exactMatch aat:300027297;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "plans"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d0f801a4-56a7-47a1-956c-c4e64324c02b a skos:Concept;
+  skos:exactMatch aat:300028730;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "labels"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8d7a1071-075a-4903-95cf-61d2c2307575 a skos:Concept;
+  skos:exactMatch aat:300033608;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "joints"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:e01c1e07-facb-4118-a4c2-8e584b462008 a skos:Concept;
+  skos:exactMatch aat:300053010;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "adhesion"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:47e3901b-1316-4d34-80be-1ddf4766186b a skos:Concept;
+  skos:exactMatch aat:300053027;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "cleaning"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:96ccbc03-1013-4722-a66f-982f9a9e4982 a skos:Concept;
+  skos:exactMatch aat:300053041;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "poulticing"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f812c24b-1bf9-4767-a2c2-4e4860ae2b5a a skos:Concept;
+  skos:exactMatch aat:300053042;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "washing (cleaning))"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:e9fefb5c-2ed2-4dfd-aea0-33a782b1f063 a skos:Concept;
+  skos:exactMatch aat:300053043;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "coloring"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:bf37c1a2-1f95-4230-9ea4-74edfadd1927 a skos:Concept;
+  skos:exactMatch aat:300053092;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "loss filling"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:dba6e6e8-5ada-45aa-82e8-fef0e8a649ec a skos:Concept;
+  skos:exactMatch aat:300053596;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "stab sewing"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:5373a19a-99ba-4c2f-bd0f-24dae9323d8e a skos:Concept;
+  skos:exactMatch aat:300053737;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "repairing"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:fb4eac08-0449-4ad8-8871-405b1bb75655 a skos:Concept;
+  skos:exactMatch aat:300053748;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "lifted"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:e0acf397-1c94-481a-9d65-1b82f95f5830 a skos:Concept;
+  skos:exactMatch aat:300054106;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "deteriorated (deteriorating)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:306fbedd-34ca-4cf6-85fe-3ba622d0d6d1 a skos:Concept;
+  skos:exactMatch aat:300054695;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "testing"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:c6bf36b3-1d02-4dee-a232-57f951e0c732 a skos:Concept;
+  skos:exactMatch aat:300055023;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "binding"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:06a00a3d-293e-4331-8c74-1f0004a80908 a skos:Concept;
+  skos:exactMatch aat:300055026;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "cover of spine"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d222fb37-76ee-4f3e-ae8b-66e21e334ee2 a skos:Concept;
+  skos:exactMatch aat:300055026;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "spine (bookblock)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:3b468521-6359-4feb-9039-90965c3b1798 a skos:Concept;
+  skos:exactMatch aat:300056020;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "(with) heat"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:497c616b-f884-4862-8a17-149526757145 a skos:Concept;
+  skos:exactMatch aat:300068940;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "damage"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:72539753-592c-4ad3-81c7-c3317039ed3e a skos:Concept;
+  skos:exactMatch aat:300080091;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "description"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:afef1a19-b3c6-4ae1-835f-795a46dcfd27 a skos:Concept;
+  skos:exactMatch aat:300081023;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "iron-gall ink"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:e017aabb-ae0d-4634-bcb2-a2c4f9f5dcaa a skos:Concept;
+  skos:exactMatch aat:300083023;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "endpapers"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:62dd227f-a244-4695-b9d1-fad4069718a0 a skos:Concept;
+  skos:exactMatch aat:300102842;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "conservator"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f1861071-f142-45e7-af72-82ebea4deaf1 a skos:Concept;
+  skos:exactMatch aat:300115833;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "leaves"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d110717b-2a8f-44dd-8180-99e3e645f74d a skos:Concept;
+  skos:exactMatch aat:300131111;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "detached"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f1f80f56-7223-43c6-b307-cb77d86ad9fc a skos:Concept;
+  skos:exactMatch aat:300135036;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "tipped (tipping in)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f317e042-7bf6-43bd-a313-6e35a1e96aba a skos:Concept;
+  skos:exactMatch aat:300162391;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "cloth"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:85079751-ae34-430b-bff0-378b19a8b016 a skos:Concept;
+  skos:exactMatch aat:300162474;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "paste board"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:bc66ae4b-33ae-4a8e-ad33-5ecabcd08da3 a skos:Concept;
+  skos:exactMatch aat:300162666;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "wooden boards"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:18b83ce3-25e7-43ab-8a87-4ebae0163612 a skos:Concept;
+  skos:exactMatch aat:300190699;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "edge"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8fa5e512-d49a-4cca-bb59-871d8ea00afd a skos:Concept;
+  skos:exactMatch aat:300193374;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sheepskin"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:7069f2bb-95a5-483f-9a45-14f0ef3a755d a skos:Concept;
+  skos:exactMatch aat:300194226;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sections (book part)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:2ab6b31b-45d2-4696-b03c-08418903139b a skos:Concept;
+  skos:exactMatch aat:300195150;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "flyleaves"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:5bc50df0-363f-44fc-aefc-1de4bd807797 a skos:Concept;
+  skos:exactMatch aat:300195163;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "endbands"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:c9e437f8-1727-4a34-8741-3022225c4267 a skos:Concept;
+  skos:exactMatch aat:300202317;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "case binding"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:25d585d3-336f-4904-bf24-b2ff5f7ce280 a skos:Concept;
+  skos:exactMatch aat:300202819;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "boards"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:1958359c-9810-43cb-b538-2c90c1656fd8 a skos:Concept;
+  skos:exactMatch aat:300208775;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "pastedown"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:a0c86bb0-0496-4ecb-8c82-4a7ed6e720ab a skos:Concept;
+  skos:exactMatch aat:300211465;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "quarter binding"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8841624a-f193-4b9d-a224-534fb7459cbb a skos:Concept;
+  skos:exactMatch aat:300212564;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "wheat starch paste"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:ec33177f-d53e-48c6-bec6-891b1cf73706 a skos:Concept;
+  skos:exactMatch aat:300219637;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "dry cleaning"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:93c99abc-d368-44f3-8d72-93f62d135e69 a skos:Concept;
+  skos:exactMatch aat:300219960;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "consolidation"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:7a98d0be-2ac6-4582-acf3-db2a2c9a1c7b a skos:Concept;
+  skos:exactMatch aat:300220267;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "deacidification"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:915ae58b-9d7e-4233-8420-9744a2748e0e a skos:Concept;
+  skos:exactMatch aat:300221165;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "aqueous"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:36ededb5-3dad-4f46-bc4b-d91f3eaf5a14 a skos:Concept;
+  skos:exactMatch aat:300222224;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "visible"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:602d1a9d-8a26-4ed7-a258-8a5468929758 a skos:Concept;
+  skos:exactMatch aat:300222225;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "invisible"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:79766733-f798-45ea-8d42-019c8af730f8 a skos:Concept;
+  skos:exactMatch aat:300223790;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "wetting"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:75d6a99d-50c1-439c-a6b2-ee5d51becfe2 a skos:Concept;
+  skos:exactMatch aat:300224146;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "removing (treatment action)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:9086f43b-2e3f-429d-9dc3-961e97b9befd a skos:Concept;
+  skos:exactMatch aat:300224962;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "volume"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:dc449fb0-76ee-459a-b1b2-60ea1fe778f0 a skos:Concept;
+  skos:exactMatch aat:300225740;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "visual inspection"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:89eb55de-74bb-4e84-8025-fe27ade76ff6 a skos:Concept;
+  skos:exactMatch aat:300226345;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "flattening"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:7f268558-4748-4e15-8f7e-7ed7123892c0 a skos:Concept;
+  skos:exactMatch aat:300227525;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "calf skin"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:0eac9923-e892-46c9-b848-d5b83aa533bf a skos:Concept;
+  skos:exactMatch aat:300227846;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "linings"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:896d1743-8bf7-4f16-923a-bd3c89814500 a skos:Concept;
+  skos:exactMatch aat:300228802;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "creases"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:40088169-31a6-4cb7-9786-5ee13458a85c a skos:Concept;
+  skos:exactMatch aat:300239001;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "stamping"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d5b5ebec-3c9d-4f97-81b0-eb030570dd15 a skos:Concept;
+  skos:exactMatch aat:300248893;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "guard"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:40f83af1-2484-42ea-9beb-7bd4b82c7dba a skos:Concept;
+  skos:exactMatch aat:300252028;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "mold (fungus)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:9acecc44-d175-4d1e-aabf-7970882efede a skos:Concept;
+  skos:exactMatch aat:300252855;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "blind tooling"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:38b8af19-0c33-4680-9e86-88de743615c3 a skos:Concept;
+  skos:exactMatch aat:300252881;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "split (condition state)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:514ffbf8-7a5f-40f5-ae91-de56cf02d608 a skos:Concept;
+  skos:exactMatch aat:300252881;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "torn (tearing)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:e8b3bf39-2656-4970-9d5c-94eaa2c8c652 a skos:Concept;
+  skos:exactMatch aat:300253051;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "cords/thongs"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:67207703-5fac-41f4-8850-5226600123fc a skos:Concept;
+  skos:exactMatch aat:300254358;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "hinges (book part)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:552fb840-468a-4c02-9efe-d46d8a4bcb73 a skos:Concept;
+  skos:exactMatch aat:300255984;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "goat skin"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:70967813-c6be-4519-b284-99108cca249a a skos:Concept;
+  skos:exactMatch aat:300256003;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "gold tooling"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:eb31cd51-b81b-41b2-b661-bbb085c1119e a skos:Concept;
+  skos:exactMatch aat:300257688;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "copy"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:117b52bb-c7b2-4a30-9436-2537bd95c4e2 a skos:Concept;
+  skos:exactMatch aat:300261489;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "laced-in boards (lacing-in)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:43431a4e-805d-4d9c-bbeb-0cb09e1ffe77 a skos:Concept;
+  skos:exactMatch aat:300261489;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "laced-in (endbands)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a a skos:Concept;
+  skos:exactMatch aat:300261522;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "spine linings"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f1bbda1e-9230-408b-b300-89b0f785e9e1 a skos:Concept;
+  skos:exactMatch aat:300261537;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sewing"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:feb220f6-5f92-4660-854d-c01ec3e25a02 a skos:Concept;
+  skos:exactMatch aat:300261540;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sewn all along"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f9b70808-1b35-46c3-bbc6-356a1ed3d8f6 a skos:Concept;
+  skos:exactMatch aat:300261564;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "kettlestitch"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:0f77e0b1-a75c-4765-9d88-b2fff9ae21b8 a skos:Concept;
+  skos:exactMatch aat:300261722;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "mending"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:208d093b-8933-40de-8ced-d0b319acf0f4 a skos:Concept;
+  skos:exactMatch aat:300261769;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "stuck-on (endbands)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f2e2ea69-8db9-4bad-b771-a72efc5ead8a a skos:Concept;
+  skos:exactMatch aat:300262673;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "bookcloth"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:16d7a2ac-ba36-4690-bc88-2386faf148ab a skos:Concept;
+  skos:exactMatch aat:300263196;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "board attachment"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:de69a040-c348-4495-b194-b16fa0cae21c a skos:Concept;
+  skos:exactMatch aat:300263196;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "board reattachment"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:1acc52a5-49e4-4b48-a2d1-9e825c77632f a skos:Concept;
+  skos:exactMatch aat:300263562;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sprinkled calf"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:0f7f8b42-0ec8-4104-b7cb-36a50a0eed18 a skos:Concept;
+  skos:exactMatch aat:300263626;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "extended linings"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b2540530-85f9-4f75-84ea-f115ab4932ec a skos:Concept;
+  skos:exactMatch aat:300263626;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "hinge/joint extensions"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:20d3b60f-7c31-4be8-8ecb-6df87c330ace a skos:Concept;
+  skos:exactMatch aat:300265095;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "marbled"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8dc2f1d1-2c59-4541-937a-cdff2e08a975 a skos:Concept;
+  skos:exactMatch aat:300265580;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "decorative paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:9fdf9a9a-7b40-4668-ade3-e3af487e9973 a skos:Concept;
+  skos:exactMatch aat:300265580;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "paste paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:4705ae4f-02e7-4b56-85b3-6376c8418841 a skos:Concept;
+  skos:exactMatch aat:300310136;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "adhesive tape"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b57f4a20-b3a6-44d6-a656-e507a3005f2f a skos:Concept;
+  skos:exactMatch aat:300379358;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "water damage"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:42b5a77f-1515-497d-98a0-ee8e926c332b a skos:Concept;
+  skos:exactMatch aat:300379366;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "photodoc"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:ccd4166e-f62f-4cb7-b800-b65631159a52 a skos:Concept;
+  skos:exactMatch aat:300379377;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "previously repaired"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:fe14911b-d7c7-44ab-bf4b-ca28121615bf a skos:Concept;
+  skos:exactMatch aat:300379468;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "soft"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:a09a4c30-886e-4c2a-afb5-5ea0451cb409 a skos:Concept;
+  skos:exactMatch aat:300379484;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "tidelines"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d6cf45ad-a83b-4a1b-a37f-b027787c2c8d a skos:Concept;
+  skos:exactMatch aat:300379550;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "methyl cellulose"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b00b03db-a498-4627-b863-b892abcbbe05 a skos:Concept;
+  skos:exactMatch aat:300379824;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "powdery (leather condition state)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:fab56298-7e2a-4275-9e32-be43f343f5f2 a skos:Concept;
+  skos:exactMatch aat:300379890;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "detached leaves"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8cdc1588-36fe-4cc1-ab56-c10498bbc69a a skos:Concept;
+  skos:exactMatch aat:300380467;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "vacuum"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:ba36bb81-8115-47b8-883e-f724d035c359 a skos:Concept;
+  skos:exactMatch aat:300387405;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "reattaching"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:28acc7d7-c73e-4c73-b58a-8626bb9a1878 a skos:Concept;
+  skos:exactMatch aat:300390560;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "completion"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:7275189b-b087-45c0-a06b-59108df18519 a skos:Concept;
+  skos:exactMatch aat:300400513;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "other"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:95545ef7-cbdd-4ed2-a609-dc18f1f231ee a skos:Concept;
+  skos:exactMatch aat:300404012;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "unique identifiers"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8850c675-f1ee-4a0a-84b3-909e5c7340eb a skos:Concept;
+  skos:exactMatch aat:300404519;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "conservation"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b905b63a-47d0-43e4-806f-5f5ceb9c4f86 a skos:Concept;
+  skos:exactMatch aat:300411543;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "handmade paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:1d28c0c0-22b3-4c43-b757-71da04bfc568 a skos:Concept;
+  skos:exactMatch aat:300417196;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "documentation (activity)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d123dfa2-86b1-49a4-93f0-c8828f206da2 a skos:Concept;
+  skos:exactMatch aat:300417199;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "short title"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:acfc5013-3a98-4cef-b7f9-b53d8b0866f9 a skos:Concept;
+  skos:closeMatch aat:300010287;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "back"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:fa8e051d-a12f-49a8-a10f-7a3195054ea4 a skos:Concept;
+  skos:closeMatch aat:300014148;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "blotter"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b3a90756-a866-4043-be31-e71786f95d4c a skos:Concept;
+  skos:closeMatch aat:300014507;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "PVA"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b9446e20-b8fe-4101-81a0-10d9ba4549b1 a skos:Concept;
+  skos:closeMatch aat:300028682;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "video (documentation)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:bfaaba8b-e85a-4e1f-9bd1-4abbc4de975a a skos:Concept;
+  skos:closeMatch aat:300053083;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "broken"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:485f3bec-2d30-4911-b3ee-d0f43761265e a skos:Concept;
+  skos:closeMatch aat:300070114;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "gouache"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:b3eaf2b6-1241-407e-90a3-7732cdf052d9 a skos:Concept;
+  skos:closeMatch aat:300078767;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "front"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:26a72328-77c2-4af3-b490-78af2e18a301 a skos:Concept;
+  skos:closeMatch aat:300078817;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "verso"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:f46e7ddf-9323-4962-a966-79d3f6a9292f a skos:Concept;
+  skos:closeMatch aat:300078817;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "recto"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:0e7a96db-97f7-44e8-8b7d-3030a86dfdb1 a skos:Concept;
+  skos:closeMatch aat:300194226;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sewn around first and last sections (technique)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:ab554929-a2eb-4c05-a709-40bb76be7037 a skos:Concept;
+  skos:closeMatch aat:300195190;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "textblock"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:ff021026-2658-4b2c-a22e-400db1d0e429 a skos:Concept;
+  skos:closeMatch aat:300211457;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "half binding"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d0ff8817-9098-449c-b964-51f8a4487e3d a skos:Concept;
+  skos:closeMatch aat:300211469;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "adhesive only (binding)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:5c969c5c-9d42-4119-99fc-fc714df2608e a skos:Concept;
+  skos:closeMatch aat:300378932;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "mold damage"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:c9c5e34b-0c12-4f15-919c-898a2ca0e41a a skos:Concept;
+  skos:closeMatch aat:300379497;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "stain"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d29b09b8-f74a-4040-bd46-586324df566b a skos:Concept;
+  skos:closeMatch aat:300379687;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "case paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:70dac390-06d8-44e5-a342-14862bcacce0 a skos:Concept;
+  skos:closeMatch aat:300389724;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "condition"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:71c903ed-4b6c-430c-8ffd-a842d3d501f7 a skos:Concept;
+  skos:closeMatch aat:300427422;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "metal fasteners"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:04a9b520-244f-4525-819d-06025295d8b8 a skos:Concept;
+  skos:broadMatch aat:300014109;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "Western paper"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:96a3205f-9cb8-43a6-8987-eb2474768922 a skos:Concept;
+  skos:broadMatch aat:300195163;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sewn (endbands)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:dbc18d9f-643d-4854-9542-df9f8b5b60d1 a skos:Concept;
+  skos:broadMatch aat:300211478;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "laced case"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:1b301859-6cef-4792-8060-fea38f45c7ed a skos:Concept;
+  skos:broadMatch aat:300253051;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "raised cords"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:32198755-8723-4796-84b6-3716e673ecdb a skos:Concept;
+  skos:broadMatch aat:300253051;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "recessed cords"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8 a skos:Concept;
+  skos:broadMatch aat:300261522;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "extended head and tail (spine linings)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:3a8df669-feaf-4736-8c58-dae6249cb5d6 a skos:Concept;
+  skos:broadMatch aat:300261522;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "full spine (spine linings)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:bc0e5c58-aaa5-4e85-8a94-892871b00a9e a skos:Concept;
+  skos:broadMatch aat:300261522;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "head and tail (spine linings)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:caa2e47b-640c-4bde-b3cf-c8b8881bcb82 a skos:Concept;
+  skos:broadMatch aat:300261522;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "extended full spine (spine linings)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:8ec91991-ff8f-4879-b08f-f9ce9741f960 a skos:Concept;
+  skos:closeMatch aat:300263575;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "alum tawed"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:bec752f3-c694-4e75-b98d-c81ad4e7b019 a skos:Concept;
+  skos:exactMatch aat:300196838;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "cover"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:d4eb8b9f-ded5-4194-a890-439f30adffbe a skos:Concept;
+  skos:exactMatch aat:300261509;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "rebacked (rebacking)"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+
+svc:34fb2e2c-41df-46ab-b484-ab2c2921f915 a skos:Concept;
+  skos:exactMatch aat:300263631;
+  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:prefLabel "sewing supports"@en;
+  skos:topConceptOf <https://w3id.org/sul-vocab/> .
