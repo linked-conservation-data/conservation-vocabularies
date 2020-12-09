@@ -3,7 +3,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix loc: <https://w3id.org/loc-vocab/> .
+@prefix loc: <http://w3id.org/loc-vocab/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -17,15 +17,15 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/loc-vocab/20201112> {
-  <https://w3id.org/loc-vocab/20201112> a <http://rdfs.org/ns/void#Dataset> ;
+<http://w3id.org/loc-vocab/20201112> {
+  <http://w3id.org/loc-vocab/20201112> a <http://rdfs.org/ns/void#Dataset> ;
     owl:versionInfo "20201112" ;
     dct:issued "2020-11-12T00:00:00Z"^^xsd:dateTime ;
     dct:rights <https://creativecommons.org/licenses/by/4.0/> ;
     dc:creator "Library of Congress" ;
     dct:created "2020-11-12T00:00:00Z"^^xsd:dateTime .
 
-  <https://w3id.org/loc-vocab/> a skos:ConceptScheme;
+  <http://w3id.org/loc-vocab/> a skos:ConceptScheme;
     dc:creator "Library of Congress"@en;
     dct:description "Library of congress conservation terminology for the LCD pilot"@en;
     dct:rights <https://creativecommons.org/licenses/by/4.0/>;
@@ -135,1195 +135,1195 @@
       loc:ff65e8b4-89f1-4a25-b44d-d955e8cb6e5d .
 
   loc:e645fa14-55fb-4aea-91f6-c47c534d858f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "damaged"@en;
     skos:scopeNote "The process or activity of hurting, injuring, or otherwise causing damage, often in a way results in the lessening or loss of value of a thing."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:50c84dff-95a7-414e-b5f0-2779182d95e9 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "inner joints"@en;
     skos:scopeNote "The inside of the hingeing area alongside the spine edge of a board or cover."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b5942287-d522-4848-8e61-acadf348c119 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "outer joints"@en;
     skos:scopeNote "The outside of the hingeing area alongside the spine edge of a board or cover."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:11b77275-d0a0-4790-ac52-ec10fa7736bb a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "covering material"@en;
     skos:scopeNote "The material used as the primary or secondary cover of a binding."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:dc378ea6-7cad-494a-ba42-31b4eda0742c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "lifted"@en;
     skos:scopeNote "Partial rising of a topcoat such as a paint, solvent, or varnish layer, due to the break in adhesion to the undercoat or surface layer."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:dbe22ff9-13ca-4907-9931-acea6e73c5a1 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "detached"@en;
     skos:scopeNote "Refers to objects either that have become separated or disconnected from objects to which they were an integral part, as ticket stubs, or, especially with reference to buildings, that are standing apart with no walls in common with other structures. To refer to sculpture or architectural and infrastructural elements that stand alone, prefer \"freestanding.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:71be10c9-0ee0-4008-a7b2-e59b121c7b79 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "broken"@en;
     skos:scopeNote "Splitting into pieces or smashing into parts or fragments, typically by a blow or stress and with suddenness or violence."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:bcc78dc8-9637-455c-a2b7-e60099818a19 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "repaired"@en;
     skos:scopeNote "Restoring to a whole by replacing a part or putting together what is torn or broken, or otherwise restoring to sound condition."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:1a0795d7-b397-41bb-87dc-ab4425773578 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "staining"@en;
     skos:scopeNote "Discolorations produced by the penetration of foreign matter into a fabric, wood, or coating. This term designates material damage and is not to be confused with a substance that is used as a protective coating or colorant."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:edec7bcb-d127-4512-9f05-67b52435b12b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "distortion"@en;
     skos:scopeNote "Bending or twisting out of shape, such as that caused by drying, dampness, or heat."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:187b6d65-d706-44f9-85a7-0d4403851574 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "mold"@en;
     skos:scopeNote "Condition of having a conspicuous furry growth on the surface of organic materials, comprising a mass of mycelium (masses of vegetative filaments, or hyphae) and fruiting structures of various fungi. The most common species are of the genera Aspergillus (black, yellow, and orange) and Penicillium (green). Molds can excrete organic acids, such as citric, oxalic, gluconic, etc., that can damage the growth substrate, resulting in discoloration of dyed textiles, paper, and leather. They also produce colored bodies that discolor materials. Mold growth can be inhibited by fungicides or minimized by a clean environment that has sunlight, dry circulating air, and relatively low temperatures."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:ff65e8b4-89f1-4a25-b44d-d955e8cb6e5d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "acidic"@en;
     skos:scopeNote "The degree of acid content of a substance. Use particularly with reference to solutions having a pH value less than 7."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c84b2819-1865-4eb0-97c1-e842e2c7721c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ink"@en;
     skos:scopeNote "A fluid medium used for drawings or tracings. An opaque, usually black, pigment is mixed with a vehicle such as water to produce a fluid which can be applied with a pen or brush. Through the end of the 19th century, ink was supplied dried in stick or block form which was ground and mixed with water as needed. At the beginning of this century prepared ink became popular."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:397089a9-ac53-45bb-a369-c7a24f6426e8 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "losses"@en;
     skos:scopeNote "Blank spaces or missing portions of a written or printed text, of the media or support of a two-dimensional object, or of paint or a coating on a three dimensional object; objects subject to lacunae include paintings, mosaics, manuscripts, and painted sculptures. Lacunae result from damage or accidental omission; intentional omissions are not called \"lacunae.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:d80a51e0-d6b6-493c-a5fd-eeb1a7979c02 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "cut"@en;
     skos:scopeNote "Book edges that have been smoothly cut with a guillotine or plough, so that they are flush with each other."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:58e36a8f-b466-40aa-9df0-96f287468822 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "left"@en;
     skos:scopeNote "The place on the left of the centre of a book opened as if to be read. All the components or features of a binding on this side of the book can therefore be described as left (e.g. left board, left endleaves, etc.). This removes any confusion about what is the front board on books written in arabic or latin, for instance."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:939ce072-0eb7-4ef6-aeb7-b698e71f4269 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "right"@en;
     skos:scopeNote "The place on the right of the centre of a book opened as if to be read. All the components or features of a binding on this side of the book can therefore be described as right (e.g. right board, right endleaves, etc.). This removes any confusion about what is the back board on books written in arabic or latin, for instance."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:f21c96ad-3103-409b-90af-d083ed163e06 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "wood"@en;
     skos:scopeNote "The principal tissue of trees and other plants that provides both strength and a means of conducting nutrients. Wood is one of the most versatile materials known."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:86c3a9ed-d44e-405d-bf1c-ebcbb91dddd2 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "attachments"@en;
     skos:scopeNote "The individual components used to complete the attachment of boards to bookblocks."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:5a30f6da-467b-4b60-9b0c-67f9aa31c01e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "boards"@en;
     skos:scopeNote "Boards are rigid or semi-rigid components made from one or more pieces of sheet material used to protect and support a bookblock. There will usually be at least two boards, one on each side of the bookblock. A piece of sheet material wrapped around the spine of a bookblock and covering each side, even though it may itself be covered by another material (see cover lining and laminated cover) does not create boards, which must always be separate. On small format books, the boards may be no more than pieces of thick paper, but they should still be described as boards. When two or more bookblocks are bound together as distinct units (multiple bookblock bindings), they will be separated by shared boards."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:ce79bf79-6a53-4c50-84d6-e3a3a2da8090 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "sewing supports"@en;
     skos:scopeNote "Components placed across the spine of a bookblock to or through which the individual gatherings are sewn with thread. The most commonly encountered sewing supports are narrow strips of material around or across which the thread is taken when it emerges from the gatherings, but there are also pierced sewing supports, through which the thread is taken when the bookblock is sewn. Both can be found in many different shapes and sizes."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:5d916c8f-31fc-48a4-9f3e-2f355f3392f3 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "guarding"@en;
     skos:scopeNote "Narrow strips of paper or parchment folded lengthways either to reinforce the folds of gatherings or endleaves (sewing guards) or to attach plates or tables to a textblock (extension guards)."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e371875c-61a0-4ccb-8371-44dfbe01d599 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "stain reduction"@en;
     skos:scopeNote "Removal of stains from textiles and other materials."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:215b20ae-a874-4721-acd8-0987c038dcb6 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "charcoal"@en;
     skos:scopeNote "A black, porous carbonaceous material comprising the carbon-containing residue from burned wood (e.g., willow, maple, beech, linden or plum) or other organic containing materials such as bone, plants or animals. It is used as a drawing material, for filtering liquids or air, and for other purposes."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:f71d7869-e425-413f-bd37-33c38e8d046f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "etching"@en;
     skos:scopeNote "Prints made from an etched printing plate, which is a metal plate on which a design is made by coating the plate with an acid-resistant substance, creating a design in the coating, and then exposing the plate to acid, which etches the plate where the metal is exposed. For designs incised directly into a copper plate using a burin or graver, use \"engravings (prints).\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:3572aa95-7e9a-48f6-9e31-134f2dafb51b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "filling of losses"@en;
     skos:scopeNote "Inserting material into a hole, crack, or cavity. In the specific context of mosaic conservation, the application of mortar or other material into an area of loss of the mosaic surface."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9360aee6-8c01-420e-8272-7c09bfffcaad a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "drying and flattening"@en;
     skos:scopeNote "Making free or nearly free of liquids. For the removal or deprivation of water, though other liquids may remain, use \"dehydration.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a9d8c22d-2f97-4449-a7c1-129ab0d99102 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "iron gall ink"@en;
     skos:scopeNote "Drawing material prepared by binding carbon particles in gall extract (from an abnormal growth on oak trees), that when applied to paper darkens by oxidation."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:80155d27-5aa6-4e7b-9d6d-1bd6a2f2ced1 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "lining"@en;
     skos:scopeNote "The process of stregthening or stabilizing by use of an inner layer, usually using paper or fabric. In conservation and other contexts, the process of reinforcing a work by applying a paper or fabric lining with an adhesive, sewing, or another method"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:04356400-0ef6-4fa2-9a44-cb59df92147b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "printer's ink"@en;
     skos:scopeNote "Generally, inks formulated specifically for the process of printing from plates or blocks. These usually consist of pigment suspended in an oil vehicle, combined with resin, solvent, adhesive and a drier, but there are countless recipes for printing inks dependent on the purposes for which they are intended."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6263a37f-1370-4c19-b232-c8190204436d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "board"@en;
     skos:scopeNote "Stiff upper and lower covers of books comprising stiff, thick cardboard or other material, often covered with leather, cloth or another material."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:97e158d7-3ca3-458e-9594-954b45e8e07b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "binder's board"@en;
     skos:scopeNote "Stiff upper and lower covers of books comprising stiff, thick cardboard or other material, often covered with leather, cloth or another material"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:967ee083-e63c-4f0f-b7dc-cc7e9fafce12 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "lining"@en;
     skos:scopeNote "Layer of material used to line the inner side or surface of something to reinforce or protect it."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:0cb43f82-1414-4bea-8b22-dca1aa34430e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "clasps"@en;
     skos:scopeNote "Fasteners made of two or more parts, often of metal, and consisting of separate interlocking hooking and catching elements that hold together two or more objects or complimentary parts of the same object."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:55ebabda-4d92-4524-a306-e2290e7d714e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "hinging"@en;
     skos:scopeNote "Flexible pieces of cloth, paper, or other material joining two separate parts and allowing a swinging motion of one or both of the members along a single axis. Examples include a paper or muslin stub used to affix a print to its mat, and in bookbinding, pieces placed between the two halves of an endpaper where the body of the book is fixed to its covers. Distinguished from \"joints (connections)\", which are the flexing exterior junctions of the spine and covers of books."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6ded13fd-8cfc-48d2-8afa-f26800d19689 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "methylcellulose"@en;
     skos:scopeNote "Refers to any methylated derivative of cellulose. Methyl cellulose is a white powder that swells in water and is used as a substitute for natural gums, functioning in various commercial contexts as emulsifying, thickening, or sizing agent, lubricant, and suspension aid. In textile and paper conservation, it is used as an adhesive and as a poulticing material for removal of stains."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c73f4b95-c0a8-4c9f-916b-1a6ed4a1f33d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "sodium CMC"@en;
     skos:scopeNote "A water-soluble polymer, commonly known as carboxymethylcellulose (CMC), composed of the sodium salt of modified cellulose."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:75fd4fee-032f-41ab-8968-191d2baa77a0 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "machine made paper"@en;
     skos:scopeNote "Paper made on a machine that allows pulp to flow onto a moving and vibrating mesh or belt, thus forming a continuous strip that may be dried and pressed before being wound onto a roll for storage. Machine-made paper may exhibit laid lines, chain lines, and watermarks that mimic those of handmade paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:f095c279-10da-46b4-89f9-95fcbe591d30 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "sodium hydroxide"@en;
     skos:scopeNote "A white, deliquescent, water-soluble solid, NaOH, usually in the form of lumps, sticks, chips, or pellets, that upon solution in water generate heat. It is used for the manufacture of other chemicals, rayon, film, and in medicine as a caustic."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:feff19c0-aa31-4378-ae08-57400892248a a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "leather (calf)"@en;
     skos:scopeNote "The skin or hide of an animal that has been tanned to render it resistant to putrefication and relatively soft and flexible when dry. For composite material made from scrap leather pieces, use \"maril.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:f6e3f6ba-a3fb-4c70-9924-a149e95e8576 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "leather (goat)"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:117be4d5-9536-49fb-90b0-3cc4779e12fa a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "leather (sheep)"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:3524f46a-7d85-4578-b560-d2aa0f5f9498 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "sheep parchment"@en;
     skos:scopeNote "Translucent or opaque material made from calf, sheep, or goat skin which has been limed, dehaired, scraped, and dried under tension to produce a thin, strong material for writing, bookbinding, or other uses. For finer quality calf parchment, use \"vellum.\" The terms parchment and vellum sometimes have been and still are both confused and used interchangeably."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:66a80fd8-c482-4191-be88-5dd3b908742e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "lead white conversion"@en;
     skos:scopeNote "Synthetically produced white pigment; the oldest and most historically important white pigment as it was the only white used in European easel painting until the nineteenth century. By the twentieth century, the use of lead white had been replaced with titanium dioxide."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2de08376-1314-4668-b0a7-8987ae3542b4 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Asian paper"@en;
     skos:scopeNote "Refers to various types of handmade paper, particularly strong, handmade paper composed of long bast fibers derived from the paper mulberry (Broussonetia papyrifera), the gampi (Wikstroemia canascens) and the mitsumata (Edgeworthia papyrifera). Thin, translucent sheets of Japanese paper are often used as a reinforcing paper and hinges because of their strength, flexibility, and permanence. Specifically for paperlike material made from the pith of the rice paper tree, use \"rice paper.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c1b9a003-6ef0-4070-8f64-a424beae016d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ink (other)"@en;
     skos:scopeNote "A fluid medium used for drawings or tracings. An opaque, usually black, pigment is mixed with a vehicle such as water to produce a fluid which can be applied with a pen or brush. Through the end of the 19th century, ink was supplied dried in stick or block form which was ground and mixed with water as needed. At the beginning of this century prepared ink became popular."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b5b0cb2b-243c-4200-b408-1e7016a30005 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "paint/pigment"@en;
     skos:scopeNote "Any dispersion of pigment in a liquid binder. Paint is applied with a brush, roller, sprayer, or by dipping and dries to form a decorative or protective film."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a3c95700-1325-4930-ae44-05e647a1e12f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "watercolor"@en;
     skos:scopeNote "Transparent aqueous based paint produced by mixing ground pigments with water and, generally, gum arabic; paints made with vegetable gum binders were used by Egyptian, Greek, and Roman artists for wall paintings. Japanese and Chinese painters extensively used watercolor paints on silk panels and delicate paper scrolls. In the 16th through18th century, watercolor paints were used for miniature illustrations on porcelain, ivory, cards, books and manuscripts. By the 18th and early 19th centuries, watercolors rapidly increased in popularity due to the availability of small cakes of watercolor paints in metal pans, usually applied to a paper support by using a brush."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:bcf568a8-1f37-4406-884c-c1ad14fbaceb a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "isopropanol"@en;
     skos:scopeNote "Common liquid secondary alcohol, and the first commercial synthetic alcohol. Synthesized by the hydration of propylene. Frequently used as an antiseptic, and in cosmetics. In industry it is used as a solvent and to produce acetone."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:76982320-64fb-4cf9-afb8-61368bde16b7 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "MEK"@en;
     skos:scopeNote "A colorless, toxic, flammable, vinyl resin liquid solvent with a flash point of 24-30 degrees Fahrenheit. It is used as a solvent for cellulose nitrate lacquers, vinyl films, acrylic coatings, inks, and alkyd (Glyptal) resins. It is also used as a component in paint removers and cleaning fluids. It does not dissolve cellulose acetate or most waxes."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:916bb481-c1ab-4570-a9a1-5a6ffc4d6eec a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "crayon"@en;
     skos:scopeNote "Black or colored crayons, usually in stick form, usually with peel-off paper casing, but also made as unbound sticks as inserts for mechanical pencil mechanisms."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:ba8b789a-897f-479e-a3f1-ada7dc854ffa a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ballpoint pen"@en;
     skos:scopeNote "Pens with a writing tip made of a metal ball that is housed in a socket, which allows the ball to rotate freely when pressed against a writing surface, releasing a quick-drying ink. The ball is constantly bathed in ink from a reservoir, one end of which is open and attached to the writing tip. Commercial models of the pen appeared in 1895 and it became popular beginning in the 1930s. It was first patented by Lázló Bíró."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:dfc4dc7d-b28d-4d20-ab18-9dca40ab3db9 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "pen"@en;
     skos:scopeNote "Pens with a writing tip made of a metal ball that is housed in a socket, which allows the ball to rotate freely when pressed against a writing surface, releasing a quick-drying ink. The ball is constantly bathed in ink from a reservoir, one end of which is open and attached to the writing tip. Commercial models of the pen appeared in 1895 and it became popular beginning in the 1930s. It was first patented by Lázló Bíró."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:ed1dc69b-b998-45da-ab17-d29850e971f1 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "felt tipped pen"@en;
     skos:scopeNote "Pens with points made of porous materials, including or resembling felt, and a reservoir of ink in the handle. They became commercially available during the 1960s. In such pens a synthetic polymer of controlled porosity transfers ink from the reservoir to the writing surface. They are used for lettering, drawing, and writing on a variety of surfaces."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c61e2f47-ffa6-40da-b648-738a17442d9e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "marker"@en;
     skos:scopeNote "Pens with points made of porous materials, including or resembling felt, and a reservoir of ink in the handle. They became commercially available during the 1960s. In such pens a synthetic polymer of controlled porosity transfers ink from the reservoir to the writing surface. They are used for lettering, drawing, and writing on a variety of surfaces."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:0ab43ae8-6421-4462-92d9-baf439512fbf a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "engraving"@en;
     skos:scopeNote "Prints on paper incorporating impressions of a reverse design created on a printing plate, usually copper, into which the design has been incised (engraved) using burins or gravers. Historically, \"engravings\" has sometimes been incorrectly used to refer to all prints, regardless of the specific technique. For prints made from designs engraved on a flat wooden block, use \"wood cuts\"; for prints made from a plate that is etched rather than engraved, use \"etchings.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:60b5b0c5-afaf-4eea-96b7-953338ddfb3d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "woodblock"@en;
     skos:scopeNote "Prints made using the process of woodcut, which is a relief process in which the design is cut into and printed from the plank side of a wood block; distinct from \"wood engraving (process),\" which is a relief process using the grain end of a wood block."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c0796744-7e9c-4521-9b67-63e22a8ddc57 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "facing"@en;
     skos:scopeNote "The process of covering the front surface of something with new material."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e0c9f3ed-8b17-48bc-9a62-a9c247d022c4 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "agarose gel"@en;
     skos:scopeNote "Gelatinous polysaccharide substance extracted from various species of Rhodophyceae red seaweed, that grow in the Pacific and Indian Oceans and the Japan Sea. Agar contains agarose and agaropectin. It is strongly hydrophilic and can absorb over 20 times its own weight in cold water. Agar dissolves in hot water and forms a stiff, clear jelly upon cooling. However, when agar films are desiccated, they shrink significantly. Most commonly used as a media for culturing bacteria and fungi, agar has also been used for sizing textiles and paper, as an emulsifying agent in foodstuffs, photographs, dental mold materials, cosmetics, and adhesives, to make an experimental synthetic gauzelike fabric in England. Agar is available in dried cakes, coarse granules, long strips, and thin sheets. The primary commercial sources for agar are Japan, New Zealand, Australia, Russia, and the United States. According to legend, agar was first discovered in the mid-17th century in Japan."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b2a7e932-d179-458a-8c00-7ace207a6954 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Rhoplex"@en;
     skos:scopeNote "Acrylic resin emulsion of the Rhom & Haas Company, used in paint, textile finish, and adhesive."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:993c18e0-8fb3-4789-8685-1949406e8edf a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "suede"@en;
     skos:scopeNote "Leather finished by buffing on an emery wheel, usually on the flesh side to produce a napped surface. Distinct from \"rough calf\" which is always finished on the flesh side and not polished with an emery wheel."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:d2a385a1-f525-4b9c-83a4-5849c631c845 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "board edge consolidation"@en;
     skos:scopeNote "Stabilizing degraded or weakened areas by introducing or attaching materials capable of holding them together. The flat surface across the thickness of a board created when a board is cut. To avoid confusion, the word 'edge' should not be used to describe the area around the perimeter of the internal or external surface of a board, which should be described as the border."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8504f8fd-f834-4fb9-8636-e6e0b0bf17bb a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "media consolidation"@en;
     skos:scopeNote "Stabilizing degraded or weakened areas by introducing or attaching materials capable of holding them together."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:63b7ad04-90ad-4410-964e-114429e14897 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "silk"@en;
     skos:scopeNote "Textile made from silk fiber, which is a fiber derived from the cocoon of the silkworm moth"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:fd0dcd79-f862-4a87-93ce-17277abfe83a a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "disbinding"@en;
     skos:scopeNote "The process of removing sections of gathered matter from within a binding with the intention that they stand alone thereafter. Where the gathered matter has been removed from the binding in preparation for rebinding in a different form, use \"pulling (dismantling).\" Where the gathered matter has been collated but never bound, for example a book in sheets, signatures, or gatherings, use \"unbound.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:27a2f7a6-c9ed-42b2-bf1c-d3218ff35709 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "lining removal"@en;
     skos:scopeNote "Pieces of material adhered to the back of a text block prior to casing-in, or used to line the inside of the cover along the spine."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:18738fbd-b109-4b9b-9c90-64e83b194673 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "edge coloring"@en;
     skos:scopeNote "In bookbinding, the process of gilding, coloring, tooling, painting, printing, or other by other means coating or marking one or more edges of a book."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:4fb0f637-22e5-40d7-aada-e40f9f08877d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "amatl"@en;
     skos:scopeNote "Paper made from the bark of the amate, a Central American timber tree."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:4d97c66a-6fea-463c-ad66-d60c0e2f076e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "gold stamping"@en;
     skos:scopeNote "Application of foil to a surface by use of heat and a die, in order to cover or to create a design or printing on the surface."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c16d35e3-d869-46c8-9ab9-f3ba9c18fb39 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "EDTA"@en;
     skos:scopeNote "Strong chelating agent used to sequester and remove metallic salts. A colorless crystalline compound, EDTA is used in medicine as an anticoagulant; stabilizes bleach in detergents; is used in conservation to clean stains from stone."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a9b48f6a-223a-494c-98a0-74c85cd182a6 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "magnesium bicarbonate"@en;
     skos:scopeNote "A water-soluble compound created by bubbling carbon dioxide through a suspension of magnesium carbonate in water. In conservation, magnesium bicarbonate solutions are used for deacidifcation of paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:51a0aac3-9597-4ac2-a387-be99c8a3d038 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "B-72"@en;
     skos:scopeNote "Trademarked commercial name for a synthetic thermal plastic resin that does not embrittle or discolor over time, having a liquid density of 8.3 pounds per gallon, a flash point of 60 degrees Fahrenheit, and a viscosity of 3700-6200 cps. It is widely used in conservation treatments, and in clear and pigmented coatings, aerosols, printing inks, product finishes, and specification lacquers. Formerly called Acryloid B-72 (TM) in the United States."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:84bca2bb-0d13-4d55-884f-4cbb7b78025f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "DMF"@en;
     skos:scopeNote "Colorless, toxic liquid derived from the amide of formic acid. It is used as a solvent for a wide variety of organic and inorganic compounds including most synthetic and natural resins."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:832a6f76-36dc-4521-bd8f-ed5ce99855e3 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "gold"@en;
     skos:scopeNote "Pure metallic element having symbol Au and atomic number 79; a soft, inert, shiny reddish yellow metal that is very malleable and ductile. Gold has been highly valued and found in artifacts dating to before 5000 BCE. Native gold, found in quartz veins (vein gold) and alluvial deposits (placer gold), generally contains some silver and copper. Gold is purified by dissolution in mercury or cyanide solutions, by melting, or by electrodeposition. The purity of commercial gold is expressed in karats which is the number of parts of gold in 24 parts of the alloy. Today gold is primarily used for monetary systems and for jewelery."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:395066d5-d6f1-469b-bd06-08f12a5ec99a a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "laid paper"@en;
     skos:scopeNote "Paper which is characterized by a grid-like variation in thickness apparent in both raking and transmitted light. The grid consists of chain and laid lines. Chain lines are spaced further apart than laid lines. Laid lines are very close together and run perpendicular to the chain lines. True laid paper is hand made, though machine made paper can be given an impression resembling chain and laid lines through use of a dandyroll in manufacturing. The texture of Western papers is created by the closely spaced copper wires of the papermaking mold surface, while the chain lines result from the fine wire stitching that holds the surface flat. The distribution of paper fibers is thinnest where the laid and chain lines intersect."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a7dbe68a-8dfd-4842-aef7-078c093c2455 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ethanol"@en;
     skos:scopeNote "A clear, colorless, Hygroscopic liquid with a pleasant odor. Ethyl alcohol, or ethanol, is primarily used as a Solvent and as an intoxicating beverage. Ethanol forms a binary Azeotrope with water that boils at 78.15C and contains 95.57% ethanol and 4.43% water. The addition of Benzene allows the mixture to be redistilled without the water. Ethyl alcohol is sold in many grades marked as 95%, absolute (100% or anhydrous), denatured, industrial, or listed as proofs (one-half the proof is the percentage of alcohol). In art and conservation, ethanol has been used as a solvent for Shellac and mastic, as a diluent for fixatives, and as a Wetting agent. When used as a solvent for resins, the ethanol must be dry because any moisture will produce a white haze in the varnish film."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:88a92c9d-ef3b-40b1-800f-0ec9b03a83a4 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ethyl acetate"@en;
     skos:scopeNote "A colorless, liquid with a pleasant fruity smell. Ethyl acetate is Hygroscopic and slowly decomposes in the presence of water to form acids. Ethyl acetate is primarily used as a Solvent for Cellulose nitrate, paints, varnishes, lacquers, and airplane dopes. It is also used in the manufacture of photographic films, rayon, synthetic leather, perfumes, and flavorings."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b18016ee-2ad0-492e-8ad3-5c6b73a21318 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "rice starch paste"@en;
     skos:scopeNote "Polysaccharide granules that compose about 70% of the rice kernel. Rice starch is separated from the gluten and fibrous particles by sieving then wash flotation. Rice starch is composed of 17% Amylose. Rice starch paste forms a weaker, but more stable, film than wheat starch paste."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:71f754eb-1ddd-4104-a17d-e7ad7fbda06e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "paperboard"@en;
     skos:scopeNote "Board made entirely of paper by whatever means (laminated, pulp, etc.). The term can be used where the boards of a book are completely covered and the means of their manufacture cannot be identified, but where it is clear that they are made of paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:bde6be40-b2ec-42b3-82cc-4c681ed881fc a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "linen thread"@en;
     skos:scopeNote "The thread usually of linen but also of other fibres used to sew or stitch books."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:881009e9-746c-4878-90bc-e114f873a308 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "silk thread"@en;
     skos:scopeNote "A fine, lustrous natural fiber obtained from the catepillar cocoons of silk moths, such as the domesticated Bombyx mori."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:46ab8e0c-0efa-4e39-8ab9-79bd56c8c58d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "goat parchment"@en;
     skos:scopeNote "A fine, white Parchment made from untanned Goatskin. Skins for vellum typically come from newborn or stillborn animals. Vellum is made by cleaning, dehairing, scraping and stretching the skin until a smooth, thin semitransparent page is obtained. The final smoothing step involves polishing with Pumice or Talc to create a smooth writing surface. Vellum is also made from Calfskin and Sheepskin"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9c4129bf-8ef2-4d0d-b9b6-1c900befefe3 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "handmade Western paper"@en;
     skos:scopeNote "Handmade papers made in the western style on a paper mould consisting of fine wires, arranged in parallel to create a laid paper or woven into a screen to create a wove paper. In the former the laid lines will be clearly visible on both sides in transmitted light and on the mould-side (i.e. the side of the paper that lay against the mould when the paper was formed) in raking light; they may or may not be so easily visible on the felt side, depending on the thickness and density of the paper. In wove papers, the impression will be more clearly visible on the mould- or wire-side of the paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8880ef0c-aeef-4e1d-8689-cd428bb568ff a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "chain"@en;
     skos:scopeNote "The different components which are put together to create chains, including the attachments to both the book and the bookcase."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b93dc32b-d9fd-4439-a66b-e5dd3d596c51 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "alum tawed skin"@en;
     skos:scopeNote "A skin prepared in an aqueous solution of a double salt of aluminium and potassium sulphates."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:04ff4d5a-c298-4d97-af59-cb635604afb8 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Acrysol"@en;
     skos:scopeNote "A registered trademark for a series of acrylic dispersions. An early reference lists Acrysol® resins as solutions of Acryloid® resins (Brady 1971). However, the Acrysol® resins sold currently are milky white emulsions polyacrylic acid mixed with acrylic copolymers or sodium polyacrylate. Neutralization of the emulsion with any basic compound causes it to clarify and thicken. Acrysol® resins are used as thickeners in acrylic paints, coatings, and adhesives as well as fabric sizes. They are also used as emulsifying agents. By themselves, Acrysol® resins dry to a transparent, colorless film that can be slightly brittle and hygroscopic."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9548f170-aec5-4f93-ae4a-2db51d1d71b3 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Butvar resin"@en;
     skos:scopeNote "A registered trademark for a series Polyvinyl butyral resins. Butvars® were first used as the transparent films in the middle of safety glass. They are designed to be transparent, colorless, UV resistant and nonyellowing. In the oxygen free atmosphere of laminated glass, Butvars® age well, but when exposed to UV light in the presence of oxygen, they tend to crosslink and become insoluble. Butvars® come in a wide range of molecular weights. They are used commercially as adhesives, sealants, inks, and coatings to waterproof textiles and wood."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:da8604c5-47af-4010-838e-a7593b208be7 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Ethulose"@en;
     skos:scopeNote "A cellulose ether with both an ethyl and a hydroxyethyl functional group substitution. Ethylhydroxyethyl cellulose (EHEC) has been produced commercially since 1945. It is available as both an organic soluble polymer (EHEC) and as a water-soluble polymer (Modocoll, Ethulose) The nonionic thermoplastic polymer is a white granular solid that is used as an emulsifier, stabilizer, thickener and film former in many types of solutions such as foods, cosmetics and paints. It is also used in silk-screen inks, rotogravure inks and protective coatings for wood, plastic and paper. EHEC is rarely used in conservation. The organic soluble type EHEC is not stable for long-term use (Feller and Wilt 1990). The water soluble type has at least intermediate stability and warrants further testing (Feller and Wilt 1990)."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b3adf4d9-7f27-451c-8e7e-956b762a2def a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Klucel G"@en;
     skos:scopeNote "hydroxypropyl cellulose; Klucel® GF"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:909830c8-7070-40bd-8e67-416514511f36 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Klucel M"@en;
     skos:scopeNote "A registered trademark for a series of hydroxypropyl cellulose (HPC) compounds."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c63b6dff-1653-4bb2-907a-86ba56655ed6 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Lascaux 498"@en;
     skos:scopeNote "A trademark for a thermoplastic acrylic resin composed of a water-based emulsion containing butyl acrylate thickened with methacrylic acid (40% solids). Lascaux Acrylic Adhesive 498 HV can be thinned with water, but once the film is dried it is insoluble in water. The minimum film formation temperature for 498 HV is approximately 5C. A dry film is slightly tacky and can be used as a weak pressure sensitive adhesive or it can be activated to improve adhesion with toluene, alcohol or heat (75C). Lascaux Acrylic Adhesive 498 HV has been used for lining and mounting canvases, paper, wood and plaster."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e079e8a3-3b30-49a3-979d-37859f5d3fc1 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Avanse/Plextol"@en;
     skos:scopeNote "A registered trademark for a milky white aqueous emulsion of ethylacrylate/methyl methacrylate copolymer. Plextol® B-500 is used as a dispersant, thickening agent and sizing agent in inks, paints, adhesives, textiles and papermaking. It has also been cast as a thin film then used as a heat set adhesive for backing paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:4c8d94ad-d82a-4c1e-bd92-b8c349e89167 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "spot testing"@en;
     skos:scopeNote "A small local test using water, solvents, or other materials being considered for use in treatment, which are applied in inconspicuous places on the artifact to determine the possible positive or negative effects on the paper, media, adhesives, etc. present in an artifact."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:d1a1d0ce-6ef4-4998-9f26-846c4e27f520 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "attachment removal"@en;
     skos:scopeNote "An attachment may be actively affecting the object's condition, e.g., causing staining of paper and bleeding of inks. If so, this active damage may continue despite proper environment, and the attachment should be removed as soon as possible to avoid further damage. Tape that has been fairly recently applied may generally be separated from the paper support with mild solvents (i.e., petroleum benzine). If it is left on and allowed to age, more polar solvents which are potentially dangerous to the object may be necessary for removal."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:1848a116-dadd-4998-92e6-116d6eeba6ba a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "mold remediation"@en;
     skos:scopeNote "To maximize the chemical and physical stability of the object during and after remediation technique while minimizing changes in the image, binder, and support from remediation techniques."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e6bd1262-d5b9-4da1-99ee-fb3102b2fe10 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "tape removal"@en;
     skos:scopeNote "The act of removing any material tape with adhesives from an object. Tapes vary from cellophane plastic to fabric and other synthetics, and vary in uses. Removal occurs through various methods, but mainly for the purpose of exhibit, storage, or safety."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:96d08d51-8553-48a5-9fcf-17290dd60b8b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "wooden boards"@en;
     skos:scopeNote "Plank-like wooden boards ranging in thickness from approximately 4 to 20 mm (and occasionally thicker), as opposed to sca'boards which will be found in the range 1 to 3 mm. Thick wooden boards will often be shaped around the edges or across the outer surface and will usually have holes or tunnels drilled in them for the slips of sewing supports and/or endband cores. In the absence of a pre-existing term for these boards, we are describing them simply as wooden boards, and using the term sca'boards to identify the much thinner split boards."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2787cd6b-cd07-47ee-a0cd-dfb9d841bf65 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "graphite"@en;
     skos:scopeNote "Naturally occurring crystalline form of carbon dimorphous with diamond. Graphite has a layered structure that consists of rings of six carbon atoms arranged in widely spaced horizontal sheets, and thus crystallizes in the hexagonal system, in contrast to the same element crystallizing in the octahedral or tetrahedral system as diamond, resulting in very different characteristics in each. Graphite is opaque, soft, greasy to the touch, and iron black to steel gray in color; it occurs as crystals, flakes, scales, veins, bedded masses, or disseminations in metamorphic rocks."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:419818b8-0f71-41ca-ba3d-e3464ebd50e5 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "chalk"@en;
     skos:scopeNote "A fine-grained limestone, or soft, earthy form of calcium carbonate; used chiefly in putty, crayons, paint, rubber products, linoleum, and as a pigment and abrasive."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:773e0a72-8045-4b84-b0e5-12094f53558b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "calcium hydroxide"@en;
     skos:scopeNote "Colorless crystal or soft, white, alkaline powder prepared by reacting calcium oxide (lime) with water in a process called slaking. It is used in paints, dehairing hide, medicines, and in conservation for superficial protective treatments thanks to its conversion into calcium carbonate"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:abf341f9-f5b6-432e-afe4-0bf0602a6e8d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "water"@en;
     skos:scopeNote "A liquid made up of molecules of hydrogen and oxygen (HO2). When pure, it is colorless, tasteless, and odorless. It exists in gaseous, liquid, and solid forms; it is liquid at room temperature. It is the liquid of which seas, lakes, and rivers are composed, and which falls as rain. Water is one of the most plentiful and essential of compounds. It is vital to life, participating in virtually every process that occurs in plants and animals. One of its most important properties is its ability to dissolve many other substances. The versatility of water as a solvent is essential to living organisms. The term \"water\" is typically used to refer to the liquid form of this compound; for the solid or gaseous forms, use \"ice\" or \"water vapor.\""@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:0d84bb4c-2503-4519-b8bd-6679bb5a5e92 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "gelatin"@en;
     skos:scopeNote "A water-soluble, tasteless colloidal form of processed collagen obtained from bones, hooves or skins and used as a dispersing agent, sizing medium, adhesive, or coating for photographic films, and stabilizer for foodstuffs and pharmaceutical preparations."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:5c1a66ed-5594-4120-8453-db9a4506a1bd a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "leather"@en;
     skos:scopeNote "The skin or hide of an animal that has been tanned to render it resistant to putrefication and relatively soft and flexible when dry."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:397b812c-cf26-4c87-991b-58677b4703a0 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "parchment"@en;
     skos:scopeNote "Translucent or opaque material made from calf, sheep, or goat skin which has been limed, dehaired, scraped, and dried under tension to produce a thin, strong material for writing, bookbinding, or other uses. For finer quality calf parchment, use \"vellum.\" The terms parchment and vellum sometimes have been and still are both confused and used interchangeably."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:65edc032-82ae-4808-b449-efa6a228a6ca a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "vellum"@en;
     skos:scopeNote "Fine-quality calf or lamb parchment used for writing, illuminations, or binding books. The terms \"vellum\" and \"parchment\" are sometimes confused and used interchangeably."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:982aee63-6edb-4184-b5fe-f906912aaf11 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "paper"@en;
     skos:scopeNote "Refers generally to all types of thin matted or felted sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal, such as hair, silk or wool, or mineral, such as asbestos, or synthetic. However most paper is made from cellulosic plant fiber, such as from wood pulp, grass, cotton, linen, and straw."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e84e1c09-8e85-498c-9811-9fc712c0a970 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "papyrus"@en;
     skos:scopeNote "A writing material prepared from thin strips of the pith of the papyrus plant laid together, soaked, pressed, and dried."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:d10e4374-db00-49eb-94f8-5033faac762b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "wove paper"@en;
     skos:scopeNote "A paper cast onto a woven screen made from wire mesh or fabric. When examined in transmitted light, wove paper sometimes shows a characteristic weave impression from the screen pattern. Wove paper differs from laid paper as there are no laid lines and chains lines visible in transmitted light"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:adee3da6-556a-441e-9075-420d18efafaf a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "PVA"@en;
     skos:scopeNote "Synthetic resin derived from the polymerization of vinyl acetate. Used primarily as the filming agent in water-based paints, and also as an ingredient in adhesives."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:98b2a250-5e08-4196-806b-f6bb46fdfd82 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "isinglass"@en;
     skos:scopeNote "A gelatin made from the dried swim bladders, or fish sounds, of sturgeon and other fishes."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2dacfb85-947b-4616-8eab-8e041340dec7 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "acrylic paint"@en;
     skos:scopeNote "Paint consisting of pigments or dyes bound in an emulsion of acrylic, which is a colorless, transparent, thermoplastic synthetic resin made by the polymerization of acrylic acid derivatives."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:7d20256f-55f7-4121-83b0-94c71b13fdc0 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "colored pencil"@en;
     skos:scopeNote "Pencils with colored cores made from pigmented wax or other compound materials, rather than graphite."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:7feda159-b858-4508-8c6e-ae76c4109d36 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "lithograph"@en;
     skos:scopeNote "Prints made using the process of lithography, which is a planographic printing process in which a design is deposited on the stone or plate with a greasy substance which will accept ink."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8281d90b-25c7-47cf-84e8-7d2ea8dc6bc7 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "surface cleaning"@en;
     skos:scopeNote "Surface cleaning refers to the removal of dirt, dust, varnish and other debris from the surface of an object. By cleaning, colors may become more vibrant, details may become more clearer and previously unseen aspects of an object may become more visible."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:06a37aa1-5505-4a84-ae13-0dafdd49dcfa a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "washing"@en;
     skos:scopeNote "Cleansing with water or other liquid."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:979ee8f9-f25e-4af7-9b54-b3047cd4e903 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "bleaching"@en;
     skos:scopeNote "The process of whitening or lightening the color of a material by means of oxidation through the use of chemicals or exposure to sunlight."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a96b5a7a-4884-4442-89e8-c5890cd25020 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "inpainting"@en;
     skos:scopeNote "A restoration technique in which areas of loss in the media and in some cases in the support are compensated to provide visual continuity. Various artist's media may be employed"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:4ff5ec0f-b891-42fd-b805-2ea1b2adc04c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "sizing"@en;
     skos:scopeNote "Process by which the surface of a sheet material is smoothed and made less porous in preparation for writing, drawing or printing by the application of a liquid material such as starch or gelatine."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6032dbc7-b830-4ebb-a3af-8f9496bb9912 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "gouache"@en;
     skos:scopeNote "A matte, opaque watercolor paint typically having gum arabic, gum senegal, or dextrin as a binder. Gouache paints differ from watercolor paints, which use transparent pigments. Chalk and other white fillers may be added to some colors. Gouache was used for miniature paintings in the 16th-18th centuries, for decorative paintings on interior walls, and for printing wall paper patterns. Poster paints are an inexpensive version of gouache. The term originally had a different meaning, referring to oil applied on top of tempera painting."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6962c43b-6702-4080-b1fa-706e5215a643 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "wheat starch paste"@en;
     skos:scopeNote "Adhesive made from flour containing 70% starch and 12% gluten. It is clear, and reversible with water."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9427a904-6d88-4b95-b064-86aba33178dd a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "dry cleaning"@en;
     skos:scopeNote "Any of various nonaqueous cleaning methods such as the removal of surface dirt by brushing, using appropriate erasers on paper, or the use of nonaqueous organic solvents on fabrics."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:bdcdeb57-dc47-4058-96c3-cfccea0f735b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "consolidation"@en;
     skos:scopeNote "Stabilizing degraded or weakened areas by introducing or attaching materials capable of holding them together."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6c600be0-dd45-4cdf-befd-230e2e82a11f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "fixing/consolidation"@en;
     skos:scopeNote "Consolidation is defined as the application or (in some cases) the regeneration of binding material to improve cohesion of loose or friable media or substrate and reattach it (if necessary) to its support."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:687ccb00-81d0-479f-9d72-044b91546825 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "flattening"@en;
     skos:scopeNote "Making flat, as in removing wrinkles or folds."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8152ba03-13d3-421d-a0d4-507bbe7ca072 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "humidification"@en;
     skos:scopeNote "The process of raising the level of relative humidity in a closed environment, such as a building or room; use also for the treatment of items by making them moist"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:7ab02df9-5e78-454f-9536-963cac18f688 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "textile"@en;
     skos:scopeNote "Materials produced by weaving, felting, knotting, twining, or otherwise processing natural or synthetic fibers so that they cohere into a form or unit; traditionally excludes fiberboard, paper, papier-mâché, and papyrus, which, though also fiber products, are considered as separate types of material"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:514f52d7-37a1-45a3-8dc6-a6ac9d0aecef a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "blind tooling"@en;
     skos:scopeNote "Tooling, using implements which are usually hand-held and heated, without the addition of gold leaf, silver leaf, or color; often on leather or cloth"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:acb60fc6-53b4-4120-8776-06dcaf06e25f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "gold tooling"@en;
     skos:scopeNote "Tooling using implements that are usually hand-held, heated, and pressed onto gold leaf leaving a pattern in gold on a surface"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c9718ed8-8891-4617-a239-94e5d09c3b45 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "mending"@en;
     skos:scopeNote "Use generally for the process of making relatively minor repairs to an object, as by darning, patching, or joining pieces back together, without replacing large portions of the object. In the context of book and paper conservation, use specifically for repairs that do not involve the replacement of any of the original material."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:af102085-70f2-402c-82e3-1ed349c2d6ec a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "bookcloth"@en;
     skos:scopeNote "Textile material produced for use in covering book bindings, typically woven cotton or linen subjected to processes to stiffen, color, and pattern it and enhance its durability, such as bleaching, dying, sizing, impregnating, glazing, and embossing."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9831d1b6-b363-4a48-8c78-6015a913eddf a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "fore-edge painting"@en;
     skos:scopeNote "A scene painted on the fore edge of a book, either with the edge solid so that the resultant painting is visible with the book closed, or, in the more accepted use of the term, with the edge fanned out so that the painting is not visible with the book closed."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:13d682c4-bf88-4c06-a85f-1456180b6418 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "fills"@en;
     skos:scopeNote "A technique employed to replace a loss. Fills range from an insert of a like and stable paper, a pulp fill, or simply provided by lining. Fills may be considered stabilizing and/or restorative"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:fb04f717-22f2-44b0-94f3-60064276ffef a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "rabbit skin glue"@en;
     skos:scopeNote "Hide glue made from rabbits. Used as a primer for canvases."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:7c11b404-e223-4865-9a47-3697d714bf8a a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "funori"@en;
     skos:scopeNote "A seaweed-derived adhesive similar to agar that is traditionally used by Japanese scroll mounters as a consolidant. In Western conservation, Funori is often used as an adhesive for flaking media. It dries into an extremely smooth matte film, which makes it well suited for adhering fills in very thin paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:83291570-20bb-4f6e-b07d-2946ca5b8e78 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Aquazol"@en;
     skos:scopeNote "Trademarked name for a series of polyoxazoline compounds marketed as high performance water soluble polymers with many applications. In conservation, Aquazol compounds are applied to a wide range of object materials as a consolidant, adhesive, inpainting medium, fill material, and barrier coating."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9b0aabbc-6d71-4e8d-9f61-f14db87a2d4e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "sodium borohydride"@en;
     skos:scopeNote "White, crystalline powder. Sodium borohydride reacts with many compounds as a reducing agent and an antichlor. It was introduced in the 1970s for use as a weak bleach for wood pulp, textile stains, and foxing spots (concentrations 0.01-1%). Sodium borohydride is used industrially as a scavenger for aldehydes, ketones, acids, esters, chlorides, disulfides, and nitriles in organic solutions."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:f8094889-33b5-4f52-a557-7b88e4240985 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "board slotting"@en;
     skos:scopeNote "Art & Architecture Thesaurus Full Record Display (Getty Research) A machine-supported conservation technique developed by Christopher Clarkson for reattaching book boards which have detached due to very thin covering material at the joints, a problem that frequently arises with nineteenth-century books. A milling machine creates a slot in the spine edge of the board, into which a new cloth flange is inserted to form the new attachment."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e9350b60-96e4-488f-9f11-3a2c21079927 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "handmade paper"@en;
     skos:scopeNote "Paper made without the use of industrial machinery. Paper of this type is often provided with a watermark and frequently exhibits a rough or deckled edge as a by-product of its manufacture"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6402063d-6d7c-4679-9016-a5d0b2ba0d58 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "newsprint"@en;
     skos:scopeNote "Inexpensive, low quality paper made from wood pulp, of the type used chiefly for printing newspapers."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:36a8bf21-ec16-4aae-9864-b08a437956c4 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "hide glue"@en;
     skos:scopeNote "Animal glue made from degraded collagen obtained from skin and hide."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c0503f7f-a29d-444c-8a43-9d4480be2a19 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "benzene"@en;
     skos:scopeNote "A clear, colorless, volatile aromatic solvent obtained from the destructive distillation of coal and oil."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:91854a25-68bc-4b94-859c-085bd0b64021 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "toluene"@en;
     skos:scopeNote "Colorless aromatic liquid discovered by Pelletier and Walter, 1837. It is the basis of many chemical compounds in industry. Used in the synthesis of TNT, benzoic acid, saccharin, dyes, photographic chemicals, and pharmaceuticals."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:81ac5b9a-0d45-42b0-af7f-ecf7a597a509 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "xylene"@en;
     skos:scopeNote "A mixture of three isomeric hydrocarbons form commercial xylene; a colorless, flammable, toxic liquid insoluble in water but that may be combined with many organic liquids and is commonly used as a solvent for lacquers and rubber cements. Other forms of xylene are used as solvents, components of aviation fuel, and for dyes, fibers, and films."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:98593cb8-c7c9-4ad1-83d7-0c7e99d4e0d3 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "acetone"@en;
     skos:scopeNote "A colorless, volatile, extremely flammable liquid, miscible with water; obtained as a byproduct of wood distillation or the fermentation of corn mash. Used as a solvent, cleaning fluid, fuel additive, and for dyeing cotton, among other uses."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:dda34106-bb2d-4196-b010-da5bbfa78f8f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "chromolithograph"@en;
     skos:scopeNote "Color lithographs produced commercially in the latter half of the 19th century and later."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:06fedf92-7130-4a78-8cd8-8a6c0c997b51 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "tooling"@en;
     skos:scopeNote "Intentionally leaving the marks of a tool on a surface, especially on leather or stone; produced during the finishing or dressing process."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:082a5a60-5515-4936-80c8-2c3024c9cc6f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "velvet"@en;
     skos:scopeNote "Warp pile weave, typically silk, with a short, soft dense pile produced by a supplementary warp that is raised in loops above the surface of the textile through the introduction of rods during the weaving; the loops may be cut or left uncut."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:73eba084-bb39-4076-9a71-3c83bc2c00bc a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "shagreen"@en;
     skos:scopeNote "Describes a variety of processed animal hides or skins, though generally of a ray fish. Distinguished either by the rough, granular texture on the grain side of the leather or a similar pattern; frequently dyed green."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2d53412d-a88d-49c1-babd-5d37fe5d20c8 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "calcium carbonate"@en;
     skos:scopeNote "A white crystalline powder occurring naturally chiefly as the minerals calcite and aragonite."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:75ca0bfb-f8e5-4342-8bd9-84e406696075 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "leafcasting"@en;
     skos:scopeNote "A technique for repairing paper by which paper pulp is pulled through areas of loss so as to fill the lacunae with freshly cast paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:464c7f88-a488-4590-b06b-85214a103e2c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ammonium hydroxide"@en;
     skos:scopeNote "The hydroxy salt of ammonium ion, formed when ammonia reacts with water molecules in solution. It is an alkaline solution containing around 28.5% ammonia by weight, highly soluble in water. For solutions containing this substance, use \"ammonia water,\" though usage overlaps because ammonium hydroxide always or almost always exists only in solution."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:59520edb-4821-46fb-86ae-63a387f4ad58 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "hydrogen peroxide"@en;
     skos:scopeNote "A colorless, unstable liquid prepared in an aqueous solution for commercial use, employed as a sterilizing, oxidizing and bleaching agent."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:94de5f5a-cf26-4fca-9357-2c66caad02a4 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "calcium phytate"@en;
     skos:scopeNote "Refers to the calcium salt of phytic acid. In conservation, used in a solution to inhibit iron gall corrosion on manuscripts."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a4e867b3-d919-4f4c-832c-fcd526c0061b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "amylase"@en;
     skos:scopeNote "Digestive enzyme that breaks down starch by hydrolysis into its basic sugars. In conservation, used for removal of starch adhesives."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:644a5b9f-e45a-462d-ad07-69941d848419 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "magnesium hydroxide"@en;
     skos:scopeNote "Powdery alkaline compound used in paper pulp manufacture and mass deacidification treatments. Magnesium hydroxide is found in nature as the mineral brucite. It is used medicinally as a laxative and antacid. As a suspension in water it is commonly known as milk of magnesia."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a892b41b-31e4-48ec-bd0e-76079c4be9f0 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Gellan gum"@en;
     skos:scopeNote "Gelatinous, water-soluble polysaccharide substance used as an inexpensive substitute for agar in bacteriological media. In conservation, used in cleaning interventions on works of art on paper. Applications of rigid gelan gum allows a constant and controlled release of water onto paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2b639eae-6578-4b7e-8843-fa36c478dfbb a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Berlin tissue"@en;
     skos:scopeNote "A very thin, matte tissue paper composed of kozo and mitsumata fibers. Its manufacture is based on Japanese principles of hand papermaking, and is a product of Gangolf Ulbricht in Germany. It is most often used for the restoration or conservation of paper objects."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:fb2ece97-36da-4665-ab00-231ff33584c1 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "calcium bicarbonate"@en;
     skos:scopeNote "An aqueous solution of calcium carbonate dissolved in carbonic acid. Calcium bicarbonate has been used as a neutralization and alkalization agent in paper conservation. Chemical formula: Ca(HCO3)2."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:16409fb9-75f8-4c95-8189-a129a07a668b a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "protease"@en;
     skos:scopeNote "Any enzyme that breaks or degrades the long chainlike molecules of proteins into shorter fragments (peptides) and eventually into their components, amino acids."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:32479873-0580-466f-927d-8503c1a1c363 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Western paper"@en;
     skos:scopeNote "Handmade papers made in the western style on a paper mould consisting of fine wires, arranged in parallel to create a laid paper or woven into a screen to create a wove paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:4d85d2ad-6db9-4b12-b7bb-019788aa96d8 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "alkalyzation"@en;
     skos:scopeNote "Alkalization is the term used when an acidic or neutral material is made alkaline. For cellulosic materials a mild alkaline substance, such as calcium carbonate, can be used to neutralize acidic components present in a paper at a pH of 7.0. For alkalization, an excess of alkaline material is added to the paper to raise its pH above 7; the excess material is called an alkaline reserve"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:fae541f0-675f-4957-8e83-64479cdae23c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Cellofas"@en;
     skos:scopeNote "[ICI] A registered trademark for a water-soluble polymer composed of Sodium carboxymethyl cellulose (CMC). Cellofas is used as an adhesive and consolidant"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8bc344e5-637a-469d-ba9c-858031d22862 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "phloroglucinol"@en;
     skos:scopeNote "White to yellowish crystals that are used to detect the presence of mechanical wood pulp in paper. Phloroglucinol test solution contains Hydrochloric acid and ethanol. A drop placed on the paper will turn red when Lignin is present (detection limit is about 5%). Iron will react with phloroglucinol giving a purple product. Once the two-part solution is mixed, it has a shelf life of 2-3 months (TAPPI T401)."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:39ca6403-e95f-4c04-b723-d09db41b32df a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Lascaux 303"@en;
     skos:scopeNote "A trademark for a thermoplastic acrylic resin composed of a water-based dispersion of butyl acrylate and methylmethacrylate thickened with acrylic butylester. The minimum film formation temperature for Lascaux Acrylic Adhesive 360 HV is approximately 0°C. It dries to form a film that is more flexible and elastic than 498HV. The dry film is slightly tacky and can be used as a weak pressure sensitive adhesive or it can be activated to improve adhesion with toluene, alcohol or heat (50-55°C). The emulsion can be thinned with water, but once the film is dried it is insoluble in water. Lascaux 360 HV is used as an adhesive for lining paintings and textiles."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2dbef787-0247-444c-ba31-abc2093976c5 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "heat set tissue"@en;
     skos:scopeNote "A lens tissue especially prepared for use in mending tears in paper, strengthening margins, and for laminating weak or badly torn leaves, by means of dry application rather than by the traditional aqueous application. The tissue is made of pure cellulose consisting of more or less lOO% rag content, no coating or additives, and a pH of 7.0. The tissue is not structurally uniform in texture, consequently there are small random open spaces and some bunching of fibers. Although its thickness is presumed to be approximately 0.0015 inch, this can vary from one batch to another, although it does not normally exceed 0.002 inch. The tissue is coated on one side with an acrylic resin. It is applied to both sides of tears, but to only one side of a weakened leaf, provided that no adhesive is exposed on the other side. The tissue is tipped on the leaf with a warm iron (approximately 100° F.), and then pressed on firmly through terylene or a textured paper. The iron is not pressed directly on the heat-set tissue because this might result in blocking and may also impart a sheen to the tissue, thus making it more noticeable."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:11bd839e-8791-40df-af1f-fefad0efc840 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "parchment size"@en;
     skos:scopeNote "A resizing material made from scraps of parchment. It is prepared by boiling 21 grams of parchment scraps soaked in 2 1/2 liters of water for 45 minutes, or longer if a stronger size is required. It is used at a temperature of 35 to 45° C. for resizing archival papers that have been washed. An alkaline buffering agent is sometimes added to the size to provide an alkaline reserve in the paper."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:ed7578d5-5a77-41a1-a84a-0052aa625edf a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "recase"@en;
     skos:scopeNote "In a strict sense, a text block that is separated from its case, and, following repair to text block and case, is then placed back into the same case, perhaps with new endpapers, or possibly simply with new hinges. In a more general sense, a book is recased when the text block is removed from its original case (usually a publisher's binding) and placed in a new case made specifically for it. The first method might be said to be the work of the hand binder, and the second the work of the library binder. (69 , 94 )"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2ae4e361-0277-4ea9-9e9d-6c93c8431ffd a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "rebinding"@en;
     skos:scopeNote "The more-or-less complete rehabilitation of a worn and/or damaged book, the minimum amount of work involving resewing and the attachment of new covers. For the general steps in rebinding a book, see: BOOKBINDING ."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8c2d0794-04d9-4239-98ea-1cfc9652e161 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "resewing"@en;
     skos:scopeNote "The process of removing a text block from its case or covers, removing the spine lining (if any), old adhesive, as well as the original sewing thread, and then resewing the sections. In conservation bookbinding, \"resewing\" usually implies the same method of sewing as the original; in library binding, however, the term generally implies the substitution of OVERSEWING for edition sewing. (130 )"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:eee3ad7b-96d6-4d3b-8713-89da34d675e0 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "pastel"@en;
     skos:scopeNote "Pastel is a class of fabricated drawing stick produced in a wide, virtually continuous array of colors (a full-palette medium). Pastels consist of finely ground pigments or colorants and fillers mixed with a relatively small amount of binder (typically a carbohydrate, although the amount and type of binder can vary across the range of materials marketed as pastels)."@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e5acbee3-5cc9-45e9-95f3-f568cfee3e9c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "silking removal"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:f4912dff-dd24-423f-8184-8b0ef0af5c20 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "backing removal"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b7001c86-ce04-4e93-a567-9bf556087d9d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "BASF leather dye"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:235d7410-6c0b-4dbb-889d-29bd6b25f4a2 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "bleaching/stain reduction"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:acdcf56d-ce3d-453a-ab8d-f3e9ade40517 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "blotter wash"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:93599195-5f5e-43fa-a4eb-dbdc1b0bf64f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "board reattachment"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:8f0663a9-5c72-413d-9ff1-d9d5967b535e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "cast acrylic"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:97405fb6-ff6a-45c6-b99e-f6ea312e62ed a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "cast pulp paper"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:7241b42e-30da-4202-9751-981a4030aac2 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "chalk pencil"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:ab89c5e7-14f1-4087-b088-ef1a2942f7d9 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "fastener removal"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:cd45caec-edb7-4122-bcb6-c4f83768af21 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "gel washing"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b926fc0b-949a-4538-adf7-5332cd4637cc a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "hinge removal"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:3fe4f860-8f4a-4b82-83fd-8ce109b23794 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "inner joint repair"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:22f4b399-99fc-4f82-bb1e-b662a4315624 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "ink corrosion mending"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:dbea7167-1aad-4895-98fb-126d8cafb17d a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "iron gall ink treatment"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:402b271b-4f66-4ff4-a96e-9f1b27f2d44c a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "leather consolidation"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:02011961-f34a-435e-9dc4-80a8a97d17a8 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "light bleaching"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:12b13832-46e4-4d8c-8517-68270596cd9e a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "machine made Western paper"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:7f341b79-bf8c-40d1-9d5a-5a783b39630a a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "mimeograph ink"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:1fbcc4b8-1591-45e0-9420-c7f2382832c7 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "outer joint repair"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:78f4aeb6-67a5-4e05-96ff-c42defeb36f5 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "previous mend removal"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:b2aedc72-64a2-42d8-a6a1-b5c8c319e9ce a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "readhere lifting covering material"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:5192093b-1af0-466f-8a72-b9cf403980e7 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "rebinding in new binding"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:e328ebd8-3054-4e69-804f-6b4f2a8c5769 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "remoistenable tissue"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:c8759704-e23a-4b83-b88c-8f82af281703 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "removal of attachments"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:6402a5e3-3c23-4c7f-8f78-8248b195d3fc a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "removing guards"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9502e7b6-fd82-4a49-af5f-ee5e4597ee09 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "RK paper"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:984ffa3e-5a78-44ac-af1e-f516b23cd9ce a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "SC6000"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:850c400b-7e42-4b26-a51e-029cb59fd01a a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Tape Removal Formula 1"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:2534d35c-feef-4f46-86ba-1fa36f64d06f a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Tape Removal Formula 2"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:a48a23f4-854b-4125-8723-e0b128386ebe a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "Tape Removal Formula 3"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:9aa18a2e-a598-4912-a304-a24717dd0873 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "typewriter ink"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:0312884b-9cbf-41e8-888d-e37d2dee9558 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "unframing"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:54256749-2e92-4b9f-80be-35269c820ea6 a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "water/ethanol"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
   loc:207d351f-07ce-4490-a477-2d93536fd5ab a skos:Concept;
-    skos:inScheme <https://w3id.org/loc-vocab/>;
+    skos:inScheme <http://w3id.org/loc-vocab/>;
     skos:prefLabel "wooden boards repair"@en;
-    skos:topConceptOf <https://w3id.org/loc-vocab/> .
+    skos:topConceptOf <http://w3id.org/loc-vocab/> .
 }

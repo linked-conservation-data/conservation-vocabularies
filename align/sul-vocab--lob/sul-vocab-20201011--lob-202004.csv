@@ -1,55 +1,55 @@
-"ConceptScheme URI","https://w3id.org/sul-vocab/",,
-"PREFIX","svc","https://w3id.org/sul-vocab/",
-"PREFIX","lob","http://w3id.org/lob/concept/",
-"dc:creator","Stanford Libraries",,
-"dct:rights","https://creativecommons.org/licenses/by/4.0/",,
+ConceptScheme URI,http://w3id.org/sul-vocab/,,
+PREFIX,svc,http://w3id.org/sul-vocab/,
+PREFIX,lob,http://w3id.org/lob/concept/,
+dc:creator,Stanford Libraries,,
+dct:rights,https://creativecommons.org/licenses/by/4.0/,,
 ,,,
-"URI","skos:prefLabel@en","skos:closeMatch","skos:exactMatch"
-"svc:feb220f6-5f92-4660-854d-c01ec3e25a02","sewn all along",,"lob:1196"
-"svc:8ec91991-ff8f-4879-b08f-f9ce9741f960","alum tawed",,"lob:1197"
-"svc:b71db8fa-f790-42c7-b7d5-b4fbc4295074","board edge",,"lob:1217"
-"svc:bec752f3-c694-4e75-b98d-c81ad4e7b019","cover",,"lob:1268"
-"svc:b5bf5adb-306f-4ef2-94b8-1b13a275af3b","double (sewing supports)",,"lob:1292"
-"svc:07b54a60-a43a-41f7-9956-f9f7ca771f8b","hollow tube",,"lob:1392"
-"svc:475ddd15-be19-4c86-8e93-69f6f83235d4","limp binding [limp covers]",,"lob:1423"
-"svc:caa2e47b-640c-4bde-b3cf-c8b8881bcb82","extended full spine (spine linings)",,"lob:1468"
-"svc:1958359c-9810-43cb-b538-2c90c1656fd8","pastedown",,"lob:1493"
-"svc:a572cac4-0520-4863-94bd-27cd51456cd9","pulp board",,"lob:1528"
-"svc:d4eb8b9f-ded5-4194-a890-439f30adffbe","rebacked (rebacking)",,"lob:1536"
-"svc:34fb2e2c-41df-46ab-b484-ab2c2921f915","sewing supports",,"lob:1585"
-"svc:717b9726-095f-43ab-b7e8-5da543fede9a","shoulder",,"lob:1595"
-"svc:1615930c-f631-4f8f-92a1-1734a9479d29","single (sewing supports)",,"lob:1602"
-"svc:8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a","spine linings",,"lob:1619"
-"svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8","extended head and tail (spine linings)",,"lob:1680"
-"svc:da238162-b69b-4bc4-9a3b-0faa6f1aba44","unsupported (sewing)",,"lob:1703"
-"svc:c6bf36b3-1d02-4dee-a232-57f951e0c732","binding",,"lob:2279"
-"svc:7069f2bb-95a5-483f-9a45-14f0ef3a755d","sections (book part)",,"lob:2286"
-"svc:d222fb37-76ee-4f3e-ae8b-66e21e334ee2","spine (bookblock)",,"lob:2352"
-"svc:5bc50df0-363f-44fc-aefc-1de4bd807797","endbands",,"lob:2370"
-"svc:04a9b520-244f-4525-819d-06025295d8b8","Western paper",,"lob:2462"
-"svc:803ccd5f-e13a-4cc9-9c5c-87f9a627001f","supported (sewing)",,"lob:2508"
-"svc:1b301859-6cef-4792-8060-fea38f45c7ed","raised cords",,"lob:2525"
-"svc:32198755-8723-4796-84b6-3716e673ecdb","recessed cords",,"lob:2527"
-"svc:96a3205f-9cb8-43a6-8987-eb2474768922","sewn (endbands)",,"lob:2538"
-"svc:208d093b-8933-40de-8ced-d0b319acf0f4","stuck-on (endbands)",,"lob:2540"
-"svc:b9fd32b8-b856-450d-8a14-5e335be1b943","tapes (sewing support)",,"lob:3068"
-"svc:16d7a2ac-ba36-4690-bc88-2386faf148ab","board attachment",,"lob:3501"
-"svc:bc66ae4b-33ae-4a8e-ad33-5ecabcd08da3","wooden boards",,"lob:3699"
-"svc:4fad558e-76ea-4f8d-b060-2e730932f267","abbreviated sewing",,"lob:3744"
-"svc:42dd68dc-74b9-44a6-a671-1b8fcdd0b170","head",,"lob:3803"
-"svc:304ad147-bb0e-41ba-bdfb-b6b305ac55a6","tail",,"lob:3805"
-"svc:e21a7402-bf06-47f0-a421-1f467929d412","stenciled",,"lob:3986"
-"svc:85079751-ae34-430b-bff0-378b19a8b016","paste board",,"lob:4168"
-"svc:dbc18d9f-643d-4854-9542-df9f8b5b60d1","laced case",,"lob:4392"
-"svc:7dcde99a-3b10-4ddb-9091-85e846892dae","corners",,"lob:4543"
-"svc:c1d8307a-143c-4b3e-b96c-31c93d88276a","covering materials",,"lob:4545"
-"svc:ecfac053-6716-4e23-9599-37d04ca7871c","text area",,"lob:4583"
-"svc:032f6d01-f5d8-4100-a230-c78947997537","dog-ears",,"lob:5642"
-"svc:d0ff8817-9098-449c-b964-51f8a4487e3d","adhesive only (binding)","lob:1190",
-"svc:d29b09b8-f74a-4040-bd46-586324df566b","case paper","lob:1241",
-"svc:3a8df669-feaf-4736-8c58-dae6249cb5d6","full spine (spine linings)","lob:1259",
-"svc:076c78e0-a66d-4864-8baf-d57888a894ca","mill board","lob:1264",
-"svc:3cbfeb17-161d-449c-ab89-cabe8c965de7","full binding","lob:1348",
-"svc:bc0e5c58-aaa5-4e85-8a94-892871b00a9e","head and tail (spine linings)","lob:1479",
-"svc:ccfae07a-8ec5-497b-a39c-ef928d4746fa","scabbard","lob:1559",
-"svc:747d53c1-7759-4ad2-b90c-e1009360acdb","rope board","lob:3822",
+URI,skos:prefLabel@en,skos:closeMatch,skos:exactMatch
+svc:feb220f6-5f92-4660-854d-c01ec3e25a02,sewn all along,,lob:1196
+svc:8ec91991-ff8f-4879-b08f-f9ce9741f960,alum tawed,,lob:1197
+svc:b71db8fa-f790-42c7-b7d5-b4fbc4295074,board edge,,lob:1217
+svc:bec752f3-c694-4e75-b98d-c81ad4e7b019,cover,,lob:1268
+svc:b5bf5adb-306f-4ef2-94b8-1b13a275af3b,double (sewing supports),,lob:1292
+svc:07b54a60-a43a-41f7-9956-f9f7ca771f8b,hollow tube,,lob:1392
+svc:475ddd15-be19-4c86-8e93-69f6f83235d4,limp binding [limp covers],,lob:1423
+svc:caa2e47b-640c-4bde-b3cf-c8b8881bcb82,extended full spine (spine linings),,lob:1468
+svc:1958359c-9810-43cb-b538-2c90c1656fd8,pastedown,,lob:1493
+svc:a572cac4-0520-4863-94bd-27cd51456cd9,pulp board,,lob:1528
+svc:d4eb8b9f-ded5-4194-a890-439f30adffbe,rebacked (rebacking),,lob:1536
+svc:34fb2e2c-41df-46ab-b484-ab2c2921f915,sewing supports,,lob:1585
+svc:717b9726-095f-43ab-b7e8-5da543fede9a,shoulder,,lob:1595
+svc:1615930c-f631-4f8f-92a1-1734a9479d29,single (sewing supports),,lob:1602
+svc:8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a,spine linings,,lob:1619
+svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8,extended head and tail (spine linings),,lob:1680
+svc:da238162-b69b-4bc4-9a3b-0faa6f1aba44,unsupported (sewing),,lob:1703
+svc:c6bf36b3-1d02-4dee-a232-57f951e0c732,binding,,lob:2279
+svc:7069f2bb-95a5-483f-9a45-14f0ef3a755d,sections (book part),,lob:2286
+svc:d222fb37-76ee-4f3e-ae8b-66e21e334ee2,spine (bookblock),,lob:2352
+svc:5bc50df0-363f-44fc-aefc-1de4bd807797,endbands,,lob:2370
+svc:04a9b520-244f-4525-819d-06025295d8b8,Western paper,,lob:2462
+svc:803ccd5f-e13a-4cc9-9c5c-87f9a627001f,supported (sewing),,lob:2508
+svc:1b301859-6cef-4792-8060-fea38f45c7ed,raised cords,,lob:2525
+svc:32198755-8723-4796-84b6-3716e673ecdb,recessed cords,,lob:2527
+svc:96a3205f-9cb8-43a6-8987-eb2474768922,sewn (endbands),,lob:2538
+svc:208d093b-8933-40de-8ced-d0b319acf0f4,stuck-on (endbands),,lob:2540
+svc:b9fd32b8-b856-450d-8a14-5e335be1b943,tapes (sewing support),,lob:3068
+svc:16d7a2ac-ba36-4690-bc88-2386faf148ab,board attachment,,lob:3501
+svc:bc66ae4b-33ae-4a8e-ad33-5ecabcd08da3,wooden boards,,lob:3699
+svc:4fad558e-76ea-4f8d-b060-2e730932f267,abbreviated sewing,,lob:3744
+svc:42dd68dc-74b9-44a6-a671-1b8fcdd0b170,head,,lob:3803
+svc:304ad147-bb0e-41ba-bdfb-b6b305ac55a6,tail,,lob:3805
+svc:e21a7402-bf06-47f0-a421-1f467929d412,stenciled,,lob:3986
+svc:85079751-ae34-430b-bff0-378b19a8b016,paste board,,lob:4168
+svc:dbc18d9f-643d-4854-9542-df9f8b5b60d1,laced case,,lob:4392
+svc:7dcde99a-3b10-4ddb-9091-85e846892dae,corners,,lob:4543
+svc:c1d8307a-143c-4b3e-b96c-31c93d88276a,covering materials,,lob:4545
+svc:ecfac053-6716-4e23-9599-37d04ca7871c,text area,,lob:4583
+svc:032f6d01-f5d8-4100-a230-c78947997537,dog-ears,,lob:5642
+svc:d0ff8817-9098-449c-b964-51f8a4487e3d,adhesive only (binding),lob:1190,
+svc:d29b09b8-f74a-4040-bd46-586324df566b,case paper,lob:1241,
+svc:3a8df669-feaf-4736-8c58-dae6249cb5d6,full spine (spine linings),lob:1259,
+svc:076c78e0-a66d-4864-8baf-d57888a894ca,mill board,lob:1264,
+svc:3cbfeb17-161d-449c-ab89-cabe8c965de7,full binding,lob:1348,
+svc:bc0e5c58-aaa5-4e85-8a94-892871b00a9e,head and tail (spine linings),lob:1479,
+svc:ccfae07a-8ec5-497b-a39c-ef928d4746fa,scabbard,lob:1559,
+svc:747d53c1-7759-4ad2-b90c-e1009360acdb,rope board,lob:3822,

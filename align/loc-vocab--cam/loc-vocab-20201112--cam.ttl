@@ -4,7 +4,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix loc: <https://w3id.org/loc-vocab/> .
+@prefix loc: <http://w3id.org/loc-vocab/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -18,7 +18,7 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/loc-vocab/> a skos:ConceptScheme;
+<http://w3id.org/loc-vocab/> a skos:ConceptScheme;
   dc:creator "Library of Congress"@en;
   dct:rights <https://creativecommons.org/licenses/by/4.0/>;
   skos:hasTopConcept loc:04ff4d5a-c298-4d97-af59-cb635604afb8, loc:39ca6403-e95f-4c04-b723-d09db41b32df,
@@ -33,108 +33,108 @@
 
 loc:04ff4d5a-c298-4d97-af59-cb635604afb8 a skos:Concept;
   skos:closeMatch cam:Acrysol;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Acrysol"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:9548f170-aec5-4f93-ae4a-2db51d1d71b3 a skos:Concept;
   skos:closeMatch cam:Butvar;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Butvar resin"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:88a92c9d-ef3b-40b1-800f-0ec9b03a83a4 a skos:Concept;
   skos:closeMatch cam:Ethyl_acetate;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "ethyl acetate"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:a7dbe68a-8dfd-4842-aef7-078c093c2455 a skos:Concept;
   skos:closeMatch cam:Ethyl_alcohol;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "ethanol"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:da8604c5-47af-4010-838e-a7593b208be7 a skos:Concept;
   skos:closeMatch cam:Ethylhydroxyethyl_cellulose;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Ethulose"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:46ab8e0c-0efa-4e39-8ab9-79bd56c8c58d a skos:Concept;
   skos:closeMatch cam:Goat_vellum;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "goat parchment"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:b3adf4d9-7f27-451c-8e7e-956b762a2def a skos:Concept;
   skos:closeMatch cam:Klucel%C2%AE;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Klucel G"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:909830c8-7070-40bd-8e67-416514511f36 a skos:Concept;
   skos:closeMatch cam:Klucel%C2%AE;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Klucel M"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:c63b6dff-1653-4bb2-907a-86ba56655ed6 a skos:Concept;
   skos:closeMatch cam:Lascaux_Acrylic_Adhesive_498_HV;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Lascaux 498"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:e079e8a3-3b30-49a3-979d-37859f5d3fc1 a skos:Concept;
   skos:closeMatch cam:Plextol%C2%AE_B-500;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Avanse/Plextol"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:b18016ee-2ad0-492e-8ad3-5c6b73a21318 a skos:Concept;
   skos:closeMatch cam:Rice_starch;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "rice starch paste"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:881009e9-746c-4878-90bc-e114f873a308 a skos:Concept;
   skos:closeMatch cam:Silk;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "silk thread"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:4d85d2ad-6db9-4b12-b7bb-019788aa96d8 a skos:Concept;
   skos:exactMatch cam:Alkalization;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "alkalyzation"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:fae541f0-675f-4957-8e83-64479cdae23c a skos:Concept;
   skos:exactMatch cam:Cellofas;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Cellofas"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:39ca6403-e95f-4c04-b723-d09db41b32df a skos:Concept;
   skos:exactMatch cam:Lascaux_Acrylic_Adhesive_360_HV;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Lascaux 303"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:8bc344e5-637a-469d-ba9c-858031d22862 a skos:Concept;
   skos:exactMatch cam:Phloroglucinol;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "phloroglucinol"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:9b0aabbc-6d71-4e8d-9f61-f14db87a2d4e a skos:Concept;
   skos:exactMatch cam:Sodium_borohydride;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "sodium borohydride"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:d10e4374-db00-49eb-94f8-5033faac762b a skos:Concept;
   skos:exactMatch cam:Wove_paper;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "wove paper"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .

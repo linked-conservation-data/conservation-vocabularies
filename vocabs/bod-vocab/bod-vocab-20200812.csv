@@ -1,5 +1,5 @@
-ConceptScheme URI,https://w3id.org/bod-vocab/,,,,
-PREFIX,bvc,https://w3id.org/bod-vocab/,,,
+ConceptScheme URI,http://w3id.org/bod-vocab/,,,,
+PREFIX,bvc,http://w3id.org/bod-vocab/,,,
 dct:title@en,Bodleian pilot vocabulary,,,,
 dct:description@en,Vocabulary compiled for the pilot of LCD2,,,,
 dc:creator,Bodleian Library,,,,

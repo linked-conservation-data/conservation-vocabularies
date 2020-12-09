@@ -1,4 +1,4 @@
-@prefix bvc: <https://w3id.org/bod-vocab/> .
+@prefix bvc: <http://w3id.org/bod-vocab/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -17,7 +17,7 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/bod-vocab/> a skos:ConceptScheme;
+<http://w3id.org/bod-vocab/> a skos:ConceptScheme;
   dc:creator "Bodleian Library"@en;
   dct:description "Vocabulary compiled for the pilot of LCD2"@en;
   dct:rights <https://creativecommons.org/licenses/by/4.0/>;
@@ -46,259 +46,259 @@
     bvc:fe76407c-168a-4527-aaca-5790ea4ac818 .
 
 bvc:78cc9968-a2f2-4fa1-b003-4ed8bb0e11d2 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "machine-made"@en;
   skos:scopeNote "Paper made on a machine that allows pulp to flow onto a moving and vibrating mesh or belt, thus forming a continuous strip that may be dried and pressed before being wound onto a roll for storage. Machine-made paper may exhibit laid lines, chain lines, and watermarks that mimic those of handmade paper."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:41364e21-fe25-412f-b90a-5dc7a9b25962 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "paper"@en;
   skos:scopeNote "Refers generally to all types of thin matted or felted sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal, such as hair, silk or wool, or mineral, such as asbestos, or synthetic. However most paper is made from cellulosic plant fiber, such as from wood pulp, grass, cotton, linen, and straw."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:77f4e34a-635b-4f5c-a104-87fb6f7d8226 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "adhesive"@en;
   skos:scopeNote "A substance, in the form of a liquid, paste, powder, or dry film; used for sticking or adhering one surface to another. A substance capable of holding materials together by a surface attachment."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:441cacde-d938-4a5c-b8a0-32dc87c4fd97 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "aerocotton"@en;
   skos:scopeNote "Woven cotton fabric used for the repair of books and manuscripts, from covering materials to spine linings. Since the 1980s the use of fabrics commonly referred to as ‘aerolinen’, ‘aerocotton’, or ‘airplane linen’ has become widespread. Originally employed in the manufacture of aircraft, it is their flexibility and strength, along with good fold endurance properties and tensile strength that have rendered them valuable to conservators."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:f7fb9c05-d0eb-4414-a9f3-c8d6c04077fe a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "aerolinen"@en;
   skos:scopeNote "Woven linen fabric used for the repair of books and manuscripts, from covering materials to spine linings. Since the 1980s the use of fabrics commonly referred to as ‘aerolinen’, ‘aerocotton’, or ‘airplane linen’ has become widespread. Originally employed in the manufacture of aircraft, it is their flexibility and strength, along with good fold endurance properties and tensile strength that have rendered them valuable to conservators."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:803c2cdd-7d07-462e-9f9d-0ee818717b4c a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "alum tawed leather"@en;
   skos:scopeNote "Treating hides or skins with alum to produce a material with the properties of leather as long as the alum is present; differentiated from \"tanning\" because the process is reversible by washing."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:b4fbacb4-d653-4dc6-b287-726ac4692376 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "animal glue"@en;
   skos:scopeNote "A low-molecular-weight adhesive made from a solution of degraded or denatured collagen in water. The protein content in animal glue is less pure and darker in color than gelatin."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:05daa45e-9219-4219-9053-24a7d1287467 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "bleached beeswax"@en;
   skos:scopeNote "Beeswax, usually dark in color, that is treated by exposure to light and air or with chemicals to remove the color. For beeswax not treated for color uniformity, use \"unbleached beeswax.\""@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:89ff4c9d-d2cb-412e-b156-8df74cda8432 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "braid"@en;
   skos:scopeNote "A narrow trimming made by a variety of techniques such as tablet weaving or braiding. It comes in a variety of fibers and weights, but is heavier than ribbon and flatter than cord."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:8165c584-bcf0-45c5-a171-c1f527b79336 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "buffered water"@en;
   skos:scopeNote "Refers to the use of a buffering agent to stabilize acidity or alkalinity. In the context of conservation, this action is often applied to prevent damage due to acidity."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:6177d6bf-c8fa-41b6-b717-75cb6c747fd2 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "calfskin"@en;
   skos:scopeNote "The skin of a calf, with or without hair left on, prepared for any of various uses such as leather or as parchment."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:076437b8-0325-409b-b7b5-256818382d55 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "cord"@en;
   skos:scopeNote "Long, slender, flexible, roughly cylindrical construction of fibrous material, usually made of several strands twisted together. Cord is typically made from a type of bast fiber such as cotton, jute, flax, ramie, hemp, sisal, olona, gravata, agel, widuri, caraguata, or others."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:fe76407c-168a-4527-aaca-5790ea4ac818 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "cotton"@en;
   skos:scopeNote "Textile made from cotton fiber."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:3ecee74f-1ddc-4653-a972-1e1c316f1175 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "deionised water"@en;
   skos:scopeNote "Water from which dissolved ions have been removed by passing the water through cationic and anionic ion exchange."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:43de7964-817b-43b1-8008-92bfd568cca4 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "EVA"@en;
   skos:scopeNote "A thermoplastic copolymer used to improve adhesion properties of hot-melt and pressure sensitive adhesives, and for conversion coatings."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:fcd7338f-4b1b-4876-89e9-86055ff453d0 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "fish swim bladder"@en;
   skos:scopeNote "Prepared membrane of the swim bladder of fish, usually sturgeon. Used for the repair of parchment."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:0f58dfff-0aa7-4712-a60b-5bd161742124 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "gel"@en;
   skos:scopeNote "Semirigid colloidal system of a liquid in a solid."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:1888fa9e-2aac-47be-9fc4-8e49dba0bf1a a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "gelatine"@en;
   skos:scopeNote "A water-soluble, tasteless colloidal form of processed collagen obtained from bones, hooves or skins and used as a dispersing agent, sizing medium, adhesive, or coating for photographic films, and stabilizer for foodstuffs and pharmaceutical preparations. Is high in molecular weight after processing, as opposed to more vigorously processed collagen which results in animal glue."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:d6105cee-6db6-4408-9ec3-07e16fa5c0db a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "goatskin"@en;
   skos:scopeNote "The skin of a goat; often tanned as a leather and used in the book and garment trades."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:c9b8eede-89d8-449d-8bf1-7faedfeb3daf a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "goldbeater's skin"@en;
   skos:scopeNote "Prepared outside membrane of the large intestine of cattle used primarily to separate individual gold leaves during the final stages of preparing gold leaf. Occasionally used for the repair of skin artifacts and as the moisture-sensitive element in hygrometers."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:5ae8d787-7545-4243-8ce4-93aef92f4241 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "handmade paper"@en;
   skos:scopeNote "Paper made without the use of industrial machinery. Paper of this type is often provided with a watermark and frequently exhibits a rough or deckled edge as a by-product of its manufacture."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:c72cd5af-4638-4043-8703-45be491fdf10 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "IMS"@en;
   skos:scopeNote "Ethyl alcohol which has been rendered unfit for drinking; used as a diluent and cleaner."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:d4b462b5-3a5a-4a0a-bdfa-00f8ac7000df a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "isopropanol"@en;
   skos:scopeNote "Common liquid secondary alcohol, and the first commercial synthetic alcohol. Synthesized by the hydration of propylene. Frequently used as an antiseptic, and in cosmetics. In industry it is used as a solvent and to produce acetone."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:9990c6ba-935e-4f82-8fb1-658eb3cb7620 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "Japanese paper"@en;
   skos:scopeNote "Refers to various types of handmade paper, particularly strong, handmade paper composed of long bast fibers derived from the paper mulberry (Broussonetia papyrifera), the gampi (Wikstroemia canascens) and the mitsumata (Edgeworthia papyrifera). Thin, translucent sheets of Japanese paper are often used as a reinforcing paper and hinges because of their strength, flexibility, and permanence. Specifically for paperlike material made from the pith of the rice paper tree, use \"rice paper.\""@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:1ed00e7f-6900-40c7-8f8a-ab7c197b9b23 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "leather dressing"@en;
   skos:scopeNote "Made in house at the Bodleian to the following recipe:"@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:53116859-2db2-4a1d-96bd-efb998a36714 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "linen"@en;
   skos:scopeNote "General name for textile woven from the spun fiber of the flax plant."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:361e9288-f4cc-4bff-a97e-512aab091013 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "Melinex"@en;
   skos:scopeNote "Melinex is the trademarked name for one in a series of clear polyethylene terephthalate (PET) polyester films produced by DuPont."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:8649df1d-c2fe-4cdb-a01a-bf50d6fb3a1e a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "methyl cellulose"@en;
   skos:scopeNote "Refers to any methylated derivative of cellulose. Methyl cellulose is a white powder that swells in water and is used as a substitute for natural gums, functioning in various commercial contexts as emulsifying, thickening, or sizing agent, lubricant, and suspension aid. In textile and paper conservation, it is used as an adhesive and as a poulticing material for removal of stains."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:2e29cec0-dda1-4c9f-9daf-1e6cacf9d1de a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "parchment"@en;
   skos:scopeNote "Translucent or opaque material made from calf, sheep, or goat skin which has been limed, dehaired, scraped, and dried under tension to produce a thin, strong material for writing, bookbinding, or other uses. For finer quality calf parchment, use \"vellum.\" The terms parchment and vellum sometimes have been and still are both confused and used interchangeably."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:0a2681af-c6a4-4400-a025-b59536f39c29 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "PVA"@en;
   skos:scopeNote "A thermoplastic resin that is soluble or swells in water and can become insoluble in time through crosslinking; used chiefly for emulsifier, adhesive, and film resistant to solvent and abrasion, and in making molded and extruded products, and polyvinyl acetal."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:95078233-341f-438a-afcd-bbc6518c0623 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "rabbit skin glue"@en;
   skos:scopeNote "Hide glue made from rabbits. Used as an adhesive to repair split or broken wood boards."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:1b852865-db93-4805-b8d1-fb9d99e22a92 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "Renaissance micro-crystalline wax"@en;
   skos:scopeNote "[Picreator Renaissance Products] A brand name for a Microcrystalline wax polish. Renaissance wax is composed of a mixture of Cosmolloid 80 hard and BASF A waxes. It has been used to clean and polish Wood, metals, ceramics, Ivory, Marble, and Leather."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:2597c966-1d84-429a-85f2-2baebc2fbf59 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "RO water"@en;
   skos:scopeNote "Movement of molecules of a liquid through a semipermeable membrane from a region of high solute concentration into a less concentrated field; a reversal of normal flow that occurs when hydrostatic pressure exceeds the osmotic pressure."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:b455e9e7-2e0c-43ed-9c10-64dc2cb1c723 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "SC6000 wax emulsion"@en;
   skos:scopeNote "SC6000 is a blend of waxes and an acrylic resin emulsified in aqueous isopropyl alcohol. It was originally developed as a surface coating for commercial shoe leathers. Its use as part of a system for treating bookbinding leathers was first proposed in the early 1980s. Since then it has been used widely by leather and book conservators and bookdbinders. Further work was carried out in 2001 comparing this product with other materials used as surface coating in the leather manufacturing industry. Supplied by the Leather Conservation Centre, Grosvenor Chambers, Grosvenor Centre, Union Street, NN1 2EW, UK. https://www.leatherconservation.org/products/sc6000/"@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:d4bbd777-f95d-4ecd-b9a2-b991598b5e39 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "sheepskin"@en;
   skos:scopeNote "The skin of a sheep, with or without wool left on, prepared for any of various uses such as in garments, as leather or as parchment. The leather made from sheepskin is soft with little grain, and is not particularly durable."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:d16838d3-5b7a-4440-bace-ce299b18b34b a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "size"@en;
   skos:scopeNote "Any of various glutinous materials used for filling the pores in surfaces, as of paper, textile, leather, or plaster."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:1d984362-9583-4857-9ee4-3b65f83e667d a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "tanned leather"@en;
   skos:scopeNote "Raw animal skins converted to leather from treatment with ingredients found in vegetable matter."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:a5aa6db0-e90e-4c00-9de0-31134bb24543 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "tape"@en;
   skos:scopeNote "Narrow strips of closely woven cloth across the back of a book to which the sections are sewn. Distinguished from \"thongs (binding components)\" which are narrow strips of rawhide or processed animal skin that served the same purpose early in the development of flexible sewing, and \"cords (binding components)\" which are twisted strands of fibrous material that replaced thongs by the latter part of the 16th century."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:e02e52b2-2dc0-4b12-b337-9c0aac0610b6 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "thread"@en;
   skos:scopeNote "Single filaments of fiber, groups of such filaments twisted tightly together, or filamentous lengths formed by spinning and twisting short fibers into a continuous strand."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:4fc15b38-9178-49f3-92e6-a9ff374ee752 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "unbleached beeswax"@en;
   skos:scopeNote "Untreated natural beeswax, which is made by bees as a by-product of honey production. For beeswax treated to remove color, use \"bleached beeswax.\""@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:4b7cfe9d-7ea1-4186-a46f-4fabe3bddc5d a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "water"@en;
   skos:scopeNote "A liquid made up of molecules of hydrogen and oxygen (HO2). When pure, it is colorless, tasteless, and odorless. It exists in gaseous, liquid, and solid forms; it is liquid at room temperature. It is the liquid of which seas, lakes, and rivers are composed, and which falls as rain. Water is one of the most plentiful and essential of compounds. It is vital to life, participating in virtually every process that occurs in plants and animals. One of its most important properties is its ability to dissolve many other substances. The versatility of water as a solvent is essential to living organisms. The term \"water\" is typically used to refer to the liquid form of this compound; for the solid or gaseous forms, use \"ice\" or \"water vapor.\""@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:3b45b7ea-383a-4c81-a503-2bb082e924bd a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "wheat flour paste"@en;
   skos:scopeNote "Adhesive made from strong bread flour and water. Primarily used at the Bodleian when covering a binding as it was thought to have more suitable handling properties than wheat starch paste."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .
 
 bvc:9733704a-c855-4d49-9af5-e47856a56e45 a skos:Concept;
-  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:inScheme <http://w3id.org/bod-vocab/>;
   skos:prefLabel "wheat starch paste"@en;
   skos:scopeNote "Adhesive made from flour containing 70% starch and 12% gluten. It is clear, and reversible with water."@en;
-  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+  skos:topConceptOf <http://w3id.org/bod-vocab/> .

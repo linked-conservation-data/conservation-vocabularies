@@ -3,19 +3,19 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix svc: <https://w3id.org/sul-vocab/> .
+@prefix svc: <http://w3id.org/sul-vocab/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/sul-vocab/sul-vocab--cam/20201110> {
+<http://w3id.org/sul-vocab/sul-vocab--cam/20201110> {
 
-  <https://w3id.org/sul-vocab/sul-vocab--cam/20201110> 
+  <http://w3id.org/sul-vocab/sul-vocab--cam/20201110> 
     dct:identifier "sul-vocab-20201110--cam" ;
     dc:creator "Stanford Libraries";
     dc:subject "alignment";
     dct:created "2020-11-10T00:00:00.000+01:00"^^xsd:dateTime ;
     dct:description "Alignment of Stanford vocabulary with CAMEO for the LCD pilot"@en .
 
-  <https://w3id.org/sul-vocab/> a skos:ConceptScheme;
+  <http://w3id.org/sul-vocab/> a skos:ConceptScheme;
     dc:creator "Stanford Libraries";
     dct:rights <https://creativecommons.org/licenses/by/4.0/>;
     skos:hasTopConcept svc:1cc79b6f-01be-42c1-ab55-0c10483b6cc4, svc:73ff1221-2e91-47b0-bb80-31b9b4ac5e53,
@@ -25,43 +25,43 @@
 
   svc:73ff1221-2e91-47b0-bb80-31b9b4ac5e53 a skos:Concept;
     skos:exactMatch cam:Bookkeeper%C2%AE;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "BookKeeper"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a8f4e643-1684-499c-8050-c37642da04a8 a skos:Concept;
     skos:exactMatch cam:Cellugel;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Cellugel (hydroxy propylcellulose; isopropanol)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1cc79b6f-01be-42c1-ab55-0c10483b6cc4 a skos:Concept;
     skos:exactMatch cam:Failure;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "failing"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:77866e40-bb60-4756-99af-56eeca936b8e a skos:Concept;
     skos:exactMatch cam:Klucel%C2%AE;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Klucel-G"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c19405fa-b8e2-4336-a797-01e3625323b0 a skos:Concept;
     skos:exactMatch cam:Renaissance_wax;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Renaissance/microcrystalline wax"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d530ef46-cc1f-40f4-8e22-37c5b0bcfeef a skos:Concept;
     skos:exactMatch cam:Wash;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "wash (coloring type)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fa8e051d-a12f-49a8-a10f-7a3195054ea4 a skos:Concept;
     skos:closeMatch cam:Blotting_paper;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "blotter"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 }

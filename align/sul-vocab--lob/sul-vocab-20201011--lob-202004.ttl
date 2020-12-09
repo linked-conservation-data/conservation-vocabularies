@@ -15,10 +15,10 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
-@prefix svc: <https://w3id.org/sul-vocab/> .
+@prefix svc: <http://w3id.org/sul-vocab/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/sul-vocab/> a skos:ConceptScheme;
+<http://w3id.org/sul-vocab/> a skos:ConceptScheme;
   dc:creator "Stanford Libraries";
   dct:rights <https://creativecommons.org/licenses/by/4.0/>;
   skos:hasTopConcept svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8, svc:032f6d01-f5d8-4100-a230-c78947997537,
@@ -48,288 +48,288 @@
 
 svc:feb220f6-5f92-4660-854d-c01ec3e25a02 a skos:Concept;
   skos:exactMatch lob:1196;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "sewn all along"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:8ec91991-ff8f-4879-b08f-f9ce9741f960 a skos:Concept;
   skos:exactMatch lob:1197;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "alum tawed"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:b71db8fa-f790-42c7-b7d5-b4fbc4295074 a skos:Concept;
   skos:exactMatch lob:1217;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "board edge"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:bec752f3-c694-4e75-b98d-c81ad4e7b019 a skos:Concept;
   skos:exactMatch lob:1268;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "cover"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:b5bf5adb-306f-4ef2-94b8-1b13a275af3b a skos:Concept;
   skos:exactMatch lob:1292;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "double (sewing supports)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:07b54a60-a43a-41f7-9956-f9f7ca771f8b a skos:Concept;
   skos:exactMatch lob:1392;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "hollow tube"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:475ddd15-be19-4c86-8e93-69f6f83235d4 a skos:Concept;
   skos:exactMatch lob:1423;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "limp binding [limp covers]"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:caa2e47b-640c-4bde-b3cf-c8b8881bcb82 a skos:Concept;
   skos:exactMatch lob:1468;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "extended full spine (spine linings)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:1958359c-9810-43cb-b538-2c90c1656fd8 a skos:Concept;
   skos:exactMatch lob:1493;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "pastedown"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:a572cac4-0520-4863-94bd-27cd51456cd9 a skos:Concept;
   skos:exactMatch lob:1528;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "pulp board"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:d4eb8b9f-ded5-4194-a890-439f30adffbe a skos:Concept;
   skos:exactMatch lob:1536;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "rebacked (rebacking)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:34fb2e2c-41df-46ab-b484-ab2c2921f915 a skos:Concept;
   skos:exactMatch lob:1585;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "sewing supports"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:717b9726-095f-43ab-b7e8-5da543fede9a a skos:Concept;
   skos:exactMatch lob:1595;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "shoulder"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:1615930c-f631-4f8f-92a1-1734a9479d29 a skos:Concept;
   skos:exactMatch lob:1602;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "single (sewing supports)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a a skos:Concept;
   skos:exactMatch lob:1619;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "spine linings"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8 a skos:Concept;
   skos:exactMatch lob:1680;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "extended head and tail (spine linings)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:da238162-b69b-4bc4-9a3b-0faa6f1aba44 a skos:Concept;
   skos:exactMatch lob:1703;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "unsupported (sewing)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:c6bf36b3-1d02-4dee-a232-57f951e0c732 a skos:Concept;
   skos:exactMatch lob:2279;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "binding"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:7069f2bb-95a5-483f-9a45-14f0ef3a755d a skos:Concept;
   skos:exactMatch lob:2286;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "sections (book part)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:d222fb37-76ee-4f3e-ae8b-66e21e334ee2 a skos:Concept;
   skos:exactMatch lob:2352;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "spine (bookblock)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:5bc50df0-363f-44fc-aefc-1de4bd807797 a skos:Concept;
   skos:exactMatch lob:2370;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "endbands"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:04a9b520-244f-4525-819d-06025295d8b8 a skos:Concept;
   skos:exactMatch lob:2462;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "Western paper"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:803ccd5f-e13a-4cc9-9c5c-87f9a627001f a skos:Concept;
   skos:exactMatch lob:2508;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "supported (sewing)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:1b301859-6cef-4792-8060-fea38f45c7ed a skos:Concept;
   skos:exactMatch lob:2525;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "raised cords"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:32198755-8723-4796-84b6-3716e673ecdb a skos:Concept;
   skos:exactMatch lob:2527;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "recessed cords"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:96a3205f-9cb8-43a6-8987-eb2474768922 a skos:Concept;
   skos:exactMatch lob:2538;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "sewn (endbands)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:208d093b-8933-40de-8ced-d0b319acf0f4 a skos:Concept;
   skos:exactMatch lob:2540;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "stuck-on (endbands)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:b9fd32b8-b856-450d-8a14-5e335be1b943 a skos:Concept;
   skos:exactMatch lob:3068;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "tapes (sewing support)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:16d7a2ac-ba36-4690-bc88-2386faf148ab a skos:Concept;
   skos:exactMatch lob:3501;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "board attachment"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:bc66ae4b-33ae-4a8e-ad33-5ecabcd08da3 a skos:Concept;
   skos:exactMatch lob:3699;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "wooden boards"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:4fad558e-76ea-4f8d-b060-2e730932f267 a skos:Concept;
   skos:exactMatch lob:3744;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "abbreviated sewing"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:42dd68dc-74b9-44a6-a671-1b8fcdd0b170 a skos:Concept;
   skos:exactMatch lob:3803;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "head"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:304ad147-bb0e-41ba-bdfb-b6b305ac55a6 a skos:Concept;
   skos:exactMatch lob:3805;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "tail"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:e21a7402-bf06-47f0-a421-1f467929d412 a skos:Concept;
   skos:exactMatch lob:3986;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "stenciled"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:85079751-ae34-430b-bff0-378b19a8b016 a skos:Concept;
   skos:exactMatch lob:4168;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "paste board"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:dbc18d9f-643d-4854-9542-df9f8b5b60d1 a skos:Concept;
   skos:exactMatch lob:4392;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "laced case"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:7dcde99a-3b10-4ddb-9091-85e846892dae a skos:Concept;
   skos:exactMatch lob:4543;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "corners"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:c1d8307a-143c-4b3e-b96c-31c93d88276a a skos:Concept;
   skos:exactMatch lob:4545;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "covering materials"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:ecfac053-6716-4e23-9599-37d04ca7871c a skos:Concept;
   skos:exactMatch lob:4583;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "text area"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:032f6d01-f5d8-4100-a230-c78947997537 a skos:Concept;
   skos:exactMatch lob:5642;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "dog-ears"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:d0ff8817-9098-449c-b964-51f8a4487e3d a skos:Concept;
   skos:closeMatch lob:1190;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "adhesive only (binding)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:d29b09b8-f74a-4040-bd46-586324df566b a skos:Concept;
   skos:closeMatch lob:1241;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "case paper"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:3a8df669-feaf-4736-8c58-dae6249cb5d6 a skos:Concept;
   skos:closeMatch lob:1259;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "full spine (spine linings)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:076c78e0-a66d-4864-8baf-d57888a894ca a skos:Concept;
   skos:closeMatch lob:1264;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "mill board"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:3cbfeb17-161d-449c-ab89-cabe8c965de7 a skos:Concept;
   skos:closeMatch lob:1348;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "full binding"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:bc0e5c58-aaa5-4e85-8a94-892871b00a9e a skos:Concept;
   skos:closeMatch lob:1479;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "head and tail (spine linings)"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:ccfae07a-8ec5-497b-a39c-ef928d4746fa a skos:Concept;
   skos:closeMatch lob:1559;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "scabbard"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:747d53c1-7759-4ad2-b90c-e1009360acdb a skos:Concept;
   skos:closeMatch lob:3822;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "rope board"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .

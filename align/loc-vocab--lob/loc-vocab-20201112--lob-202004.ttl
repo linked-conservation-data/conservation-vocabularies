@@ -4,7 +4,7 @@
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix lob: <http://w3id.org/lob/concept/> .
-@prefix loc: <https://w3id.org/loc-vocab/> .
+@prefix loc: <http://w3id.org/loc-vocab/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -18,7 +18,7 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/loc-vocab/> a skos:ConceptScheme;
+<http://w3id.org/loc-vocab/> a skos:ConceptScheme;
   dc:creator "Library of Congress"@en;
   dct:rights <https://creativecommons.org/licenses/by/4.0/>;
   skos:hasTopConcept loc:11b77275-d0a0-4790-ac52-ec10fa7736bb, loc:32479873-0580-466f-927d-8503c1a1c363,
@@ -33,102 +33,102 @@
 
 loc:5a30f6da-467b-4b60-9b0c-67f9aa31c01e a skos:Concept;
   skos:exactMatch lob:1222;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "boards"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:50c84dff-95a7-414e-b5f0-2779182d95e9 a skos:Concept;
   skos:exactMatch lob:1397;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "inner joints"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:ce79bf79-6a53-4c50-84d6-e3a3a2da8090 a skos:Concept;
   skos:exactMatch lob:1585;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "sewing supports"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:58e36a8f-b466-40aa-9df0-96f287468822 a skos:Concept;
   skos:exactMatch lob:2947;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "left"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:939ce072-0eb7-4ef6-aeb7-b698e71f4269 a skos:Concept;
   skos:exactMatch lob:3004;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "right"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:b5942287-d522-4848-8e61-acadf348c119 a skos:Concept;
   skos:exactMatch lob:3256;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "outer joints"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:86c3a9ed-d44e-405d-bf1c-ebcbb91dddd2 a skos:Concept;
   skos:exactMatch lob:3287;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "board attachment components"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:11b77275-d0a0-4790-ac52-ec10fa7736bb a skos:Concept;
   skos:exactMatch lob:4545;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "covering material"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:32479873-0580-466f-927d-8503c1a1c363 a skos:Concept;
   skos:exactMatch lob:2462;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "Western paper"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:96d08d51-8553-48a5-9fcf-17290dd60b8b a skos:Concept;
   skos:exactMatch lob:3699;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "wooden boards"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:8880ef0c-aeef-4e1d-8689-cd428bb568ff a skos:Concept;
   skos:closeMatch lob:3374;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "chain"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:5d916c8f-31fc-48a4-9f3e-2f355f3392f3 a skos:Concept;
   skos:closeMatch lob:1379;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "guarding"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:832a6f76-36dc-4521-bd8f-ed5ce99855e3 a skos:Concept;
   skos:closeMatch lob:2414;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "gold"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:9c4129bf-8ef2-4d0d-b9b6-1c900befefe3 a skos:Concept;
   skos:closeMatch lob:2462;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "handmade Western paper"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:71f754eb-1ddd-4104-a17d-e7ad7fbda06e a skos:Concept;
   skos:closeMatch lob:4168;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "paperboard"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:bde6be40-b2ec-42b3-82cc-4c681ed881fc a skos:Concept;
   skos:closeMatch lob:4533;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "linen thread"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
 
 loc:b93dc32b-d9fd-4439-a66b-e5dd3d596c51 a skos:Concept;
   skos:closeMatch lob:1197;
-  skos:inScheme <https://w3id.org/loc-vocab/>;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
   skos:prefLabel "alum tawed skin"@en;
-  skos:topConceptOf <https://w3id.org/loc-vocab/> .
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .

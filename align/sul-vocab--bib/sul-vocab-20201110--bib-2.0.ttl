@@ -3,10 +3,10 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix svc: <https://w3id.org/sul-vocab/> .
+@prefix svc: <http://w3id.org/sul-vocab/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/sul-vocab/> a skos:ConceptScheme;
+<http://w3id.org/sul-vocab/> a skos:ConceptScheme;
   dc:creator "Stanford Libraries";
   dct:rights <https://creativecommons.org/licenses/by/4.0/>;
   skos:hasTopConcept svc:05615321-9496-4355-b6e9-60a7748f5fbc, svc:1f04c8cc-64c2-4f84-ba77-a6cfbbe6f8a8,
@@ -17,54 +17,54 @@
 
 svc:25877fc0-3453-4fcc-b90b-c2f5c2841a8d a skos:Concept;
   skos:exactMatch bib:Barcode;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "barcode"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:be27ef65-2fc9-4f4a-92d6-7b8233b299a4 a skos:Concept;
   skos:exactMatch bib:date;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "date"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:44f5d3ff-27d7-453c-8dcb-02eddfaeb212 a skos:Concept;
   skos:exactMatch bib:dimensions;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "dimensions"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:6c563cf3-b63b-4043-b6bf-352197eed87c a skos:Concept;
   skos:exactMatch bib:Enumeration;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "enumeration"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:dc110074-ea64-49ca-865c-b866a264d112 a skos:Concept;
   skos:exactMatch bib:Local;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "catkey"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:1f04c8cc-64c2-4f84-ba77-a6cfbbe6f8a8 a skos:Concept;
   skos:exactMatch bib:mainTitle;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "title"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:2b84d6f8-9e8a-4972-8183-e1c8757f750c a skos:Concept;
   skos:exactMatch bib:Note;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "note"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:3fa5ac26-ad6b-4da1-8334-f77a3491fe5b a skos:Concept;
   skos:exactMatch bib:Publication;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "publication"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
 svc:05615321-9496-4355-b6e9-60a7748f5fbc a skos:Concept;
   skos:exactMatch bib:Text;
-  skos:inScheme <https://w3id.org/sul-vocab/>;
+  skos:inScheme <http://w3id.org/sul-vocab/>;
   skos:prefLabel "text"@en;
-  skos:topConceptOf <https://w3id.org/sul-vocab/> .
+  skos:topConceptOf <http://w3id.org/sul-vocab/> .

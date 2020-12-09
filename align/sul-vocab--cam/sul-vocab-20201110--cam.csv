@@ -1,14 +1,14 @@
-"ConceptScheme URI","https://w3id.org/sul-vocab/",,
-"PREFIX","svc","https://w3id.org/sul-vocab/",
-"PREFIX","cam","http://cameo.mfa.org/wiki/",
-"dc:creator","Stanford Libraries",,
-"dct:rights","https://creativecommons.org/licenses/by/4.0/",,
+ConceptScheme URI,http://w3id.org/sul-vocab/,,
+PREFIX,svc,http://w3id.org/sul-vocab/,
+PREFIX,cam,http://cameo.mfa.org/wiki/,
+dc:creator,Stanford Libraries,,
+dct:rights,https://creativecommons.org/licenses/by/4.0/,,
 ,,,
-"URI","skos:prefLabel@en","skos:exactMatch","skos:closeMatch"
-"svc:73ff1221-2e91-47b0-bb80-31b9b4ac5e53","BookKeeper","cam:Bookkeeper%C2%AE",
-"svc:a8f4e643-1684-499c-8050-c37642da04a8","Cellugel (hydroxy propylcellulose; isopropanol)","cam:Cellugel",
-"svc:1cc79b6f-01be-42c1-ab55-0c10483b6cc4","failing","cam:Failure",
-"svc:77866e40-bb60-4756-99af-56eeca936b8e","Klucel-G","cam:Klucel%C2%AE",
-"svc:c19405fa-b8e2-4336-a797-01e3625323b0","Renaissance/microcrystalline wax","cam:Renaissance_wax",
-"svc:d530ef46-cc1f-40f4-8e22-37c5b0bcfeef","wash (coloring type)","cam:Wash",
-"svc:fa8e051d-a12f-49a8-a10f-7a3195054ea4","blotter",,"cam:Blotting_paper"
+URI,skos:prefLabel@en,skos:exactMatch,skos:closeMatch
+svc:73ff1221-2e91-47b0-bb80-31b9b4ac5e53,BookKeeper,cam:Bookkeeper%C2%AE,
+svc:a8f4e643-1684-499c-8050-c37642da04a8,Cellugel (hydroxy propylcellulose; isopropanol),cam:Cellugel,
+svc:1cc79b6f-01be-42c1-ab55-0c10483b6cc4,failing,cam:Failure,
+svc:77866e40-bb60-4756-99af-56eeca936b8e,Klucel-G,cam:Klucel%C2%AE,
+svc:c19405fa-b8e2-4336-a797-01e3625323b0,Renaissance/microcrystalline wax,cam:Renaissance_wax,
+svc:d530ef46-cc1f-40f4-8e22-37c5b0bcfeef,wash (coloring type),cam:Wash,
+svc:fa8e051d-a12f-49a8-a10f-7a3195054ea4,blotter,,cam:Blotting_paper

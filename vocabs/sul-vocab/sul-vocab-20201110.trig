@@ -14,18 +14,18 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
-@prefix svc: <https://w3id.org/sul-vocab/> .
+@prefix svc: <http://w3id.org/sul-vocab/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/sul-vocab/20201110> {
-  <https://w3id.org/sul-vocab/20201110> a <http://rdfs.org/ns/void#Dataset> ;
+<http://w3id.org/sul-vocab/20201110> {
+  <http://w3id.org/sul-vocab/20201110> a <http://rdfs.org/ns/void#Dataset> ;
     owl:versionInfo "20201110" ;
     dct:issued "2020-11-10T00:00:00Z"^^xsd:dateTime ;
     dct:rights <https://creativecommons.org/licenses/by/4.0/> ;
     dc:creator "Stanford Libraries" ;
     dct:created "2020-11-10T00:00:00Z"^^xsd:dateTime .
 
-  <https://w3id.org/sul-vocab/> a skos:ConceptScheme;
+  <http://w3id.org/sul-vocab/> a skos:ConceptScheme;
     dc:creator "Stanford Libraries";
     dct:description "Stanford Libraries vocabulary compiled for the LCD pilot"@en;
     dct:rights <https://creativecommons.org/licenses/by/4.0/>;
@@ -143,1294 +143,1294 @@
       svc:ff021026-2658-4b2c-a22e-400db1d0e429 .
 
   svc:b9446e20-b8fe-4101-81a0-10d9ba4549b1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "video (documentation)"@en;
     skos:scopeNote "Manifestations of motion pictures, stored electronically, in any media."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fa8e051d-a12f-49a8-a10f-7a3195054ea4 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "blotter"@en;
     skos:scopeNote "An absorbent paper used to soak up excess liquids and moisture, especially ink on writing paper. The unsized paper is bulky and porous with very little strength. There is a wide variety of blotting paper available ranging from high grade rag papers to chemical and mechanical pulp papers. Most are acid-free with a neutral pH."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:70dac390-06d8-44e5-a342-14862bcacce0 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "condition"@en;
     skos:scopeNote "Preservation survey (also known as condition survey, conservation needs survey or preservation assessment) is the process of collecting and analyzing data about the physical condition of library materials. Preservation surveys are used by libraries to determine the condition of their collections and identify necessary actions for preserving, conserving or repairing materials. They are most often conducted at research and university libraries."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5c969c5c-9d42-4119-99fc-fc714df2608e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "mold damage"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b3a90756-a866-4043-be31-e71786f95d4c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "PVA"@en;
     skos:scopeNote "Synthetic resin derived from the polymerization of vinyl acetate. Used primarily as the filming agent in water-based paints, and also as an ingredient in adhesives."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f46e7ddf-9323-4962-a966-79d3f6a9292f a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "recto"@en;
     skos:scopeNote "The front or obverse sides of a leaf; the right-hand pages of an open book or manuscript. Thus, refers to the principal side of sheets of paper."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c9c5e34b-0c12-4f15-919c-898a2ca0e41a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "stain"@en;
     skos:scopeNote "Discolorations produced by the penetration of foreign matter into a fabric, wood, or coating. This term designates material damage and is not to be confused with a substance that is used as a protective coating or colorant."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:26a72328-77c2-4af3-b490-78af2e18a301 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "verso"@en;
     skos:scopeNote "The reverse or subordinate sides of leaves or sheets of paper, including the left-hand page of an open book. For the front side of a leaf, use \"rectos.\" Use \"reverses\" for the back, underside, or subordinate surface of coins, medals, seals, or currency notes."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d0ff8817-9098-449c-b964-51f8a4487e3d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "adhesive only (binding)"@en;
     skos:scopeNote "Bindings in which the gatherings are held together by adhesive only, without any form of sewing or stitching."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:acfc5013-3a98-4cef-b7f9-b53d8b0866f9 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "back"@en;
     skos:scopeNote "Use to describe something situated at the part of an object that is opposite to its front or to its most important or useful surface. To refer to these parts themselves, use \"backs (portions)\" from the Components hierarchy."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bfaaba8b-e85a-4e1f-9bd1-4abbc4de975a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "broken"@en;
     skos:scopeNote "Splitting into pieces or smashing into parts or fragments, typically by a blow or stress and with suddenness or violence."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d29b09b8-f74a-4040-bd46-586324df566b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "case paper"@en;
     skos:scopeNote "A thick cover paper made by hand in a single sheet from pulp with very long fibres, and heavily sized with gelatine."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:0e7a96db-97f7-44e8-8b7d-3030a86dfdb1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sewn around first and last sections (technique)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b3eaf2b6-1241-407e-90a3-7732cdf052d9 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "front"@en;
     skos:scopeNote "Positional attribute used to describe something situated at or near the forward or most important part of something. To refer to those parts themselves, use \"fronts\" from the Components hierarchy. For the sense of facing the viewer, as a figure in a picture, use \"frontal.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3cbfeb17-161d-449c-ab89-cabe8c965de7 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "full binding"@en;
     skos:scopeNote "The covering material extends around the spine from fore-edge to fore-edge. A full cover can, but does not always, have turn-ins"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3a8df669-feaf-4736-8c58-dae6249cb5d6 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "full spine (spine linings)"@en;
     skos:scopeNote "Spine linings cut to the width of the spine and which extend from (or close to) the head to the tail of the spine. Such linings were often used on smooth spines created by unsupported sewing or recessed-support sewing, but are occasionally found over raised supports, in which case the lining will be moulded over the supports."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:485f3bec-2d30-4911-b3ee-d0f43761265e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "gouache"@en;
     skos:scopeNote "A matte, opaque watercolor paint typically having gum arabic, gum senegal, or dextrin as a binder. Gouache paints differ from watercolor paints, which use transparent pigments. Chalk and other white fillers may be added to some colors. Gouache was used for miniature paintings in the 16th-18th centuries, for decorative paintings on interior walls, and for printing wall paper patterns. Poster paints are an inexpensive version of gouache. The term originally had a different meaning, referring to oil applied on top of tempera painting."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ff021026-2658-4b2c-a22e-400db1d0e429 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "half binding"@en;
     skos:scopeNote "Bindings in which the spine and the corners of the cover are of one material and the remainder of the sides of another."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bc0e5c58-aaa5-4e85-8a94-892871b00a9e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "head and tail (spine linings)"@en;
     skos:scopeNote "A square or rectangular lining which more or less exactly covers the spine between the joints and two adjacent sewing supports. In the panels at head and tail, the panel linings extend to the end of the spine, though in some sixteenth-century bindings, the panel linings at head and tail were divided into two to expose the change-over station, perhaps with the intention of disguising the bump created by the kettlestitches."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fc52ee3a-cf73-407a-a3ea-430d9ac6fd2e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "leaf attachment"@en;
     skos:scopeNote "The sewing or \"leaf attachment\" of a volume consists of one or more of the techniques used to connect the individual leaves or gatherings (groups of leaves folded together) of the text block to each other. These techniques include: adhesive attachment; guarded leaf attachment; mechanical attachment; sewing; and stitched attachments."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:71c903ed-4b6c-430c-8ffd-a842d3d501f7 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "metal fasteners"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:076c78e0-a66d-4864-8baf-d57888a894ca a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "mill board"@en;
     skos:scopeNote "Couched laminates were made by couching sheets of paper one on top of the other straight from the papermaker's vat, relying on the hydrogen bonds formed between the sheets to hold them together, reinforced by heavy pressing after couching. Because such boards were made in paper mills, they are also known as millboard, though this term has been so generally used of all paper boards in the literature that it has largely lost its specific meaning. Couched-laminate boards made from sheets of a cream- or grey-coloured paper were introduced after adhesive laminates, but are found by the end of the fifteenth century and become more common in all parts of Europe through the sixteenth century. They were used in Britain but not in large quantities until the introduction of couched laminates made from rope-fibre in the last quarter of the seventeenth century, which remained in widespread use in Britain only through to the nineteenth century. The surfaces of the boards may bear the impression of the screens on which they were made, which may have the appearance of a woven screen of varying degrees fineness or coarseness (textile?) or a laid pattern, again of varying qualities. They can often be distinguished from paste laminates where damaged corners are visible. The layers of paper separate leaving fibres attached between and to the separating surfaces, whereas paste laminates tend to break down cleanly into their separate layers."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:747d53c1-7759-4ad2-b90c-e1009360acdb a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "rope board"@en;
     skos:scopeNote "An organic fibre used for making brown wrapping paper and book boards from the late 17th century derived from rope discarded from ships."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ccfae07a-8ec5-497b-a39c-ef928d4746fa a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "scabbard"@en;
     skos:scopeNote "The thin wooden boards, which are only slightly thicker than modern pasteboard, made of oak, maple, or birch wood, and used by bookbinders in Colonial America in lieu of paper boards, principally because of their availability and ease of use. It was used, even after paper became generally available, for the cheaper sort of work well into the 19th century. Scaleboard is not to be compared with the pasteboard of earlier times, which was sometimes very thick"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ab554929-a2eb-4c05-a709-40bb76be7037 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "textblock"@en;
     skos:scopeNote "Those parts of a book consisting of the stack of leaves or gatherings to be bound, exclusive of the materials, such as endpapers or boards, that are added in binding."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:398881b3-f39a-43ed-b379-51acb12a2526 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "vinyl eraser"@en;
     skos:scopeNote "PVC-based erasers, often called vinyl erasers, tend to be white in color, and can be purchased in block or powdered form. Major components are polyvinyl chloride, phthalate plasticizer, and calcium carbonate."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e8173325-216d-49b9-a645-81ea4f49e142 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "paper hinge"@en;
     skos:scopeNote "Method: surface-adhered strips of Japanese paper, running the whole length of the outer joint and the inner hinge. This style of repair was refined as a conservation technique by Don Etherington in the 1980's and is now a common technique used for circulating and special collections."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:25877fc0-3453-4fcc-b90b-c2f5c2841a8d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "barcode"@en;
     skos:scopeNote "Optical machine-readable representation of data relating to the item to which it is attached."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:dc110074-ea64-49ca-865c-b866a264d112 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "catkey"@en;
     skos:scopeNote "Identifier established locally and not a standard number."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:28acc7d7-c73e-4c73-b58a-8626bb9a1878 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "completion"@en;
     skos:scopeNote "The act or process of finishing something as in an architecutral context; completion of a protracted building campaign such as the construction of a cathedral."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8850c675-f1ee-4a0a-84b3-909e5c7340eb a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "conservation"@en;
     skos:scopeNote "The action or process of conserving for the preservation of existence, state, life, health, safeguarding from destructive influences, natural decay, or waste. May apply to conserving a building, object, environment, species, or other thing."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8eb6c1c7-9ff7-4751-a6ff-02d586e96baa a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "conservation technician"@en;
     skos:scopeNote "Practical specialists in the technical details of a subject or occupation."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:62dd227f-a244-4695-b9d1-fad4069718a0 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "conservator"@en;
     skos:scopeNote "People responsible for treatment, preventive care, and research directed toward the long-term safekeeping of cultural and natural heritage. For those engaged in making changes to an object or structure in order to prevent further deterioration, see \"preservationists.\" For those who make changes to an object or structure so as to closely approximate its state at a specific time in its past, see \"restorers.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:eb31cd51-b81b-41b2-b661-bbb085c1119e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "copy"@en;
     skos:scopeNote "Specific specimens of a given written or printed work; may be issued in multiples as an edition."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:be27ef65-2fc9-4f4a-92d6-7b8233b299a4 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "date"@en;
     skos:scopeNote "Date designation associated with a resource or element of description, such as date of title variation; year a degree was awarded; date associated with the publication, printing, distribution, issue, release or production of a resource. May be date typed."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:6c563cf3-b63b-4043-b6bf-352197eed87c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "enumeration"@en;
     skos:scopeNote "Numbering or other enumeration associated with issues or items held."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:2b84d6f8-9e8a-4972-8183-e1c8757f750c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "note"@en;
     skos:scopeNote "Information, usually in textual form, on attributes of a resource or some aspect of a resource."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:42b5a77f-1515-497d-98a0-ee8e926c332b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "photodoc"@en;
     skos:scopeNote "An act of documentation via photography to record the conditon or state of an object or the status of a project. Examples include excavations or art conservation treatments."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3fa5ac26-ad6b-4da1-8334-f77a3491fe5b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "publication"@en;
     skos:scopeNote "Information relating to publication of a resource."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e2e991b4-c766-4053-a69a-c6a0c6930ffd a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "report"@en;
     skos:scopeNote "Official or formal records of a special investigation, in the form of documents containing presentations of facts, proceedings, investigations, or events."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d123dfa2-86b1-49a4-93f0-c8828f206da2 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "short title"@en;
     skos:scopeNote "Titles that describe what a work is of or about. In art cataloging, descriptive titles are intended to adequately describe what the work is or what the iconography depicted in the work represents. In retrieval, it is designed to be used with other information about the work to uniquely distinguish it from other works in the same results list."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1f04c8cc-64c2-4f84-ba77-a6cfbbe6f8a8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "title"@en;
     skos:scopeNote "Title being addressed. Possible title component."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:95545ef7-cbdd-4ed2-a609-dc18f1f231ee a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "unique identifiers"@en;
     skos:scopeNote "Numbers or alphanumeric codes that are not repeated within a given environment and used to unambiguously and uniquely identify an object, record, or data element."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:9086f43b-2e3f-429d-9dc3-961e97b9befd a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "volume"@en;
     skos:scopeNote "Objects comprising sheets of paper, vellum, papyrus, or another material that are bound together. Volumes may include printed books, manuscripts, sketchbooks, or albums. Where the parts of a historical volume have been dispersed, records for the individual sheets may be linked as a historical volume for research purposes. Given that an album contains individual drawings, prints, or other art works that have been mounted, the drawings, etc. in an album may be cataloged as items and linked to the record for the volume. For intact books, manuscripts, and sketchbooks, the illuminations or other parts may be better cataloged as components rather than items. The term may also refer to a separately bound portion or division of a written work or series that is divided into two or more sections, each contained in a separate binding; generally, multiple volumes of the same work or series are of similar dimensions and contained in similar bindings."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:99c4d402-e4aa-4ef7-889f-426fbde37f27 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "acrylics (coloring media)"@en;
     skos:scopeNote "Paint consisting of pigments or dyes bound in an emulsion of acrylic, which is a colorless, transparent, thermoplastic synthetic resin made by the polymerization of acrylic acid derivatives."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e01c1e07-facb-4118-a4c2-8e584b462008 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "adhesion"@en;
     skos:scopeNote "The joining of two surfaces by means of a generally viscous, sticky composition such as an adhesive or through physical or chemical force."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:164fa62c-00c3-472b-8d5e-c70f36d0443e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "adhesive"@en;
     skos:scopeNote "A substance, in the form of a liquid, paste, powder, or dry film; used for sticking or adhering one surface to another. A substance capable of holding materials together by a surface attachment."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:4705ae4f-02e7-4b56-85b3-6376c8418841 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "adhesive tape"@en;
     skos:scopeNote "A tape coated on one side with an adhesive mixture that adheres to a surface through the use of light pressure, as distinguished from tape used with adhesive that requires the addition of moisture or another solvent to adhere. The substrate may be cloth, paper, cellophane, cellulose acetate, or other synthetic polymer. Pressure sensitive tapes were first developed in 1845 by Dr. Horace Day using a natural rubber adhesive on strips of cloth for use in medicine). Automobile manufacturers began using masking tapes in 1925. Cellophane tapes were introduced by 3M in 1930."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:915ae58b-9d7e-4233-8420-9744a2748e0e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "aqueous"@en;
     skos:scopeNote "Use to describe materials, solutions, or treatments that involve water."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f317e042-7bf6-43bd-a313-6e35a1e96aba a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "cloth"@en;
     skos:scopeNote "Generally, textile that is woven, felted, knit, pounded, or otherwise made into a flat piece. For textile in the form of continuous strands made from filaments of fiber by reeling, spinning, twisting, or throwing, see \"yarn.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3d1d4e72-e2d6-4252-ad5d-70a6008055e8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "colored pencil"@en;
     skos:scopeNote "Pencils with colored cores made from pigmented wax or other compound materials, rather than graphite."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e9fefb5c-2ed2-4dfd-aea0-33a782b1f063 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "coloring"@en;
     skos:scopeNote "The process of adding color, or changing or altering the color of something, whether by penetrating or coating it. For the state of having color, use \"colored (perceived attribute).\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:93c99abc-d368-44f3-8d72-93f62d135e69 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "consolidation"@en;
     skos:scopeNote "Stabilizing degraded or weakened areas by introducing or attaching materials capable of holding them together."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:896d1743-8bf7-4f16-923a-bd3c89814500 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "creases"@en;
     skos:scopeNote "Crease(condition): Ridges or grooves produced in flexible materials by, for example, folding or pressure against a hard edge. For the parts of something that fold onto themselves, use \"folds.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:497c616b-f884-4862-8a17-149526757145 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "damage"@en;
     skos:scopeNote "Physical injury to a thing, such as impairs its value or usefulness."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:7a98d0be-2ac6-4582-acf3-db2a2c9a1c7b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "deacidification"@en;
     skos:scopeNote "The removal or reduction of acid content by neutralizing the acidic components in a material, often paper, and providing an alkaline buffer to counteract acidic build-up in the future."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:72539753-592c-4ad3-81c7-c3317039ed3e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "description"@en;
     skos:scopeNote "The activity or function of representing in spoken, written, or signed language the attributes or qualities of something or someone."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d110717b-2a8f-44dd-8180-99e3e645f74d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "detached"@en;
     skos:scopeNote "Refers to objects either that have become separated or disconnected from objects to which they were an integral part, as ticket stubs, or, especially with reference to buildings, that are standing apart with no walls in common with other structures."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:44f5d3ff-27d7-453c-8dcb-02eddfaeb212 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "dimensions"@en;
     skos:scopeNote "Measurements of the carrier or carriers and/or the container of a resource."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1d28c0c0-22b3-4c43-b757-71da04bfc568 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "documentation (activity)"@en;
     skos:scopeNote "The process or function of gathering and recording information, especially to record facts or characteristics or to establish evidence or testimony. For the organizing and controlling of information, use \"information management.\" For the records of information, use \"documents.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:032f6d01-f5d8-4100-a230-c78947997537 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "dog-ears"@en;
     skos:scopeNote "An oversize, unfolded corner in a publication caused when a sheet in a pile of paper having a corner turned under is trimmed in the guillotine. After trimming, the corner of the defective sheet extends beyond the trim size of the sheet when the folded corner is then unfolded. The dog ear is often useful in early books in determining the size of the leaf and the sheet because it reveals the size of the untrimmed leaf. 2. The turned-down corner of a leaf. See: DOG EARED ."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ec33177f-d53e-48c6-bec6-891b1cf73706 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "dry cleaning"@en;
     skos:scopeNote "Any of various nonaqueous cleaning methods such as the removal of surface dirt by brushing, using appropriate erasers on paper, or the use of nonaqueous organic solvents on fabrics."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:18b83ce3-25e7-43ab-8a87-4ebae0163612 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "edge"@en;
     skos:scopeNote "Refers to the narrow surfaces showing the 'thickness' or smallest dimension, as distinguished from the broad surfaces of thin, flat objects. For ornamental areas of distinct pattern, material, color, or shape around the edge or boundary of something, see \"borders (ornament areas).\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1cc79b6f-01be-42c1-ab55-0c10483b6cc4 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "failing"@en;
     skos:scopeNote "The inability of a structure, object, or material to maintain its original or expected properties. Failure may occur by numerous pathways such as collapse, rupture, adhesion loss, color loss, and delamination."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:89eb55de-74bb-4e84-8025-fe27ade76ff6 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "flattening"@en;
     skos:scopeNote "Making flat, as in removing wrinkles or folds."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b905b63a-47d0-43e4-806f-5f5ceb9c4f86 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "handmade paper"@en;
     skos:scopeNote "Paper made without the use of industrial machinery. Paper of this type is often provided with a watermark and frequently exhibits a rough or deckled edge as a by-product of its manufacture"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3b468521-6359-4feb-9039-90965c3b1798 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "(with) heat"@en;
     skos:scopeNote "Energy in the process of transfer between a system and its surroundings as a result of temperature differences."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:602d1a9d-8a26-4ed7-a258-8a5468929758 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "invisible"@en;
     skos:scopeNote "Use to describe things not perceptible by vision under given circumstances. They may become visible under different circumstances, for example through a microscope, by staining, or under different lighting conditions."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:afef1a19-b3c6-4ae1-835f-795a46dcfd27 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "iron-gall ink"@en;
     skos:scopeNote "Drawing material prepared by binding carbon particles in gall extract (from an abnormal growth on oak trees), that when applied to paper darkens by oxidation."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:df2392bd-3259-4778-8011-c4138fd69955 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Japanese paper"@en;
     skos:scopeNote "Refers to various types of handmade paper, particularly strong, handmade paper composed of long bast fibers derived from the paper mulberry (Broussonetia papyrifera), the gampi (Wikstroemia canascens) and the mitsumata (Edgeworthia papyrifera). Thin, translucent sheets of Japanese paper are often used as a reinforcing paper and hinges because of their strength, flexibility, and permanence. Specifically for paperlike material made from the pith of the rice paper tree, use \"rice paper.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:77866e40-bb60-4756-99af-56eeca936b8e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Klucel-G"@en;
     skos:scopeNote "hydroxypropyl cellulose; Klucel® GF"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c5312759-f3a1-49f8-bc49-e4c9fd6d8a91 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "linen"@en;
     skos:scopeNote "General name for textile woven from the spun fiber of the flax plant."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:0eac9923-e892-46c9-b848-d5b83aa533bf a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "linings"@en;
     skos:scopeNote "Layer of material used to line the inner side or surface of something to reinforce or protect it."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:6d3a056b-9a62-407d-9546-cefeb5610faf a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "losses"@en;
     skos:scopeNote "Irreversible or undesirable change to an object's ideal state. A portion of material or element becomes separated from the whole of the object. Typically noticed when there is an empty space, hole, or damage to a formerly present part of the object."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bf37c1a2-1f95-4230-9ea4-74edfadd1927 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "loss filling"@en;
     skos:scopeNote "Inserting material into a hole, crack, or cavity. In the specific context of mosaic conservation, the application of mortar or other material into an area of loss of the mosaic surface."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:0f77e0b1-a75c-4765-9d88-b2fff9ae21b8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "mending"@en;
     skos:scopeNote "Use generally for the process of making relatively minor repairs to an object, as by darning, patching, or joining pieces back together, without replacing large portions of the object. In the context of book and paper conservation, use specifically for repairs that do not involve the replacement of any of the original material."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d6cf45ad-a83b-4a1b-a37f-b027787c2c8d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "methyl cellulose"@en;
     skos:scopeNote "Refers to any methylated derivative of cellulose. Methyl cellulose is a white powder that swells in water and is used as a substitute for natural gums, functioning in various commercial contexts as emulsifying, thickening, or sizing agent, lubricant, and suspension aid. In textile and paper conservation, it is used as an adhesive and as a poulticing material for removal of stains."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:40f83af1-2484-42ea-9beb-7bd4b82c7dba a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "mold (fungus)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a946c0a0-0479-43c8-b59b-211177322895 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "original"@en;
     skos:scopeNote "Source works of art or documents from which copies may be made, or works otherwise distinguished in general from reproductions or other types of copies."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:7275189b-b087-45c0-a06b-59108df18519 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "other"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fc647dde-2a7c-41d9-ba33-d8c3470d1664 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "paper"@en;
     skos:scopeNote "Refers generally to all types of thin matted or felted sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal, such as hair, silk or wool, or mineral, such as asbestos, or synthetic. However most paper is made from cellulosic plant fiber, such as from wood pulp, grass, cotton, linen, and straw."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:deafea86-7599-4ce9-bb21-791c7d920d81 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "parchment"@en;
     skos:scopeNote "Translucent or opaque material made from calf, sheep, or goat skin which has been limed, dehaired, scraped, and dried under tension to produce a thin, strong material for writing, bookbinding, or other uses. For finer quality calf parchment, use \"vellum.\" The terms parchment and vellum sometimes have been and still are both confused and used interchangeably."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f2ffb4ad-8d5e-4e68-8f54-788542b67ef1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "plans"@en;
     skos:scopeNote "Organized and often detailed proposals that lay out strategies and schemes of action for something to be done."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:96ccbc03-1013-4722-a66f-982f9a9e4982 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "poulticing"@en;
     skos:scopeNote "The application of a poultice, which is a substance with a soft, absorbent, or pasty consistency. For cleaning, the poultice is applied to an area in order to draw out a stain or remove other substances in a controlled manner. Poultices are also used in medical applications."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ba36bb81-8115-47b8-883e-f724d035c359 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "reattaching"@en;
     skos:scopeNote "The process of rejoining and fixing a part or parts of a whole that have become detached."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:75d6a99d-50c1-439c-a6b2-ee5d51becfe2 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "removing (treatment action)"@en;
     skos:scopeNote "Taking away or getting rid of something."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5b2d378f-1868-4a12-9974-c52c6e89004d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "size (material)"@en;
     skos:scopeNote "Any of various glutinous materials used for filling the pores in surfaces, as of paper, textile, leather, or plaster."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:06e0a430-31a5-4871-b1cf-7b24cb576353 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "solvent"@en;
     skos:scopeNote "Any material, usually liquid, having the power of dissolving another material."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5b12f159-aafd-4f4c-b6a4-6bcfb47e1429 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "tape removal"@en;
     skos:scopeNote "The act of removing any material tape with adhesives from an object. Tapes vary from cellophane plastic to fabric and other synthetics, and vary in uses. Removal occurs through various methods, but mainly for the purpose of exhibit, storage, or safety."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:306fbedd-34ca-4cf6-85fe-3ba622d0d6d1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "testing"@en;
     skos:scopeNote "Examining and measuring critically the qualities or abilities of something or someone, often with reference to established standards."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:05615321-9496-4355-b6e9-60a7748f5fbc a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "text"@en;
     skos:scopeNote "Resource intended to be perceived visually and understood through the use of language in written or spoken form."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ecfac053-6716-4e23-9599-37d04ca7871c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "text area"@en;
     skos:scopeNote "The area of a page containing the printed, written, or illustrative matter, within the four margins."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a09a4c30-886e-4c2a-afb5-5ea0451cb409 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "tidelines"@en;
     skos:scopeNote "Discolorations appearing as irregular dark lines on paper or board, created by a dried liquid. These lines indicate the limit of liquid migration. The visible lines are dirt transported by the liquid, which is embedded deeply into the paper fibers."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8cdc1588-36fe-4cc1-ab56-c10498bbc69a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "vacuum"@en;
     skos:scopeNote "The use of a vacuum cleaner to clean objects or surfaces by suction."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:36ededb5-3dad-4f46-bc4b-d91f3eaf5a14 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "visible"@en;
     skos:scopeNote "Use to describe things perceptible by vision, usually to the unaided eye, but may be under other circumstances, such as through a microscope."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:dc449fb0-76ee-459a-b1b2-60ea1fe778f0 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "visual inspection"@en;
     skos:scopeNote "Examination with the naked eye, to distinguish from more technical modes of analysis employing tools or apparatus."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f812c24b-1bf9-4767-a2c2-4e4860ae2b5a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "washing (cleaning))"@en;
     skos:scopeNote "Cleansing with water or other liquid."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b57f4a20-b3a6-44d6-a656-e507a3005f2f a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "water damage"@en;
     skos:scopeNote "Damage caused by water. Usage often refers to water damaged library materials and buildings, and includes but is not limited to flood damage."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:6f71c7a3-c6a8-4418-b861-20fa60b24fbb a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "watercolor (material)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:04a9b520-244f-4525-819d-06025295d8b8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Western paper"@en;
     skos:scopeNote "Handmade papers made in the western style on a paper mould consisting of fine wires, arranged in parallel to create a laid paper or woven into a screen to create a wove paper."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:79766733-f798-45ea-8d42-019c8af730f8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "wetting"@en;
     skos:scopeNote "Causing a liquid to spread over a given surface or to penetrate into a given material."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8841624a-f193-4b9d-a224-534fb7459cbb a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "wheat starch paste"@en;
     skos:scopeNote "Adhesive made from flour containing 70% starch and 12% gluten. It is clear, and reversible with water."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:4fad558e-76ea-4f8d-b060-2e730932f267 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "abbreviated sewing"@en;
     skos:scopeNote "A general term that describes sewing techniques which are accelerated by leaving out elements of the process of sewing (e.g. multi-section sewing and by-pass sewing)."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8ec91991-ff8f-4879-b08f-f9ce9741f960 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "alum tawed"@en;
     skos:scopeNote "A skin prepared in an aqueous solution of a double salt of aluminium and potassium sulphates."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b71db8fa-f790-42c7-b7d5-b4fbc4295074 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "board edge"@en;
     skos:scopeNote "The flat surface across the thickness of a board created when a board is cut."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:42dd68dc-74b9-44a6-a671-1b8fcdd0b170 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "head"@en;
     skos:scopeNote "The top of a bound book as placed vertically on a shelf."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:717b9726-095f-43ab-b7e8-5da543fede9a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "shoulder"@en;
     skos:scopeNote "The part of the backed joints on the spine of a book which project beyond the thickness of the rest of the bookblock. They can take a variety of shapes according to how the spine is treated."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:304ad147-bb0e-41ba-bdfb-b6b305ac55a6 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "tail"@en;
     skos:scopeNote "The bottom of a bound book as placed vertically on a shelf."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c6bf36b3-1d02-4dee-a232-57f951e0c732 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "binding"@en;
     skos:scopeNote "The structures and, if present, the covers used to hold together and protect the leaves of a bookblock and which allow them to be opened at the fore-edge"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:9acecc44-d175-4d1e-aabf-7970882efede a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "blind tooling"@en;
     skos:scopeNote "Tooling, using implements which are usually hand-held and heated, without the addition of gold leaf, silver leaf, or color; often on leather or cloth"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:16d7a2ac-ba36-4690-bc88-2386faf148ab a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "board attachment"@en;
     skos:scopeNote "The means by which boards are attached to bookblocks before the covering material is added, which includes the use of spine lining extensions, endleaves and the covering material itself, all of which will contribute to the attachment of the boards to the bookblock."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:25d585d3-336f-4904-bf24-b2ff5f7ce280 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "boards"@en;
     skos:scopeNote "Stiff upper and lower covers of books comprising stiff, thick cardboard or other material, often covered with leather, cloth or another material"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f2e2ea69-8db9-4bad-b771-a72efc5ead8a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "bookcloth"@en;
     skos:scopeNote "Textile material produced for use in covering book bindings, typically woven cotton or linen subjected to processes to stiffen, color, and pattern it and enhance its durability, such as bleaching, dying, sizing, impregnating, glazing, and embossing."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:73ff1221-2e91-47b0-bb80-31b9b4ac5e53 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "BookKeeper"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bfdeca17-1eea-4145-b7e6-dc63bd8c0856 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "calcium hydroxide"@en;
     skos:scopeNote "Colorless crystal or soft, white, alkaline powder prepared by reacting calcium oxide (lime) with water in a process called slaking. It is used in paints, dehairing hide, medicines, and in conservation for superficial protective treatments thanks to its conversion into calcium carbonate"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:7f268558-4748-4e15-8f7e-7ed7123892c0 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "calf skin"@en;
     skos:scopeNote "Leather made of the skin of a calf, used especially for bookbinding"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c9e437f8-1727-4a34-8741-3022225c4267 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "case binding"@en;
     skos:scopeNote "Method of bookbinding in which a hard cover is made wholly separate from the book and later is attached to it by gluing the endpapers to the inside of the boards of the case. Introduced in Great Britain in the 1820s."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a8f4e643-1684-499c-8050-c37642da04a8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Cellugel (hydroxy propylcellulose; isopropanol)"@en;
     skos:scopeNote "[Preservation Solutions, Chicago IL] A brand name for a cellulose ether based mixture sold as a consolidant for leather deteriorated by red rot. Cellugel a mixture of hydroxypropyl cellulose and isopropanol. The solution penetrates leather well and dries quickly without discoloration or surface residues."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:47e3901b-1316-4d34-80be-1ddf4766186b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "cleaning"@en;
     skos:scopeNote "Removing dirt, surface coatings, accretions, discolorations, or other undesired matter from a substrate."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e8b3bf39-2656-4970-9d5c-94eaa2c8c652 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "cords/thongs"@en;
     skos:scopeNote "A material made by twisting together twisted strands of vegetable fibres to provide a material of a thickness suitable for either a sewing support or endband core, the former often being referred to as sewing cords."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:7dcde99a-3b10-4ddb-9091-85e846892dae a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "corners"@en;
     skos:scopeNote "The meeting-place of converging sides or edges of a book, forming an angular extremity or projection."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3e94b2cb-2051-4601-bc2a-0e74ae058600 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "cotton cloth"@en;
     skos:scopeNote "Textile made from cotton fiber"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bec752f3-c694-4e75-b98d-c81ad4e7b019 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "cover"@en;
     skos:scopeNote "There are two types of cover which may typically be found on a book, primary and secondary."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:06a00a3d-293e-4331-8c74-1f0004a80908 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "cover of spine"@en;
     skos:scopeNote "The portions of books' outer covers that enclose and protect the back of the text block, usually the part visible as the books stand on a shelf."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c1d8307a-143c-4b3e-b96c-31c93d88276a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "covering materials"@en;
     skos:scopeNote "The material used as the primary or secondary cover of a binding"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8dc2f1d1-2c59-4541-937a-cdff2e08a975 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "decorative paper"@en;
     skos:scopeNote "Paper decorated by various means, which might include marbling, stencilling, dyeing, or block printing; to be used for endpapers, wallpaper, wrapping objects, or as a ground for printing or calligraphy."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fab56298-7e2a-4275-9e32-be43f343f5f2 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "detached leaves"@en;
     skos:scopeNote "Sheets, typically of paper or vellum, that were formerly parts of manuscripts or other volumes, but have been disconnected, separated, unattached, or otherwise removed from the volume."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e0acf397-1c94-481a-9d65-1b82f95f5830 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "deteriorated (deteriorating)"@en;
     skos:scopeNote "Broadly, the action or process of growing worse or becoming impaired in quality, state, or condition."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b5bf5adb-306f-4ef2-94b8-1b13a275af3b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "double (sewing supports)"@en;
     skos:scopeNote "Sewing supports which consist of two elements of a suitable material (e.g. tanned or alum-tawed skin, cord, etc.) lying side by side across the spine of a bookblock. They are usually sewn by taking the thread between the two elements with straight or linked sewing, but may from the seventeenth century onwards be sewn around as if they were a single sewing support (double sewing support sewn as one), which accelerated the process of sewing whilst preserving the strength of the double slips for the purposes of board attachment."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5bc50df0-363f-44fc-aefc-1de4bd807797 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "endbands"@en;
     skos:scopeNote "Components which are found at the head and tail of the spine of a bookblock, which are either sewn with thread or thongs to the head and/or tail edges of the spine of a bookblock or attached by adhesive only."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e017aabb-ae0d-4634-bcb2-a2c4f9f5dcaa a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "endpapers"@en;
     skos:scopeNote "Endleaves made of paper, often decorated"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:0f7f8b42-0ec8-4104-b7cb-36a50a0eed18 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "extended linings"@en;
     skos:scopeNote "aat definition for flange fits"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:caa2e47b-640c-4bde-b3cf-c8b8881bcb82 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "extended full spine (spine linings)"@en;
     skos:scopeNote "The lining is cut to the height of, but wider than, the spine, thus creating a lining extension on each side which can be adhered to the board or cover. If the extensions are to be placed against the insides of the boards, the lining extensions will have to be either pierced or split at each sewing support to allow the slips to remain on the outside of the board. Overall linings with the extensions adhered to the outside of the board are a typical of Greek-style and Islamic bindings."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:00948a1a-13cd-4748-a7c6-4b0186ec79b8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "extended head and tail (spine linings)"@en;
     skos:scopeNote "A strip of sheet material usually placed across the panel formed between two sewing stations, and occasionally over an individual sewing support, and which extends beyond on both sides the width of the spine, to form lining extensions at each end. Panel transverse linings are almost always found only on bindings with raised sewing supports, with one lining to each panel, whereas sewing support transverse linings will only be found on bindings with recessed sewing supports. On some bindings with widely-spaced sewing supports they can be found used in pairs in which case each should be described separately as they may be made from different materials. The panel transverse lining is one of the most common types of spine lining, and was used in all European countries from the fifteenth to the eighteenth century, though it was much less commonly used in France and Britain than elsewhere, even allowing for a general reluctance in Britain to use spine linings at all. There is a marked difference in the height of the linings within the panels formed by the sewing supports between northern and southern Europe. South of the Alps and in Spain, the linings will generally fill the entire height of the panels in which they are found (full-height transverse spine linings), whereas in Germany and the Low Countries, they are more likely to be much narrower, often filling less than 50% of the height of the panel (narrow transverse spine linings)."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:552fb840-468a-4c02-9efe-d46d8a4bcb73 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "goat skin"@en;
     skos:scopeNote "The skin of a goat; often tanned as a leather and used in the book and garment trades"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:70967813-c6be-4519-b284-99108cca249a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "gold tooling"@en;
     skos:scopeNote "Tooling using implements that are usually hand-held, heated, and pressed onto gold leaf leaving a pattern in gold on a surface"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d5b5ebec-3c9d-4f97-81b0-eb030570dd15 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "guard"@en;
     skos:scopeNote "Strips of paper or cloth, bound in a book and used to attach leaves or plates, or used to repair or reinforce the folds of gatherings"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b2540530-85f9-4f75-84ea-f115ab4932ec a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "hinge/joint extensions"@en;
     skos:scopeNote "aat definition for flange fits"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:67207703-5fac-41f4-8850-5226600123fc a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "hinges (book part)"@en;
     skos:scopeNote "Flexible pieces of cloth, paper, or other material joining two separate parts and allowing a swinging motion of one or both of the members along a single axis."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:07b54a60-a43a-41f7-9956-f9f7ca771f8b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "hollow tube"@en;
     skos:scopeNote "A strip of strong paper cut to the height of the boards and folded parallel to the spine in such a way as to create a hollow space between the layers"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8d7a1071-075a-4903-95cf-61d2c2307575 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "joints"@en;
     skos:scopeNote "The apparatus used or the manner of joining two or more parts of an object or structure. In bookbinding, the term describes the flexing exterior junctions of the spine and covers of a book."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f9b70808-1b35-46c3-bbc6-356a1ed3d8f6 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "kettlestitch"@en;
     skos:scopeNote "Refers to linked stitches, often chain stitches, made by hand at the head and tail of a text block, joining each gathering to the one next to it."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d0f801a4-56a7-47a1-956c-c4e64324c02b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "labels"@en;
     skos:scopeNote "Pieces of paper, leather, fabric, or small tablets inscribed and affixed to something for identification or description. In the context of bookbinding, refers specifically to paper or other material separate from that used to cover a book, on which the author's name and the title are printed or engraved and glued to the spine or front board. For larger, more public identifying notices, use \"identification signs.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:dbc18d9f-643d-4854-9542-df9f8b5b60d1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "laced case"@en;
     skos:scopeNote "Case-type covers which are attached to a sewn bookblock by means of the sewing supports and/or endband core slips only."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:43431a4e-805d-4d9c-bbeb-0cb09e1ffe77 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "laced-in (endbands)"@en;
     skos:scopeNote "The process of attaching boards to a text block by passing the bands or cords on which the text block is sewn through holes cut into the boards"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:117b52bb-c7b2-4a30-9436-2537bd95c4e2 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "laced-in boards (lacing-in)"@en;
     skos:scopeNote "Spines that have been given backing joints either by lacing boards on tightly and closing them or with a backing hammer."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:0b4585f5-b40f-4dc7-815e-f04138231528 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "leather"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f1861071-f142-45e7-af72-82ebea4deaf1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "leaves"@en;
     skos:scopeNote "A leaf is a single sheet of paper or parchment, recto and verso, making two pages of a book; the basic bibliographical unit of a book."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fb4eac08-0449-4ad8-8871-405b1bb75655 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "lifted"@en;
     skos:scopeNote "Dividing a whole object or aggragate of objects or object components into constituent parts. For the removal of an object or object components from physical contact with another, see \"detachment.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:475ddd15-be19-4c86-8e93-69f6f83235d4 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "limp binding [limp covers]"@en;
     skos:scopeNote "A full cover without boards can be described as limp. According to the cover material used, the cover will therefore be more or less flexible. Bindings with covers over thin, flexible boards or cover linings are sometimes referred to as semi-limp, a term which is often confused with limp and probably for that reason better avoided. The term 'limp' should therefore be used in conjunction with the appropriate term for the type of cover (i.e. limp laced-case, etc.)."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:20d3b60f-7c31-4be8-8ecb-6df87c330ace a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "marbled"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:4f6f6c56-0bf3-4946-9cb8-0a83052be922 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "missing leaves"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5eaa7857-cde6-4480-97a1-82f14b367240 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "original binding"@en;
     skos:scopeNote "The binding of a book which has been bound only once, or, in edition binding, the earliest of several bindings used for a particular edition of a book."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:85079751-ae34-430b-bff0-378b19a8b016 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "paste board"@en;
     skos:scopeNote "Board made entirely of paper by whatever means (laminated, pulp, etc.). The term can be used where the boards of a book are completely covered and the means of their manufacture cannot be identified, but where it is clear that they are made of paper."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:9fdf9a9a-7b40-4668-ade3-e3af487e9973 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "paste paper"@en;
     skos:scopeNote "Paste paper is made by brushing or stippling one or more viscous colours (such as coloured starch paste) onto a sheet of paper to create decorative patterns. These range from simple straight, parallel lines to elaborate manipulations of the paste on the surface of the paper."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1958359c-9810-43cb-b538-2c90c1656fd8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "pastedown"@en;
     skos:scopeNote "Endleaves that are adhered to the inside of a cover or to the boards after a book is covered, even though this may be no more than the outer element of a guard or an outside-hook endleaf. The fact that an endleaf is used as a pastedown does not alter its identification within an endleaf format. It is simply an additional function added to that element or elements. Pastedowns must by definition be made towards the end of the binding process, after covering, but if an endleaf element was adhered to the inside of the boards before the book was covered, these should be described either under primary board attachment or as board stabilisers and not as pastedowns. Pastedowns are also known as board sheets (C. Clarkson)."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d80937d9-f26d-490b-ac96-a97899e2a85b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "pigskin"@en;
     skos:scopeNote "Use generally for the skin of the domestic pig. Use specifically for leather made from such skin, usually vegetable-tanned and having a characteristic grain pattern produced by the hair follicles which form roughly triangular groups of three."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b00b03db-a498-4627-b863-b892abcbbe05 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "powdery (leather condition state)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ccd4166e-f62f-4cb7-b800-b65631159a52 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "previously repaired"@en;
     skos:scopeNote "AAT term 'previous intervention': Past restoration, preservation, or conservation process, especially as it affects present condition and appearance of artifacts and their future treatment."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a572cac4-0520-4863-94bd-27cd51456cd9 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "pulp board"@en;
     skos:scopeNote "A board material made in single thick sheets from coarsely pulped paper, typically acquired from the trimmings from the cut edges of bookblocks, waste printed or manuscript paper, etc. When it breaks down at broken corners, it will not divide into layers but into very uneven flake-like fragments of paper. Pulp boards were made in a variety of thicknesses, and thinner boards were often laminated together with an adhesive to build up the thickness for larger books."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a0c86bb0-0496-4ecb-8c82-4a7ed6e720ab a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "quarter binding"@en;
     skos:scopeNote "Bindings in which the spine is of a material different from that of the sides of the book cover and the spine material extends up to one-eighth of the width of the boards."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1b301859-6cef-4792-8060-fea38f45c7ed a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "raised cords"@en;
     skos:scopeNote "Sewing supports that are placed on the surface of the spine of a bookblock and to which the gatherings are sewn"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d4eb8b9f-ded5-4194-a890-439f30adffbe a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "rebacked (rebacking)"@en;
     skos:scopeNote "A very common repair to bindings, often where the boards have become detached, in which the original spine covering is lifted to be replaced by a new covering material which extends under the original covering along the back edges of the boards"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:32198755-8723-4796-84b6-3716e673ecdb a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "recessed cords"@en;
     skos:scopeNote "Sewing supports that are placed in recesses cut across the spine of a bookblock and to which the gatherings are sewn"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c19405fa-b8e2-4336-a797-01e3625323b0 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Renaissance/microcrystalline wax"@en;
     skos:scopeNote "A brand name for a microcrystalline wax polish. Renaissance wax is composed of a mixture of Cosmolloid 80 hard and BASF A waxes. It has been used to clean and polish wood, metals, ceramics, ivory, marble, and leather."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5373a19a-99ba-4c2f-bd0f-24dae9323d8e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "repairing"@en;
     skos:scopeNote "Restoring to a whole by replacing a part or putting together what is torn or broken, or otherwise restoring to sound condition."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:335b6bf3-35c0-463a-87c1-94cc4d5fcabe a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "resewing"@en;
     skos:scopeNote "The process of removing a text block from its case or covers, removing the spine lining (if any), old adhesive, as well as the original sewing thread, and then resewing the sections. In conservation bookbinding, \"resewing\" usually implies the same method of sewing as the original; in library binding, however, the term generally implies the substitution ofOVERSEWING for edition sewing. (130 )"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:7069f2bb-95a5-483f-9a45-14f0ef3a755d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sections (book part)"@en;
     skos:scopeNote "A group of folded or single leaves which can be used either singly or with other gatherings to create a textblock."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f1bbda1e-9230-408b-b300-89b0f785e9e1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sewing"@en;
     skos:scopeNote "In the context of bookbinding, the joining of leaves or gatherings together one by one by drawing thread or wire backwards and forwards through the back folds of each sheet to attach it to the cords. It is distinct from \"stitching,\" which, in the context of bookbinding, is used for fastening together a number of leaves or gatherings by passing the thread or wire through all of them at once."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:34fb2e2c-41df-46ab-b484-ab2c2921f915 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sewing supports"@en;
     skos:scopeNote "Components placed across the spine of a bookblock to or through which the individual gatherings are sewn with thread."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:96a3205f-9cb8-43a6-8987-eb2474768922 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sewn (endbands)"@en;
     skos:scopeNote "Endbands secured to the bookblock by tiedowns of sewing thread taken down into the gatherings, which may or may not include a core, but are always worked separately from the main sewing of the bookblock."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:feb220f6-5f92-4660-854d-c01ec3e25a02 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sewn all along"@en;
     skos:scopeNote "The sewing thread uses all the sewing stations along the spine-fold of a gathering, either to secure the gathering to sewing supports, create an unsupported or a change-over station, leaving a length of thread in the inner fold of the central bifolium in the spaces between each of the sewing stations, and does not leave any gaps between the lengths of thread."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8fa5e512-d49a-4cca-bb59-871d8ea00afd a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sheepskin"@en;
     skos:scopeNote "The skin of a sheep, with or without wool left on, prepared for any of various uses such as in garments, as leather or as parchment. The leather made from sheepskin is soft with little grain, and is not particularly durable"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1615930c-f631-4f8f-92a1-1734a9479d29 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "single (sewing supports)"@en;
     skos:scopeNote "A wound support which has only a single element."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:fe14911b-d7c7-44ab-bf4b-ca28121615bf a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "soft"@en;
     skos:scopeNote "The action of making a substance more physically soft or pliable; to lessen hardness or rigidity. This may refer to applications of softening agents or processes in treatment of materials such as leather or parchment to increase softness, smoothness, or plasticity."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8dfc9cb0-1522-44aa-9c43-9bae7b8f5d4a a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "spine linings"@en;
     skos:scopeNote "Pieces of sheet material placed on the spine, and either adhered to it or held in place without adhesive on the spine either by attachment to the boards or the endbands"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:38b8af19-0c33-4680-9e86-88de743615c3 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "split (condition state)"@en;
     skos:scopeNote "tearing: Creating separations in a flexible material by pulling or wrenching part from part."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1acc52a5-49e4-4b48-a2d1-9e825c77632f a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sprinkled calf"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:dba6e6e8-5ada-45aa-82e8-fef0e8a649ec a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "stab sewing"@en;
     skos:scopeNote "Method for bookbinding in which the entire thickness of the text block is sewn through with thread near the folds of the gatherings."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:40088169-31a6-4cb7-9786-5ee13458a85c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "stamping"@en;
     skos:scopeNote "Marking the surface of an object by applying pressure with a tool, for example, transferring an ink mark to paper or embossing soft clay; also, applying preprinted labels such as postage stamps that substitute for official stamped marks. In bookbinding, distinguished from \"blocking\", in which pressure is applied by a machine"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:e21a7402-bf06-47f0-a421-1f467929d412 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "stenciled"@en;
     skos:scopeNote "Paper decorated by cutting a design out of a thin yet durable piece of sheet material, such as thin paper board, paper or parchment, and dabbing, pouncing, sprinkling, or rubbing a colour through the openings (cut-out stencil)."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:208d093b-8933-40de-8ced-d0b319acf0f4 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "stuck-on (endbands)"@en;
     skos:scopeNote "Endbands that are attached to the spine of the bookblock by means of adhesive only."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:803ccd5f-e13a-4cc9-9c5c-87f9a627001f a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "supported (sewing)"@en;
     skos:scopeNote "Structures in which gatherings are sewn through the fold to either sewing supports or pierced sewing supports, as opposed to unsupported sewing structures that do not have any type of sewing support."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b9fd32b8-b856-450d-8a14-5e335be1b943 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "tapes (sewing support)"@en;
     skos:scopeNote "As used on bookbindings, narrow, flexible strips of textile or thin animal skin such as parchment, used most often as sewing supports"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:f1f80f56-7223-43c6-b307-cb77d86ad9fc a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "tipped (tipping in)"@en;
     skos:scopeNote "The process of inserting a single leaf, errata slip, or illustration into a book with a narrow edge of paste that binds it to the following page."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:514ffbf8-7a5f-40f5-ae91-de56cf02d608 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "torn (tearing)"@en;
     skos:scopeNote "Creating separations in a flexible material by pulling or wrenching part from part."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:da238162-b69b-4bc4-9a3b-0faa6f1aba44 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "unsupported (sewing)"@en;
     skos:scopeNote "A sewn structure in which the gatherings are not sewn to sewing supports, but are held together by thread only which passes from one gathering to the next."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:12b65c7a-4c5b-49b8-ad0a-630d925d8ff8 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "vellum"@en;
     skos:scopeNote "Fine-quality calf or lamb parchment used for writing, illuminations, or binding books. The terms \"vellum\" and \"parchment\" are sometimes confused and used interchangeably."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d530ef46-cc1f-40f4-8e22-37c5b0bcfeef a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "wash (coloring type)"@en;
     skos:scopeNote "A dilute or thin coat of a paint applied over a large area."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bc66ae4b-33ae-4a8e-ad33-5ecabcd08da3 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "wooden boards"@en;
     skos:scopeNote "Plank-like wooden boards ranging in thickness from approximately 4 to 20 mm (and occasionally thicker), as opposed to sca'boards which will be found in the range 1 to 3 mm. Thick wooden boards will often be shaped around the edges or across the outer surface and will usually have holes or tunnels drilled in them for the slips of sewing supports and/or endband cores. In the absence of a pre-existing term for these boards, we are describing them simply as wooden boards, and using the term sca'boards to identify the much thinner split boards."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:d222fb37-76ee-4f3e-ae8b-66e21e334ee2 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "spine (bookblock)"@en;
     skos:scopeNote "The edge of the bookblock opposite the fore-edge where the spine-folds of the gatherings, sewing supports, external endband tiedowns and spine linings will be found."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:de69a040-c348-4495-b194-b16fa0cae21c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "board reattachment"@en;
     skos:scopeNote "The process of attaching individual boards to a text block, usually by gluing the tapes and spine-lining material to the inside of single boards or between split boards, or by the lacing-in of the cords through holes or grooves in the boards. For the attachement of a previously made case to a text block, use \"casing-in.\""@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:2ab6b31b-45d2-4696-b03c-08418903139b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "flyleaves"@en;
     skos:scopeNote "Refers to the leaf of a book's endleaves that is not pasted to the cover."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:6077f92e-a468-4320-a6a9-8d92219d6def a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "loose"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:978bdcd9-cca3-4b71-aa94-bc841708fc35 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "missing"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:4d51c3e4-dd78-4d65-be5c-0139113f2fe4 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "treatment"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:c4cb82c8-7bfa-4272-86d0-b6ae4cf13cfd a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "rebuilding"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:ad329f74-fa11-4ca9-afd3-a1ead8af5571 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "re-covering (corners)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:907361d6-6891-4866-8109-69b9f4863feb a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "SC6000 wax"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:5f8a53bd-8bd7-40d2-b704-d18da6299d35 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "supported kettle"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:3af4a72b-0f30-4132-a1c5-d19872bc4528 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "searchworks"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1523c9a8-ee92-46d1-86cf-4e75085fb974 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "timespan"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:a5e7ec9c-78c7-4c66-8d65-7370a8516ff9 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "application"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:74947946-5800-4c88-be65-472a137badd2 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "mechanical (mode of action)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:6abcc42b-4b9e-430e-b0aa-eb9f141a81c0 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "new"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:bf92aa78-d639-48c2-bfef-be2b2f4b3f6b a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "recommendations (for future care)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:abe19913-5854-4e1a-a094-36364d53d8d1 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "reinforcement"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8754990a-4b74-4e94-b37d-f933bbd3a95c a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "repair"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:8aa3d8d5-667f-4f7b-85dd-731f31309338 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "adhesive only (spine lining)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:cbbd7ae5-ebc3-4034-9e94-5312df2efd82 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "hinged/guarded"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:640bd8f7-0722-4bec-8285-1d251bf311ce a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "hollow"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:72a0867a-8633-4562-a812-dde426ba5619 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "Japanese paper over cloth (technique)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:38c65fe6-7b0f-4277-9857-fe0c2c8198a5 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "leather treatment"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:40a0363f-c850-4511-9ae4-863cb75ccc93 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "lifting (treatment action)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:dc8ec73a-3596-4348-9f01-f7a50e02e728 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "no endbands"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:b2ccadf0-547f-4e07-92b0-e4e8eaa8ae3e a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "sewn around"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:41dea579-2405-40fa-9252-690205e16f61 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "weakly attached"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:7dcac9c8-edac-44de-b658-98287e674f7f a skos:Concept;
     skos:altLabel "aerolinen"@en, "boiled linen"@en, "brown linen"@en;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "airplane linen"@en;
     skos:scopeNote "(material) lightweight, unbleached, unsized Irish linen with high thread count."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:60aafd7c-2f36-4ba4-a9b3-57c73c4e844d a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "over boards"@en;
     skos:scopeNote "(technique) a bookbinding method where covering material is directly adhered to boards. Often used with parchment or vellum to distinguish from a limp binding where boards are absent or not directly adhered to the covering material."@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:1125cd47-5a3b-48c7-8192-ea5310cb6787 a skos:Concept;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "text-to-cover attachment"@en;
     skos:scopeNote "(component) methods used to join the textblock of a bookbinding to the boards or case of the bookbinding"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 
   svc:82059d87-118b-4850-af72-bd93f4e363fc a skos:Concept;
     skos:altLabel "airplane cotton"@en;
-    skos:inScheme <https://w3id.org/sul-vocab/>;
+    skos:inScheme <http://w3id.org/sul-vocab/>;
     skos:prefLabel "aerocotton"@en;
     skos:scopeNote "(material)"@en;
-    skos:topConceptOf <https://w3id.org/sul-vocab/> .
+    skos:topConceptOf <http://w3id.org/sul-vocab/> .
 }
