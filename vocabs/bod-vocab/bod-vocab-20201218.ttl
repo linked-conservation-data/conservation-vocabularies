@@ -1,0 +1,2140 @@
+@prefix bvc: <http://w3id.org/bod-vocab/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/bod-vocab/> a skos:ConceptScheme;
+  dc:creator "Bodleian Library"@en;
+  dct:description "Vocabulary compiled for the pilot of LCD2"@en;
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  dct:title "Bodleian pilot vocabulary"@en;
+  skos:hasTopConcept bvc:05e79462-cf4f-4c1c-b06b-204748b38718, bvc:06033130-5500-40e3-aba7-9d3d0fd0a862,
+    bvc:0a55f646-c3f7-4d2f-94f4-822ad13413f2, bvc:0b53aea3-e769-4d0c-8f08-2f17a993f0c8,
+    bvc:0b6d4b7c-9ae2-45ec-ba87-a910217567d4, bvc:0bbad2a9-0298-422d-b0ae-24f1ea922606,
+    bvc:0c918b67-e59f-476d-81c4-1b378b2410ce, bvc:13c13819-e75a-45b5-8434-8458512b1cdb,
+    bvc:1414cf88-27ad-4a6a-82c0-ddcc14e2ae60, bvc:1640aca4-3b14-4ee6-9e2f-f5cf6fc10327,
+    bvc:193388c6-d203-4bfa-be3b-d2838fdbc3e3, bvc:1a58ee51-0425-4b3b-a5fe-6a0033125226,
+    bvc:1d05af1c-4c7e-4d94-ac6f-da72815af433, bvc:1fa3f3d3-99a0-407c-a5dd-8e6e245e65b6,
+    bvc:2010e2ab-53ab-4165-b577-dc0373b45a1a, bvc:22b67f8f-1930-4d03-8917-d397e18328be,
+    bvc:21a43de8-0e08-4993-838f-b463af1a100a, bvc:23b5bb9a-1d7d-41e5-9e58-1ec6f7f06fcf,
+    bvc:26c43c1f-6857-47d3-857c-ae3667e84796, bvc:25b06a26-762d-4f7e-b423-9f4451e0c333,
+    bvc:28829c4c-8128-4582-aeea-0814efbcb09e, bvc:29cfad27-e4a8-494c-9bf7-4a436e1d4ca8,
+    bvc:2cad0d96-ed4d-41c8-9ead-0c95961149bb, bvc:2e1bd3e5-67e3-4f44-a688-fa27a36d0eb4,
+    bvc:31536755-4a15-4ec7-ac7f-b544b1a1f140, bvc:20ed8670-b57e-4e56-9e9c-2eb951d0c416,
+    bvc:03f12b06-a225-4293-b70a-65444b17f172, bvc:3153f6ad-e7ff-42ff-969f-1a6e071de26b,
+    bvc:3427c7db-bf50-466d-8667-74a5f1e7e1ca, bvc:3561bfe2-9039-4688-b3c3-4194c251462a,
+    bvc:36a06812-89f3-4d36-833a-6fcc987994e3, bvc:3901dfc4-a75e-493c-a0f3-ebbcd495906e,
+    bvc:40c3b79d-7315-4392-a294-b53b83da1b66, bvc:18746829-c696-4563-825c-4fbbb00f8601,
+    bvc:40c7f851-16d6-44ce-bf3b-383055f9edcd, bvc:427ea2f9-a06e-4525-b26a-8b5d970b7336,
+    bvc:43f58278-7b51-46e0-8a5f-40821e778bb9, bvc:466cc72a-55c0-4a55-a4e9-3299b755e2c2,
+    bvc:4962a27c-77d9-44aa-ab17-dc56fdbecfd4, bvc:42849bc0-ea2f-4aca-aa6b-eb876733e62f,
+    bvc:3a266169-d6fc-4d12-a450-96ff44182c18, bvc:4af97614-9c76-496d-81fa-6832c3019dc5,
+    bvc:4d49644e-357e-48c1-a7a1-792d69446498, bvc:4eb03cdf-beb2-4785-a819-515bc3b000fe,
+    bvc:5010996c-9691-4af7-9e64-02d05d7e596d, bvc:4f3d01a3-43e4-4a10-b2b9-36dfe832ee89,
+    bvc:4580c550-2663-4b8e-9eb6-bfd0c7242790, bvc:5390cdd4-c0dd-4860-ab48-1430b6176881,
+    bvc:4d7fa7c2-46cd-4d4d-b51e-0b4fb551afae, bvc:0ecc3e31-66bd-489c-96ae-fe9523729275,
+    bvc:5468b31e-b76c-4709-bb23-96c933395e21, bvc:559f915e-9321-4d32-a5b8-ba894ec5664e,
+    bvc:46e87140-1d9a-4356-84b3-77705b4eb246, bvc:568b616c-0fb8-40e2-81f5-06094189f4a1,
+    bvc:3226a532-01ba-40a9-bb76-bc952e3ff76e, bvc:569b76e1-aa35-4f51-8b01-63089fc4f317,
+    bvc:543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c, bvc:5af94f0f-d3ea-4405-8814-a8fdb79cb144,
+    bvc:5afc169f-1ae3-498b-8863-ddface765252, bvc:5c3989c9-147f-49c8-b0d8-f304363c7ebf,
+    bvc:60727247-aad1-4d5b-a39f-300270fc1aa8, bvc:6328164f-98e0-4fe2-b027-957a0cb087c3,
+    bvc:645c3a83-f5b9-4948-a267-d76ddf8b58e0, bvc:4049c587-88f9-4db1-907f-567938445322,
+    bvc:25dd9326-c5c2-47ec-ae33-ab0a9965637c, bvc:6567d1c1-380f-4766-9ff5-e42efe699d55,
+    bvc:66080d12-89e2-4937-bf08-cc9dcc038380, bvc:685d4124-9913-4de1-832d-867852e85145,
+    bvc:68aaf302-edfe-4f76-9454-c637ad07f969, bvc:6b8b123b-3556-482f-95f2-4e22758673ad,
+    bvc:166cb83a-7b02-4956-a267-dfb140a4bf26, bvc:5992bd4b-d2e2-4825-a5ee-a4c660806389,
+    bvc:6cc31ada-4e16-48d1-865e-1d7a6dc0df5d, bvc:47f578d1-b3aa-4449-a5f2-4e4d2088c1cd,
+    bvc:1db1bb46-f258-42a9-b579-899f8c12ee55, bvc:6db1e446-9cae-4615-b5e9-a79a4f4ce9df,
+    bvc:6e78c247-389f-4456-a44c-f6df9a5b4487, bvc:270e99b3-fdd1-49a0-98f1-a15f9684d12f,
+    bvc:098832af-cc82-40e8-96ce-153f1d1264d2, bvc:71531e9b-e28c-4be9-b83d-d0958a9c3199,
+    bvc:71a9197e-3aa2-464d-a571-8408b7d96c5e, bvc:574cbdef-7ffa-4864-b879-bfbe7410c9d7,
+    bvc:728e8eb2-7d0e-441d-9d37-c73a9fc7abc6, bvc:2012c0b0-1ce1-4afb-9c1f-8ad633a51021,
+    bvc:7453ba43-c80f-403e-9373-c5b4077ac729, bvc:24f97f0d-2d23-4b9b-afbc-e9523175c184,
+    bvc:66848da0-f06d-410a-b337-e4694dcde436, bvc:5c76edb8-c926-4906-9e49-ddceabc1a945,
+    bvc:2137ed58-7bbf-4dd9-b0d6-45f000cd53d1, bvc:7456dbc2-2790-4411-92bd-bcad2a9eab53,
+    bvc:75aeb1b1-58ad-4f70-8259-fe6208579b84, bvc:6050089b-1191-4d4c-af0c-c1c4cfb6a439,
+    bvc:06d79595-7be0-4ecf-8574-23503c02ac9f, bvc:2a1eb36f-5c06-4eab-9e02-59400112993b,
+    bvc:41364e21-fe25-412f-b90a-5dc7a9b25962, bvc:0f4cb52f-5d60-4dc2-a1a3-12713ad44951,
+    bvc:76775571-e1e8-4e95-9dfd-eb18dbfedb6c, bvc:40137aae-f3c1-4d92-a4fd-3ea7712d5c32,
+    bvc:4be59f87-fdeb-4424-af8d-81a92cf47bde, bvc:7930e2f9-75ec-43c3-9cb6-448891c75704,
+    bvc:1888fa9e-2aac-47be-9fc4-8e49dba0bf1a, bvc:77f4e34a-635b-4f5c-a104-87fb6f7d8226,
+    bvc:7a6e7a4a-2a5a-4c0f-b989-07b4a2a447db, bvc:3d0357fe-3da9-45eb-a61f-16c0d4567270,
+    bvc:7af080c9-9e32-4382-82d8-9187ca7aad7e, bvc:2d0b5000-0a2f-491c-ad6e-671a4760f676,
+    bvc:1bfaba64-6b43-449d-b571-18edc0176bef, bvc:7af9029c-12c0-417a-97c6-2be51ae94ded,
+    bvc:7dc12605-c3fb-4eae-99c7-71b29c845ba7, bvc:83313d5d-2dbf-4ad7-8c0a-fc557d89129b,
+    bvc:84f729ee-24e3-49de-b136-442c7dcefcf0, bvc:0c2fceae-760b-4a9e-848c-178fde8515b4,
+    bvc:749720c4-028b-410d-891b-94d913e3c147, bvc:864829d6-1be6-4b6a-8906-f3787e31abcb,
+    bvc:032f0765-6958-4e82-8d16-7f76e0b8be6d, bvc:37fa4750-9d06-4d52-8b48-6288083d3ca1,
+    bvc:052606e4-dbb6-45a4-8ab6-9eb920ae7203, bvc:869351d4-e59a-46e1-9dd3-0bbeb926d739,
+    bvc:2692f08c-68a2-4e0f-8ab9-88ad2feab8f8, bvc:5ef59bcc-43bd-48bf-b974-85e2ba7501fc,
+    bvc:116a1567-53e1-44cc-9a54-87cd86576878, bvc:5c61097d-b5d6-4b4c-ae01-54c53a8d05fb,
+    bvc:54d58a0a-a7ee-4948-8f36-9bcd008d70b9, bvc:88a53cfd-5102-4db2-9118-e3b792bce6fe,
+    bvc:007fd6ce-1d84-4b25-9e81-4f8e521ea027, bvc:8f47d345-d392-4eef-9b64-9f332d81faa1,
+    bvc:5fcf7aef-291f-462f-9344-f676cfaff72f, bvc:4298a7b3-d07f-412c-b376-7b7e135ebcc0,
+    bvc:1dde836d-4f06-4d04-8843-f30651e74b05, bvc:8f7a0bef-7c29-4c2e-8136-188011255f06,
+    bvc:12b6d99f-cf02-44be-a0ea-a1419bc5f286, bvc:90e9f758-b536-481e-8730-6dd2e1ceaecc,
+    bvc:3a43912d-2463-42c2-87d9-87768cd59385, bvc:9157fea1-4023-47f0-b6c5-792ab7b10ba8,
+    bvc:93a9db1a-bb8a-41c8-a876-804d09fe0037, bvc:8847f1fc-a0a3-41de-8565-7f759f064f22,
+    bvc:7f5f1e60-a9b7-406f-83c5-5f59372c88d5, bvc:1dd10712-d62b-4b01-b365-caeee3727baa,
+    bvc:947f1136-538b-46bc-ad85-8baddc5a0ee4, bvc:8fba4d34-5f2f-4c22-8c60-812d1507809d,
+    bvc:07fb76a7-7255-4324-a4d0-bd4ced9612c1, bvc:3614c25b-fa67-40b1-8b6a-0da013f5ca89,
+    bvc:949bb571-e738-40d8-854b-ca2e3e5e229b, bvc:94c6653d-fc73-41ee-835b-dcc7890c4a65,
+    bvc:0bed6f5f-3045-4fc8-ad6c-64d861751c6e, bvc:95de4b93-b243-4893-97a2-91607fbf7b31,
+    bvc:0e1bf380-ea2b-4bfb-a395-f0914e630b30, bvc:395c51b9-0621-46c8-b0c5-ffdc1989194b,
+    bvc:96da43f3-8f71-4bb5-a72d-61fdad74c357, bvc:9759643a-d9d3-4cd8-a66f-18a24107f7c2,
+    bvc:978e5e4d-4c2e-4e5d-89b8-9f4befb3a71c, bvc:35d17a08-dcf1-4ab7-84ad-d69147cd1dfb,
+    bvc:4b0d6764-8362-451d-bce0-12a941ae43c5, bvc:2d239a6d-8a73-4204-b5bd-9535bd236aba,
+    bvc:97c653f8-931b-4bc6-ac47-da30f9dcf925, bvc:98325aa4-e850-4b85-a50e-cc0ec485fabc,
+    bvc:984501a0-7dcc-48a4-9cf9-e36bd3320fd1, bvc:98a5d04c-c5de-4bc5-916f-96495a4d03ad,
+    bvc:98b039df-6fa1-432b-bac3-5157bda02b39, bvc:22edccf3-82e0-48e7-a713-ba7d3ccc2739,
+    bvc:452f6652-51d2-4629-bb65-66c72c19f62a, bvc:5a65c614-812d-48f9-b92a-9e802cf4680f,
+    bvc:9999c9bb-ab2c-48a7-8229-5cf7964b908c, bvc:03c14e0c-1254-484b-b0ac-22215684c4c3,
+    bvc:43edce6b-0404-49c1-9ec0-567c283d864b, bvc:0f54c72a-f5da-46f8-a33b-d4b522270767,
+    bvc:761b9b09-14b3-4e80-b819-09523558b531, bvc:4b255c0e-03ca-402d-a2fa-9ccdb7e4d882,
+    bvc:0d718109-f085-4e63-93b0-58ad321788b7, bvc:99c2f9fa-a701-45c3-9b5c-3e6cb4cd8e33,
+    bvc:99d9eb7e-646f-4714-b98f-d0f88c6cf49d, bvc:734405d0-2e5f-4e34-a126-1ab6ac14483a,
+    bvc:33f5a048-1650-4551-acc3-a9591d30b96c, bvc:9a703d4c-c8c5-479a-8e08-e62d38996a9d,
+    bvc:9bc9b6ba-601c-4eb9-bf34-794d05ab3964, bvc:6f580c45-6209-4253-9562-b46b306a2717,
+    bvc:9bde6a74-c79d-4aa7-b942-3e3d9de20620, bvc:9c7223c4-8f85-49cb-9f6b-62ddb58416ac,
+    bvc:9d4a0044-52b3-4090-87c4-daceef6b16c0, bvc:7654de0a-b394-4207-a4ec-2dd6101f95e6,
+    bvc:a0ef3c5b-0212-4315-bd9b-eb23f20f515b, bvc:a1c23f7c-1319-4340-b8a2-881da7a3a2c2,
+    bvc:598824f7-0405-4aa0-bba2-d35f8a959637, bvc:a51026bd-4e05-4b52-927a-7b69a4407ea5,
+    bvc:a624bc55-cea8-473a-a960-83529bf436aa, bvc:898de4be-186d-47ed-a975-2bbe778a7ae3,
+    bvc:a6672756-aa97-487a-a7ef-4e31f1d9209b, bvc:413e7534-9887-43a0-aff9-8130e922c779,
+    bvc:0a86cfab-d3fa-42be-b0c4-51cd37359bdf, bvc:506e5b7a-5c6b-43ec-a90d-be720644fa04,
+    bvc:305236f1-5eac-4127-b8a4-24e44025e5d7, bvc:279b5458-3f25-4e69-80b5-ba12960b4d82,
+    bvc:a79ca506-76a3-45a2-87c5-c97c27c0d9ef, bvc:a7d4e799-b826-4dd2-802b-bf469ebe51fd,
+    bvc:a90a5536-af54-4d38-91a2-4dc8d942759b, bvc:4a04187f-a135-4d31-9143-27c8ca744129,
+    bvc:41ec944b-6f0a-4eca-96c5-63534cb5035b, bvc:753d6434-c8f0-44c9-a498-14a3760a8192,
+    bvc:3ef9e52f-16f0-4e34-b41e-995545522257, bvc:7bb475ec-5535-47c8-9542-94b68044fd88,
+    bvc:94d7f47c-a1d9-4d50-bf1d-055dbaa82171, bvc:04ecb33c-cdc0-4a99-b641-e3e3f2ae5556,
+    bvc:a7d68b00-5bc5-47f2-b1d5-e7355b7ce36e, bvc:a9ac50ad-d9ba-4395-8148-786616104e72,
+    bvc:27191187-c34b-40a4-a23c-e0aec43feea1, bvc:67780032-b759-4f2a-801e-18302ee32962,
+    bvc:aa91a4e1-d589-431b-bfd0-26630a991a15, bvc:7446267b-f761-4afb-89ff-6f387d9b18a9,
+    bvc:16b01476-3767-4d6a-83cb-b7d52ad36498, bvc:880f1be0-c6dd-40eb-a89d-f046d9219ba9,
+    bvc:65442018-18dd-4761-b2f4-ffc657187e1a, bvc:683d74d8-b3c7-4d21-8e7c-aea8ae7665f2,
+    bvc:4b14e55a-5a1a-48a9-863c-ddc248685c84, bvc:06d51cb6-c495-4968-9929-a32f85443e96,
+    bvc:9390e72f-cae7-48e8-939c-696c4028024b, bvc:8fa3b487-b69a-40af-990a-9c71d654cc32,
+    bvc:ab709bf9-f6e0-455e-a4cf-e9c2d28ba994, bvc:704b35eb-6457-457a-bc67-4c8cca0afefc,
+    bvc:7520dffc-dfa9-466a-8d51-31cdebe00d12, bvc:4cdc50bc-b18b-4e78-815d-8c61fcffdb7f,
+    bvc:aad3d408-53b3-4363-a6f5-eedc2740b2fb, bvc:acec4b5d-c907-4904-b38e-05159614e52b,
+    bvc:ad9523ed-4bb9-41fc-a951-a2f612162038, bvc:27c12f35-d672-4c92-a1fa-75702b42da5d,
+    bvc:8afc6ab4-9ee4-45e5-ad2b-9ed7f16505bd, bvc:4c7df360-c7bf-4fac-a435-87a8bf491855,
+    bvc:7c001186-975e-4b38-9567-9925a69e87f5, bvc:a882b2a3-66f9-40c1-bfa9-7cb82706aebf,
+    bvc:5473370c-ef2c-40d4-bfd1-c4b51e9164c5, bvc:b06b372e-c3d0-491d-951a-be4c4fc34ce1,
+    bvc:05873120-5bb8-49e2-9bac-58fee13fa64a, bvc:a81df4d7-8802-46c2-b466-50b8a2610ae5,
+    bvc:b0a68006-b494-4a9a-a36c-bdc4da758276, bvc:91fede93-fdf0-40cd-970e-92a0bc2af847,
+    bvc:73f242e7-6cfd-42cf-acbe-f87408cd3bbd, bvc:920e8e48-86bd-4391-8963-3e2e7d06ffee,
+    bvc:2636ec23-6b58-4797-9b50-a4a24d6b7c46, bvc:55ac0c8b-4345-4d7d-840a-54f58ee14636,
+    bvc:b182c082-1fd8-4153-9dde-1fd7468251f1, bvc:355eb60c-2da3-469d-b169-c916b7edeb62,
+    bvc:0dd711bc-7767-4605-b71a-8acfd083ea06, bvc:b1e6c630-c445-47cd-b686-a150674a00b1,
+    bvc:457d71ca-21fc-48c9-9a0f-c9620d4f7893, bvc:9631c43e-8455-49d5-8dc0-fe60233ba86a,
+    bvc:6af766e4-c2d0-44a4-a462-5eb171138af5, bvc:632ac2b0-0c63-46d1-a5ac-7fd0170c346c,
+    bvc:a3fd1b01-9245-4309-9a4c-4083e2973936, bvc:b206fba5-7065-4c85-b381-838471069fea,
+    bvc:42d508aa-387f-4284-aa4f-27408c7a5841, bvc:7261452a-59fc-4910-8b3a-ba9a83a10f41,
+    bvc:6fd886bc-1b95-461b-85b4-f2bc8bcadccc, bvc:2d17fec8-df7c-46c0-945f-6a2826b6e22e,
+    bvc:b25d38c5-d851-4aaf-9d21-2056d413e93b, bvc:b3119a3e-99ce-4cce-a2f9-b6763e872738,
+    bvc:2fb5b74b-1202-4ba0-8246-581e1585059a, bvc:031d0575-2814-43cb-9e8a-a33c651416a7,
+    bvc:8021d03a-28c8-4211-bbad-ac9914a181ea, bvc:9391d5aa-9337-4fd3-a347-821741efeaec,
+    bvc:528dd75e-1afa-4acd-a347-74abb52eb383, bvc:597b6b56-0c58-45ce-a743-b67a9b1007c2,
+    bvc:a539e921-7886-4074-9fa4-83c7c25e0286, bvc:aaf9cd01-1ba5-4004-87cc-42ad4fd920fb,
+    bvc:62c6d683-6b02-490c-b471-9b3bb84e9d40, bvc:b39a89c3-342b-4421-8031-ffa006987e1b,
+    bvc:62f6a0e8-e255-4213-811d-3639c8d88baa, bvc:b3eb813d-3330-4e0e-bd59-825d5b81ef37,
+    bvc:b447b377-8518-4cdf-9fc8-f629fd7900ed, bvc:b47f9e6f-c3cd-4372-b152-cae76a1b09ed,
+    bvc:b4e3fcad-ab72-4e33-b367-bb742447b1a3, bvc:b54fa745-09af-4708-bb05-23bf4eb0622b,
+    bvc:b648189c-340f-4ebe-a3a1-be87844501a1, bvc:b6dccca8-c50a-44b2-a0f8-ad4e7d4280da,
+    bvc:b6f927f2-e003-46ec-8e33-342bfd7b2a25, bvc:b7292acd-51ea-4e32-8c6b-897412eb1cc1,
+    bvc:b857ebf5-2258-4759-a87c-4942f6e05b4a, bvc:b8a51390-72f9-46cc-9c06-55b8955a50bb,
+    bvc:ba194025-33cb-4550-a581-6bf73bf84982, bvc:ba60d6d3-2fb0-4eec-a24a-2b2c866aa274,
+    bvc:bc16ad2c-599c-406e-ab77-ff1841508fc5, bvc:bd4067c5-8fb0-437e-b1e2-6e41a16d42cd,
+    bvc:be802dad-1287-4a47-b871-cc19518e8626, bvc:bfc39c2e-893f-4723-9999-bfde1e36bf06,
+    bvc:c1886d05-626a-47ef-a6f0-dad7a529e525, bvc:c219c541-fa18-40a2-a206-cc96509dbd4a,
+    bvc:c24190fe-29dc-45e1-abd4-c2bd08cf15db, bvc:c2bbb2fb-6586-4465-82a8-ad56c4a356f5,
+    bvc:c308ec27-5735-47f1-83fc-971f554fc0e5, bvc:c3aa837f-387e-4da0-a48c-acf8d1817f1a,
+    bvc:c3e46dd1-622e-4a12-8fba-ee3cba6d9d65, bvc:c3ee8c98-fd64-49d3-be68-def81e089bc7,
+    bvc:c4803b8e-0ca5-42f2-804e-594b1ee55b83, bvc:c6a871bf-e46d-4056-98b1-2a0d5192c79d,
+    bvc:cb47a271-0578-4398-89a7-2f3fe80f7fd4, bvc:cb554472-1c75-4e0d-b4f2-09c473961cc4,
+    bvc:ccf0d6c1-6918-4226-9c99-1e4ce9260dd5, bvc:d08c472b-f2d1-4705-9595-72266f36cd70,
+    bvc:d0d15650-9778-47fa-9707-672dbaf9e3e6, bvc:d18e56ea-aff5-421b-a272-ff31ac8e6141,
+    bvc:d1b16b4e-5520-42cf-8262-32d72c63a30e, bvc:d2766b84-8850-4847-b762-75b56d5330a2,
+    bvc:d325261e-7f58-48fe-bc22-330923f3a69e, bvc:d36b73f6-c7fc-4d10-b11c-efe90fef4953,
+    bvc:d4502ee1-a560-49b3-a55f-8ce9e78f483a, bvc:d4cb1e41-dd40-4c86-a8e0-d11a49575573,
+    bvc:d5c118cc-708b-417b-b852-184e1b8b056b, bvc:d678046b-cfb7-43d3-97d4-c9ca9aff7726,
+    bvc:d7f8a463-6f8b-4f90-8029-24820f128de2, bvc:d8697bc2-702d-442e-946c-212a45bf5616,
+    bvc:d8a61259-f336-4b0f-be46-d1f978da4615, bvc:da013eb9-17ad-4d9f-a76f-a5498a09e444,
+    bvc:db0e9430-a66e-49c5-b5c2-2a99f18a742f, bvc:dbd30db6-2106-44eb-ae96-84f241f5dd7a,
+    bvc:dc938e11-20e8-49ba-98ab-10fa33ea2ae4, bvc:dce32667-9af1-4b74-ac01-e9e0b5eb6286,
+    bvc:de5cfb3f-b98c-4426-a0d5-083c7e8b02b4, bvc:deae0818-e7a4-4d0f-8d97-f088f038493a,
+    bvc:dfc68bd7-0513-4d65-b5c0-94c91d60f01d, bvc:e19a29cb-0b2b-4a7e-a3ac-a62ddee9a270,
+    bvc:e48a1308-9ed3-4ece-a1af-eb6f3de306e6, bvc:e5647f01-0348-4d08-afc9-947b8cb680c6,
+    bvc:e588163d-e3a4-4df2-8a81-adb38410f43e, bvc:e58d1f86-24b5-43df-9fad-0a65c4fbbc96,
+    bvc:e635f656-e365-4be9-99f8-6ff3931dfd87, bvc:e65c476c-6409-4840-b0f4-c48261644a17,
+    bvc:e71983fe-98bf-498a-9569-60a240c12aaf, bvc:e7617fc2-4331-4a48-b671-c4b0af964269,
+    bvc:e888dad9-62fb-44c2-852b-a9c83d38f1e0, bvc:e90b1e4c-3143-476c-856e-5c337d41695b,
+    bvc:e968e700-5654-42a5-9cfc-1a809d7a4486, bvc:e9e57eb2-5ac2-4506-90a5-b13b160aeb85,
+    bvc:ea21dbfe-88e7-4d53-b92c-dbb16891b28a, bvc:eadf02f8-7d69-4575-a951-74eae08af558,
+    bvc:eb03e2e1-248c-41e1-b7b7-10394a682d06, bvc:eb055744-5f87-47d7-b238-710d6b3af06b,
+    bvc:ec9a5fc5-346f-4f31-850e-4cc0779b4585, bvc:ecc6ecd7-5baa-4a45-bbb6-df7858ff272f,
+    bvc:edf012af-4caf-4312-b21e-ff78a8797a95, bvc:ef529fe4-9fb8-46c2-8130-42fa71607f15,
+    bvc:ef52f538-ab6c-46ed-b181-f24008e82165, bvc:efb11821-8f9e-4d16-a2b9-45837a2162ca,
+    bvc:f0a99e1b-472b-4001-baef-4914423975e4, bvc:f0c3fbe3-ed2e-4668-a253-d8b272d0f828,
+    bvc:f0e4c8e2-019b-4d59-a680-2d723e0f80f5, bvc:f19e9421-5101-481e-8e4b-20f7b89ff8a2,
+    bvc:f401b59f-79f6-4316-bd75-998c5137deaa, bvc:f4b42795-d94d-4ff5-a0e1-f41e6d11f8c0,
+    bvc:f4d55db1-b5c0-45ae-aaa0-6d3f0b50b8e7, bvc:f53d36d8-24d2-42b2-b1a5-caca80f1d4a2,
+    bvc:f5de2c1f-889c-4cc6-82f5-d9fb7c3c1524, bvc:f78d77b5-b714-49ab-bdb8-f5c18f8b2f75,
+    bvc:f8d776cd-fb3b-4b79-ba67-4b25484b781a, bvc:f920307e-e79b-43af-962c-012b13b41f1a,
+    bvc:f96a0c99-d68c-4f43-8e14-beda4c05f35b, bvc:f9c0576e-f96f-4272-a5a3-01f676961a96,
+    bvc:fa02a379-6d27-429f-84be-055799c1c369, bvc:fa9721fb-8bd0-47a5-9902-91422dce07f7,
+    bvc:faa498dc-add3-469e-910f-634b319b4d6d, bvc:fb55256f-4206-4e49-9009-57500ffed262,
+    bvc:fb5722fe-11bf-48db-ab7f-9b00b0b76385, bvc:fb5a65be-93f9-4894-9b0f-5c8ec6a57dda,
+    bvc:fb8d96bf-f6f3-4a3e-bf4c-5cad8cb4b4b4, bvc:fcf32b6d-99c1-4ade-a5f1-de5ffae0a7be,
+    bvc:fdb65e92-c4fe-4f61-abb0-c5d9393b7302, bvc:ff20e185-f4f3-491a-a16f-d62c6251d678,
+    bvc:ff9d129c-e1d2-49a0-9ab1-7d02ea0ac106 .
+
+bvc:9bde6a74-c79d-4aa7-b942-3e3d9de20620 a skos:Concept;
+  skos:altLabel "WSP"@en, "paste"@en, "wheat starch"@en, "wheatstarch paste"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wheat starch paste"@en;
+  skos:scopeNote "Adhesive made from flour containing 70% starch and 12% gluten. It is clear, and reversible with water."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:95de4b93-b243-4893-97a2-91607fbf7b31 a skos:Concept;
+  skos:altLabel "Flour paste"@en, "Paste wheat flour"@en, "WF paste"@en, "Wheat flour"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wheat flour paste"@en;
+  skos:scopeNote "Refers to any water-soluble vegetable adhesive created from cooked starch."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:29cfad27-e4a8-494c-9bf7-4a436e1d4ca8 a skos:Concept;
+  skos:altLabel "EVA glue"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "EVA"@en;
+  skos:scopeNote "A thermoplastic copolymer used to improve adhesion properties of hot-melt and pressure sensitive adhesives, and for conversion coatings."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4d49644e-357e-48c1-a7a1-792d69446498 a skos:Concept;
+  skos:altLabel "Parry PVA 3953"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "PVA"@en;
+  skos:scopeNote "A thermoplastic resin that is soluble or swells in water and can become insoluble in time through crosslinking; used chiefly for emulsifier, adhesive, and film resistant to solvent and abrasion, and in making molded and extruded products, and polyvinyl acetal."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0a55f646-c3f7-4d2f-94f4-822ad13413f2 a skos:Concept;
+  skos:altLabel "edible leaf gelatine"@en, "food grade gelatine"@en, "gelatin type B"@en,
+    "gelatine"@en, "gelatine size"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gelatine"@en;
+  skos:scopeNote "A water-soluble, tasteless colloidal form of processed collagen obtained from bones, hooves or skins and used as a dispersing agent, sizing medium, adhesive, or coating for photographic films, and stabilizer for foodstuffs and pharmaceutical preparations. Is high in molecular weight after processing, as opposed to more vigorously processed collagen which results in animal glue."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0c918b67-e59f-476d-81c4-1b378b2410ce a skos:Concept;
+  skos:altLabel "Animal glue (removed)"@en, "Glue (removed)"@en, "Pearl glue"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "animal glue"@en;
+  skos:scopeNote "A low-molecular-weight adhesive made from a solution of degraded or denatured collagen in water. The protein content in animal glue is less pure and darker in color than gelatin."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b06b372e-c3d0-491d-951a-be4c4fc34ce1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rabbit skin glue"@en;
+  skos:scopeNote "Hide glue made from rabbits. Used as a primer for canvases."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1fa3f3d3-99a0-407c-a5dd-8e6e245e65b6 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sizing"@en;
+  skos:scopeNote "Application of a penetrating liquid to fill pores, to isolate coatings, or to make surfaces suitable to receive coatings."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0b6d4b7c-9ae2-45ec-ba87-a910217567d4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "adhesion"@en;
+  skos:scopeNote "The joining of two surfaces by means of a generally viscous, sticky composition such as an adhesive or through physical or chemical force."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f920307e-e79b-43af-962c-012b13b41f1a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gel"@en;
+  skos:scopeNote "Semirigid colloidal system of a liquid in a solid."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5010996c-9691-4af7-9e64-02d05d7e596d a skos:Concept;
+  skos:altLabel "poultice"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "poulticing"@en;
+  skos:scopeNote "The application of a poultice, which is a substance with a soft, absorbent, or pasty consistency. For cleaning, the poultice is applied to an area in order to draw out a stain or remove other substances in a controlled manner. Poultices are also used in medical applications."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:947f1136-538b-46bc-ad85-8baddc5a0ee4 a skos:Concept;
+  skos:altLabel "C.M.C. (methyl cellulose)"@en, "methylcell."@en, "methylcellulose"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "methyl cellulose"@en;
+  skos:scopeNote "Refers to any methylated derivative of cellulose. Methyl cellulose is a white powder that swells in water and is used as a substitute for natural gums, functioning in various commercial contexts as emulsifying, thickening, or sizing agent, lubricant, and suspension aid. In textile and paper conservation, it is used as an adhesive and as a poulticing material for removal of stains."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1d05af1c-4c7e-4d94-ac6f-da72815af433 a skos:Concept;
+  skos:altLabel "50 micron Melinex"@en, "75 micron Melinex"@en, "75 micron polyester"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Melinex"@en;
+  skos:scopeNote "Melinex is the trademarked name for one in a series of clear polyethylene terephthalate (PET) polyester films produced by DuPont."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6b8b123b-3556-482f-95f2-4e22758673ad a skos:Concept;
+  skos:altLabel "Atlantis H[and]. M[ade]. paper"@en, "H.M - Moulin du Veruer de Puymoyen"@en,
+    "Kalamazoo linen paper"@en, "Moulin du Verger (AMV1H) 120 gsm hand made paper"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "handmade paper"@en;
+  skos:scopeNote "Paper made without the use of industrial machinery. Paper of this type is often provided with a watermark and frequently exhibits a rough or deckled edge as a by-product of its manufacture."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:728e8eb2-7d0e-441d-9d37-c73a9fc7abc6 a skos:Concept;
+  skos:altLabel "Paper Nao (RK17) machine made Japanese paper"@en, "RK17"@en, "archival kraft"@en,
+    "archival manilla"@en, "thin manilla"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "manilla"@en;
+  skos:scopeNote "Paper made on a machine that allows pulp to flow onto a moving and vibrating mesh or belt, thus forming a continuous strip that may be dried and pressed before being wound onto a roll for storage. Machine-made paper may exhibit laid lines, chain lines, and watermarks that mimic those of handmade paper."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:40c3b79d-7315-4392-a294-b53b83da1b66 a skos:Concept;
+  skos:altLabel "Hasegawa 1.6"@en, "Hasegawa 1.6 monme"@en, "Hasegawa 2.0"@en, "Hasegawa 2.2 paper"@en,
+    "Hasegawa 2.7"@en, "Hasegawa 2.7 monme"@en, "Hasegawa 2.7 monme paper"@en, "Hasegawa 3.0 hand made Japanese paper"@en,
+    "Hasegawa 3.3"@en, "Hasegawa Japanese paper 1.6"@en, "Hasegawa Japanese paper 2.0"@en,
+    "Hasegawa Japanese paper 2.7"@en, "Hasegawa Japanese paper 3.0"@en, "Heavy Jap tissue"@en,
+    "Jap 15"@en, "Jap 34"@en, "Jap 39 dark tissue"@en, "Jap paper no. 15"@en, "Jap tissue"@en,
+    "Jap. paper"@en, "Japanese paper"@en, "Juko Misakawa Japanese paper"@en, "K 35 (Jap)"@en,
+    "K 62 (6)"@en, "K 63 (Jap)"@en, "K33"@en, "K34 Japanese Paper"@en, "K37 Japanese paper"@en,
+    "K38 Japanese tissue"@en, "Lawrence 15 Japanese paper"@en, "Lawrence no.2"@en, "Light Jap tissue"@en,
+    "Light Japanese tissue"@en, "Light weight Jap tissue"@en, "Medium Jap tissue"@en,
+    "Medium weight Jap tissue"@en, "Mino"@en, "Paper Nao K1"@en, "Sekisho Yokokawa (K42) tissue"@en,
+    "Tengu 3.5gsm NAJ tone paper"@en, "Tengujo"@en, "Usumino"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Japanese paper (handmade paper)"@en;
+  skos:scopeNote "Refers to various types of handmade paper, particularly strong, handmade paper composed of long bast fibers derived from the paper mulberry (Broussonetia papyrifera), the gampi (Wikstroemia canascens) and the mitsumata (Edgeworthia papyrifera). Thin, translucent sheets of Japanese paper are often used as a reinforcing paper and hinges because of their strength, flexibility, and permanence. Specifically for paperlike material made from the pith of the rice paper tree, use \"rice paper.\""@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7dc12605-c3fb-4eae-99c7-71b29c845ba7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tissue"@en;
+  skos:scopeNote "Refers generally to all types of thin matted or felted sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal, such as hair, silk or wool, or mineral, such as asbestos, or synthetic. However most paper is made from cellulosic plant fiber, such as from wood pulp, grass, cotton, linen, and straw."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:23b5bb9a-1d7d-41e5-9e58-1ec6f7f06fcf a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "leather"@en;
+  skos:scopeNote "The skin or hide of an animal that has been tanned to render it resistant to putrefication and relatively soft and flexible when dry. For composite material made from scrap leather pieces, use \"maril.\""@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fa02a379-6d27-429f-84be-055799c1c369 a skos:Concept;
+  skos:altLabel "Bakers Oak bark tanned calf"@en, "Calf leather"@en, "Goat skin veg & alum"@en,
+    "Leather cord"@en, "Oak bark tanned leather"@en, "Oak-bark calf"@en, "Sandos brown Harmatan"@en,
+    "Stained leather (calfskin)"@en, "Veg tanned goatskin"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tanned leather"@en;
+  skos:scopeNote "An animal skin that has been treated with tanning agents to turn it into leather and which, before the 19th century, will be derived only from vegetable sources such as the bark of oak trees, sumac, etc. Because the term leather has been used historically of both alum-tawed and tanned skins, it is safer, wherever there might be confusion, to used the term tanned skin rather than leather, though properly-speaking, they both have the same meaning."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:31536755-4a15-4ec7-ac7f-b544b1a1f140 a skos:Concept;
+  skos:altLabel "Alum tawed calf"@en, "Alum tawed goat"@en, "Alum-tawed calf skin"@en,
+    "Cowley's alum-tawed calf"@en, "surface stained"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "alum-tawed leather"@en;
+  skos:scopeNote "A skin prepared in an aqueous solution of a double salt of aluminium and potassium sulphates. The process, which is of great antiquity, produces a white skin which is dried (crusted) and then staked, or worked over a blunt metal knife, to produce a soft, supple skin, qualities which could be enhanced by the addition of flour and egg-yolk to the tawing solution. If wetted again, as many blind-tooled German bindings of the late fifteenth to the mid-eighteenth century were before tooling, the skin becomes once more hard and horny, as though it had reverted to the raw, untanned state. Also known as tawed skin (Reed, pp.62-65)."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d08c472b-f2d1-4705-9595-72266f36cd70 a skos:Concept;
+  skos:altLabel "Calf repair parchment"@en, "Calf-skin parchment (endleaves)"@en, "Calf-skin repair parchment"@en,
+    "Vellum"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "parchment"@en;
+  skos:scopeNote "A translucent or opaque material most often made from calf, sheep, or goat skin which has been limed, dehaired, scraped, and dried under tension to produce a thin, strong, relatively stiff material for writing, bookbinding, or other uses. The term vellum should be used only of finer quality calf parchment, but the terms parchment and vellum have often been and still are confused and used interchangeably. Parchment should always be used for all skins prepared this way, especially for skins of animals that cannot be identified, but can be defined by the animal where this is known (e.g. goat parchment, calf parchment, etc.)."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b7292acd-51ea-4e32-8c6b-897412eb1cc1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "goldbeater's skin"@en;
+  skos:scopeNote "Prepared outside membrane of the large intestine of cattle used primarily to separate individual gold leaves during the final stages of preparing gold leaf. Occasionally used for the repair of skin artifacts and as the moisture-sensitive element in hygrometers."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:cb47a271-0578-4398-89a7-2f3fe80f7fd4 a skos:Concept;
+  skos:altLabel "goat"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "goatskin"@en;
+  skos:scopeNote "The skin of the goat which may be either tanned, tawed or turned into parchment."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:427ea2f9-a06e-4525-b26a-8b5d970b7336 a skos:Concept;
+  skos:altLabel "calf"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "calfskin"@en;
+  skos:scopeNote "The skin of the bovine calf which may be either tanned, tawed or turned into parchment. Skins of animals more than six months old could not be used as the covers of bindings as they would be too thick."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b39a89c3-342b-4421-8031-ffa006987e1b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sheepskin"@en;
+  skos:scopeNote "The skin of the sheep which may be either tanned, tawed or turned into parchment. Sheepskins could be split into two layers and the thin grain split could be tanned and used as a covering for cheap books."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:84f729ee-24e3-49de-b136-442c7dcefcf0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fish swim bladder"@en;
+  skos:scopeNote "Prepared membrane of the swim bladder of fish, usually sturgeon. Used for the repair of parchment."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5390cdd4-c0dd-4860-ab48-1430b6176881 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "linen"@en;
+  skos:scopeNote "General name for textile woven from the spun fiber of the flax plant."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fdb65e92-c4fe-4f61-abb0-c5d9393b7302 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cotton"@en;
+  skos:scopeNote "Textile made from cotton fiber."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e635f656-e365-4be9-99f8-6ff3931dfd87 a skos:Concept;
+  skos:altLabel "10 cord lockstitch no 1"@en, "10/3 linen thread"@en, "12/3 cord"@en,
+    "12/3 thread"@en, "18.3 linen thread"@en, "18/3 linen thread"@en, "25/3 linen thread"@en,
+    "25/3 sewing thread"@en, "25/3 thread"@en, "25/3 unbleached"@en, "35/3 linen thread"@en,
+    "35/3 thread"@en, "60/3 linen thread"@en, "Barbour 18/3 linen thread"@en, "Barbour 18/5 linen thread"@en,
+    "Barbour 20/3 linen thread"@en, "Barbour 8 ply linen cord"@en, "Barbour linen 12/2 seaming thread"@en,
+    "Linen cord welt 8"@en, "Linen sewing thread 25"@en, "Linen thread"@en, "Linen thread 30/3"@en,
+    "Sewing thread"@en, "Sewing thread 30/3 linen"@en, "Thread 30/3"@en, "Tinted sewing thread 18.3"@en,
+    "indigo vat dyed"@en, "unwaxed linen thread"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "thread"@en;
+  skos:scopeNote "Single filaments of fiber, groups of such filaments twisted tightly together, or filamentous lengths formed by spinning and twisting short fibers into a continuous strand."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6e78c247-389f-4456-a44c-f6df9a5b4487 a skos:Concept;
+  skos:altLabel "1/4\" linen braid"@en, "1313 linen braid"@en, "6329 linen braid"@en,
+    "Barbour 2613 linen braid"@en, "Braid"@en, "Linen braid"@en, "Linen braid 13-13"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "braid"@en;
+  skos:scopeNote "A narrow trimming made by a variety of techniques such as tablet weaving or braiding. It comes in a variety of fibers and weights, but is heavier than ribbon and flatter than cord."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:193388c6-d203-4bfa-be3b-d2838fdbc3e3 a skos:Concept;
+  skos:altLabel "10 cord"@en, "10 cord supports"@en, "12 cord supports"@en, "8 cord supports"@en,
+    "Barbour 12 ply linen cord"@en, "Cord 8-cord"@en, "linen CC sewing support cord"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cord"@en;
+  skos:scopeNote "Long, slender, flexible, roughly cylindrical construction of fibrous material, usually made of several strands twisted together. Cord is typically made from a type of bast fiber such as cotton, jute, flax, ramie, hemp, sisal, olona, gravata, agel, widuri, caraguata, or others."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e71983fe-98bf-498a-9569-60a240c12aaf a skos:Concept;
+  skos:altLabel "10 mm linen sewing tape"@en, "Linen tape"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tape"@en;
+  skos:scopeNote "Narrow strips of closely woven cloth across the back of a book to which the sections are sewn. Distinguished from \"thongs (binding components)\" which are narrow strips of rawhide or processed animal skin that served the same purpose early in the development of flexible sewing, and \"cords (binding components)\" which are twisted strands of fibrous material that replaced thongs by the latter part of the 16th century."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b6f927f2-e003-46ec-8e33-342bfd7b2a25 a skos:Concept;
+  skos:altLabel "Aero-cotton"@en, "Aerocotton dyed"@en, "Aerocotton undyed"@en, "Dyed Aero-cotton"@en,
+    "Washed aerocotton"@en, "aero cotton"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "aerocotton"@en;
+  skos:scopeNote "Woven cotton fabric used for the repair of books and manuscripts, from covering materials to spine linings. Since the 1980s the use of fabrics commonly referred to as Ã¢â‚¬ËœaerolinenÃ¢â‚¬â„¢, Ã¢â‚¬ËœaerocottonÃ¢â‚¬â„¢, or Ã¢â‚¬Ëœairplane linenÃ¢â‚¬â„¢ has become widespread. Originally employed in the manufacture of aircraft, it is their flexibility and strength, along with good fold endurance properties and tensile strength that have rendered them valuable to conservators. (Celia R. Bockmuehl, Nikki Tomkins, Johanne Keiding, Richard Critchley, Alan Peare & Debra J. Carr (2020) Woven Fabrics in Book Conservation: An Investigation into the Properties of Aerolinen and Aerocotton, Studies in Conservation, 65:7, 375-387, DOI: 10.1080/00393630.2019.1672442)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:685d4124-9913-4de1-832d-867852e85145 a skos:Concept;
+  skos:altLabel "Aero linen"@en, "Aero linen lined with Jap tissue"@en, "Aero-linen"@en,
+    "Aerolinen"@en, "Linen"@en, "Natural linen"@en, "Toned aerolinen reinforced with Kraft paper (Douce and Red)"@en,
+    "Washed aerolinen"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "aerolinen"@en;
+  skos:scopeNote "Woven linen fabric used for the repair of books and manuscripts, from covering materials to spine linings. Since the 1980s the use of fabrics commonly referred to as Ã¢â‚¬ËœaerolinenÃ¢â‚¬â„¢, Ã¢â‚¬ËœaerocottonÃ¢â‚¬â„¢, or Ã¢â‚¬Ëœairplane linenÃ¢â‚¬â„¢ has become widespread. Originally employed in the manufacture of aircraft, it is their flexibility and strength, along with good fold endurance properties and tensile strength that have rendered them valuable to conservators. (Celia R. Bockmuehl, Nikki Tomkins, Johanne Keiding, Richard Critchley, Alan Peare & Debra J. Carr (2020) Woven Fabrics in Book Conservation: An Investigation into the Properties of Aerolinen and Aerocotton, Studies in Conservation, 65:7, 375-387, DOI: 10.1080/00393630.2019.1672442)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b447b377-8518-4cdf-9fc8-f629fd7900ed a skos:Concept;
+  skos:altLabel "beeswax"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bleached beeswax"@en;
+  skos:scopeNote "Beeswax, usually dark in color, that is treated by exposure to light and air or with chemicals to remove the color. For beeswax not treated for color uniformity, use \"unbleached beeswax.\""@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:acec4b5d-c907-4904-b38e-05159614e52b a skos:Concept;
+  skos:altLabel "unbleached bees wax"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "unbleached beeswax"@en;
+  skos:scopeNote "Untreated natural beeswax, which is made by bees as a by-product of honey production. For beeswax treated to remove color, use \"bleached beeswax.\""@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c24190fe-29dc-45e1-abd4-c2bd08cf15db a skos:Concept;
+  skos:altLabel "Bodleian leather dressing"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "leather dressing"@en;
+  skos:scopeNote "Substances or mixtures applied to leather generally to clean, preserve, or maintain its strength and flexibility."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:93a9db1a-bb8a-41c8-a876-804d09fe0037 a skos:Concept;
+  skos:altLabel "SC6000"@en, "SC6000 acrylic polymer"@en, "SC6000 acrylic polymer and wax emulsion"@en,
+    "wax emulsion"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "SC6000 wax emulsion"@en;
+  skos:scopeNote "SC6000 is a blend of waxes and an acrylic resin emulsified in aqueous isopropyl alcohol. It was originally developed as a surface coating for commercial shoe leathers. Its use as part of a system for treating bookbinding leathers was first proposed in the early 1980s. Since then it has been used widely by leather and book conservators and bookdbinders. Further work was carried out in 2001 comparing this product with other materials used as surface coating in the leather manufacturing industry. Supplied by the Leather Conservation Centre, Grosvenor Chambers, Grosvenor Centre, Union Street, NN1 2EW, UK. https://www.leatherconservation.org/products/sc6000/"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ec9a5fc5-346f-4f31-850e-4cc0779b4585 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Renaissance micro-crystalline wax"@en;
+  skos:scopeNote "[Picreator Renaissance Products] A brand name for a Microcrystalline wax polish. Renaissance wax is composed of a mixture of Cosmolloid 80 hard and BASF A waxes. It has been used to clean and polish Wood, metals, ceramics, Ivory, Marble, and Leather."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3561bfe2-9039-4688-b3c3-4194c251462a a skos:Concept;
+  skos:altLabel "industrial methalated spirits"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "IMS"@en;
+  skos:scopeNote "Ethyl alcohol which has been rendered unfit for drinking; used as a diluent and cleaner."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2e1bd3e5-67e3-4f44-a688-fa27a36d0eb4 a skos:Concept;
+  skos:altLabel "propan-2-ol"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "isopropanol"@en;
+  skos:scopeNote "Common liquid secondary alcohol, and the first commercial synthetic alcohol. Synthesized by the hydration of propylene. Frequently used as an antiseptic, and in cosmetics. In industry it is used as a solvent and to produce acetone."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:60727247-aad1-4d5b-a39f-300270fc1aa8 a skos:Concept;
+  skos:altLabel "deionised water"@en, "water"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "deionised water"@en;
+  skos:scopeNote "Water from which dissolved ions have been removed by passing the water through cationic and anionic ion exchange."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:76775571-e1e8-4e95-9dfd-eb18dbfedb6c a skos:Concept;
+  skos:altLabel "H2O"@en, "RO water"@en, "deionised water"@en, "water"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "water"@en;
+  skos:scopeNote "A liquid made up of molecules of hydrogen and oxygen (HO2). When pure, it is colorless, tasteless, and odorless. It exists in gaseous, liquid, and solid forms; it is liquid at room temperature. It is the liquid of which seas, lakes, and rivers are composed, and which falls as rain. Water is one of the most plentiful and essential of compounds. It is vital to life, participating in virtually every process that occurs in plants and animals. One of its most important properties is its ability to dissolve many other substances. The versatility of water as a solvent is essential to living organisms. The term \"water\" is typically used to refer to the liquid form of this compound; for the solid or gaseous forms, use \"ice\" or \"water vapor.\""@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:eadf02f8-7d69-4575-a951-74eae08af558 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "RO water"@en;
+  skos:scopeNote "Movement of molecules of a liquid through a semipermeable membrane from a region of high solute concentration into a less concentrated field; a reversal of normal flow that occurs when hydrostatic pressure exceeds the osmotic pressure."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d4502ee1-a560-49b3-a55f-8ce9e78f483a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "buffered water"@en;
+  skos:scopeNote "Refers to the use of a buffering agent to stabilize acidity or alkalinity. In the context of conservation, this action is often applied to prevent damage due to acidity."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e588163d-e3a4-4df2-8a81-adb38410f43e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Fol."@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6cc31ada-4e16-48d1-865e-1d7a6dc0df5d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "4to"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4af97614-9c76-496d-81fa-6832c3019dc5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "8vo"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c2bbb2fb-6586-4465-82a8-ad56c4a356f5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "12mo"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9157fea1-4023-47f0-b6c5-792ab7b10ba8 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "16mo"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7af080c9-9e32-4382-82d8-9187ca7aad7e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "32mo"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fb5722fe-11bf-48db-ab7f-9b00b0b76385 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "64mo"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7456dbc2-2790-4411-92bd-bcad2a9eab53 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "mm"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7a6e7a4a-2a5a-4c0f-b989-07b4a2a447db a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pasteboard"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e90b1e4c-3143-476c-856e-5c337d41695b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "laminated"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:06033130-5500-40e3-aba7-9d3d0fd0a862 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "slip lacing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f0e4c8e2-019b-4d59-a680-2d723e0f80f5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "strap-type sewing supports"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:869351d4-e59a-46e1-9dd3-0bbeb926d739 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "split-strap"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:864829d6-1be6-4b6a-8906-f3787e31abcb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "twisted"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1414cf88-27ad-4a6a-82c0-ddcc14e2ae60 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "thongs"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:da013eb9-17ad-4d9f-a76f-a5498a09e444 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "raised"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e968e700-5654-42a5-9cfc-1a809d7a4486 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "recessed"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:22b67f8f-1930-4d03-8917-d397e18328be a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sawn-in"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2010e2ab-53ab-4165-b577-dc0373b45a1a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "single"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:deae0818-e7a4-4d0f-8d97-f088f038493a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "double"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0bbad2a9-0298-422d-b0ae-24f1ea922606 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "knifeCut"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:28829c4c-8128-4582-aeea-0814efbcb09e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "all-along"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:13c13819-e75a-45b5-8434-8458512b1cdb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "two-on"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ccf0d6c1-6918-4226-9c99-1e4ce9260dd5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "'herring bone'"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c3e46dd1-622e-4a12-8fba-ee3cba6d9d65 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "trimmed"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:984501a0-7dcc-48a4-9cf9-e36bd3320fd1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cut"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:26c43c1f-6857-47d3-857c-ae3667e84796 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tooling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:faa498dc-add3-469e-910f-634b319b4d6d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "blind tooling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ba60d6d3-2fb0-4eec-a24a-2b2c866aa274 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gold tooling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d36b73f6-c7fc-4d10-b11c-efe90fef4953 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "panel"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:dce32667-9af1-4b74-ac01-e9e0b5eb6286 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tube hollow"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4eb03cdf-beb2-4785-a819-515bc3b000fe a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "slight round"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7453ba43-c80f-403e-9373-c5b4077ac729 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "flat"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5468b31e-b76c-4709-bb23-96c933395e21 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "round"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d5c118cc-708b-417b-b852-184e1b8b056b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "slight"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0b53aea3-e769-4d0c-8f08-2f17a993f0c8 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "hollowBack"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:978e5e4d-4c2e-4e5d-89b8-9f4befb3a71c a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tightBack"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1a58ee51-0425-4b3b-a5fe-6a0033125226 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "case"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d8a61259-f336-4b0f-be46-d1f978da4615 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "in board"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:71531e9b-e28c-4be9-b83d-d0958a9c3199 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "full"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:05e79462-cf4f-4c1c-b06b-204748b38718 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "half"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ef52f538-ab6c-46ed-b181-f24008e82165 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "quarter binding"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:645c3a83-f5b9-4948-a267-d76ddf8b58e0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "corner plates"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1640aca4-3b14-4ee6-9e2f-f5cf6fc10327 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bosses"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5afc169f-1ae3-498b-8863-ddface765252 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "nails"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2cad0d96-ed4d-41c8-9ead-0c95961149bb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "straps"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:36a06812-89f3-4d36-833a-6fcc987994e3 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "clasps"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:90e9f758-b536-481e-8730-6dd2e1ceaecc a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "catchplates"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9a703d4c-c8c5-479a-8e08-e62d38996a9d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "phase box"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:568b616c-0fb8-40e2-81f5-06094189f4a1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "kase-make box"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:466cc72a-55c0-4a55-a4e9-3299b755e2c2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sound"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3901dfc4-a75e-493c-a0f3-ebbcd495906e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "attached"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:40c7f851-16d6-44ce-bf3b-383055f9edcd a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "good"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:43f58278-7b51-46e0-8a5f-40821e778bb9 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "intact"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:75aeb1b1-58ad-4f70-8259-fe6208579b84 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "firm"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3153f6ad-e7ff-42ff-969f-1a6e071de26b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "weak"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:71a9197e-3aa2-464d-a571-8408b7d96c5e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "loose"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3427c7db-bf50-466d-8667-74a5f1e7e1ca a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "brittle"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:83313d5d-2dbf-4ad7-8c0a-fc557d89129b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fragile"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b8a51390-72f9-46cc-9c06-55b8955a50bb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "worn"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f96a0c99-d68c-4f43-8e14-beda4c05f35b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "friable"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9c7223c4-8f85-49cb-9f6b-62ddb58416ac a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tearing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a624bc55-cea8-473a-a960-83529bf436aa a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "creasing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:569b76e1-aa35-4f51-8b01-63089fc4f317 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "damaged"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fa9721fb-8bd0-47a5-9902-91422dce07f7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "dry"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a6672756-aa97-487a-a7ef-4e31f1d9209b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "scuffed"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d8697bc2-702d-442e-946c-212a45bf5616 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "foxing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:94c6653d-fc73-41ee-835b-dcc7890c4a65 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "staining"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8f7a0bef-7c29-4c2e-8136-188011255f06 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "discoloration"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d0d15650-9778-47fa-9707-672dbaf9e3e6 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "degraded"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b4e3fcad-ab72-4e33-b367-bb742447b1a3 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pitted"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:21a43de8-0e08-4993-838f-b463af1a100a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cockling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f9c0576e-f96f-4272-a5a3-01f676961a96 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "distortion"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4962a27c-77d9-44aa-ab17-dc56fdbecfd4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tattered"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:25b06a26-762d-4f7e-b423-9f4451e0c333 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "lifted"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f5de2c1f-889c-4cc6-82f5-d9fb7c3c1524 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "yellowing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6567d1c1-380f-4766-9ff5-e42efe699d55 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rigid"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:559f915e-9321-4d32-a5b8-ba894ec5664e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tight"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7930e2f9-75ec-43c3-9cb6-448891c75704 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "unravelling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:99c2f9fa-a701-45c3-9b5c-3e6cb4cd8e33 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "decayed"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:20ed8670-b57e-4e56-9e9c-2eb951d0c416 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "soft"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:03f12b06-a225-4293-b70a-65444b17f172 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cracked"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c3ee8c98-fd64-49d3-be68-def81e089bc7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "powdery"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f0c3fbe3-ed2e-4668-a253-d8b272d0f828 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pleating"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5c3989c9-147f-49c8-b0d8-f304363c7ebf a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bowing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6db1e446-9cae-4615-b5e9-a79a4f4ce9df a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "broken"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9759643a-d9d3-4cd8-a66f-18a24107f7c2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fragmentary"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e9e57eb2-5ac2-4506-90a5-b13b160aeb85 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "detached"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:18746829-c696-4563-825c-4fbbb00f8601 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "losses"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:bd4067c5-8fb0-437e-b1e2-6e41a16d42cd a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "splitting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f401b59f-79f6-4316-bd75-998c5137deaa a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "missing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:cb554472-1c75-4e0d-b4f2-09c473961cc4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "lost"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ab709bf9-f6e0-455e-a4cf-e9c2d28ba994 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rebacked"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8f47d345-d392-4eef-9b64-9f332d81faa1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "repaired"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:42849bc0-ea2f-4aca-aa6b-eb876733e62f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rehitched"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3a266169-d6fc-4d12-a450-96ff44182c18 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "insect damage"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a79ca506-76a3-45a2-87c5-c97c27c0d9ef a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "water damage"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a0ef3c5b-0212-4315-bd9b-eb23f20f515b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "acidic ink damage"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d678046b-cfb7-43d3-97d4-c9ca9aff7726 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "severe"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b206fba5-7065-4c85-b381-838471069fea a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "partially"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4f3d01a3-43e4-4a10-b2b9-36dfe832ee89 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "minor"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4580c550-2663-4b8e-9eb6-bfd0c7242790 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "head"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6328164f-98e0-4fe2-b027-957a0cb087c3 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tail"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4d7fa7c2-46cd-4d4d-b51e-0b4fb551afae a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fore-edge"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0ecc3e31-66bd-489c-96ae-fe9523729275 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "corners"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a1c23f7c-1319-4340-b8a2-881da7a3a2c2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "borders"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9999c9bb-ab2c-48a7-8229-5cf7964b908c a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fleshside"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:46e87140-1d9a-4356-84b3-77705b4eb246 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "hairside"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:98a5d04c-c5de-4bc5-916f-96495a4d03ad a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "joints"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3226a532-01ba-40a9-bb76-bc952e3ff76e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "inner joints"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5af94f0f-d3ea-4405-8814-a8fdb79cb144 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "outer joints"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:543cc45e-c8b4-4a45-b7f3-8bdbeeafbb2c a skos:Concept;
+  skos:altLabel "upper"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "left"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:66080d12-89e2-4937-bf08-cc9dcc038380 a skos:Concept;
+  skos:altLabel "lower"@en;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "right"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d2766b84-8850-4847-b762-75b56d5330a2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "outer"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:db0e9430-a66e-49c5-b5c2-2a99f18a742f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "inner"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ef529fe4-9fb8-46c2-8130-42fa71607f15 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sides"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7af9029c-12c0-417a-97c6-2be51ae94ded a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:be802dad-1287-4a47-b871-cc19518e8626 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "squares"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4049c587-88f9-4db1-907f-567938445322 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "outside"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:25dd9326-c5c2-47ec-ae33-ab0a9965637c a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "inside"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e48a1308-9ed3-4ece-a1af-eb6f3de306e6 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "edges"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:68aaf302-edfe-4f76-9454-c637ad07f969 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sewing stations"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e5647f01-0348-4d08-afc9-947b8cb680c6 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sewing supports"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c308ec27-5735-47f1-83fc-971f554fc0e5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "change-over stations"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:98b039df-6fa1-432b-bac3-5157bda02b39 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "turn-in"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:166cb83a-7b02-4956-a267-dfb140a4bf26 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "slot (board slotting)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5992bd4b-d2e2-4825-a5ee-a4c660806389 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "first few leaves"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d7f8a463-6f8b-4f90-8029-24820f128de2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "last few leaves"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:47f578d1-b3aa-4449-a5f2-4e4d2088c1cd a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "boards"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1db1bb46-f258-42a9-b579-899f8c12ee55 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "around"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:949bb571-e738-40d8-854b-ca2e3e5e229b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine panels"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d325261e-7f58-48fe-bc22-330923f3a69e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "shoulder"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:270e99b3-fdd1-49a0-98f1-a15f9684d12f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "centre"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:098832af-cc82-40e8-96ce-153f1d1264d2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tie-downs"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ff9d129c-e1d2-49a0-9ab1-7d02ea0ac106 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "endbands"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a51026bd-4e05-4b52-927a-7b69a4407ea5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "middle"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:574cbdef-7ffa-4864-b879-bfbe7410c9d7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine label"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b857ebf5-2258-4759-a87c-4942f6e05b4a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine fold"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2012c0b0-1ce1-4afb-9c1f-8ad633a51021 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "endleaves"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e58d1f86-24b5-43df-9fad-0a65c4fbbc96 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "caps"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:24f97f0d-2d23-4b9b-afbc-e9523175c184 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "verso"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:66848da0-f06d-410a-b337-e4694dcde436 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "recto"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5c76edb8-c926-4906-9e49-ddceabc1a945 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "entry holes"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2137ed58-7bbf-4dd9-b0d6-45f000cd53d1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bands"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:aa91a4e1-d589-431b-bfd0-26630a991a15 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "kettles"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:96da43f3-8f71-4bb5-a72d-61fdad74c357 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cracks"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6050089b-1191-4d4c-af0c-c1c4cfb6a439 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pleats"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:06d79595-7be0-4ecf-8574-23503c02ac9f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "first few quires"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2a1eb36f-5c06-4eab-9e02-59400112993b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "last few quires"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:41364e21-fe25-412f-b90a-5dc7a9b25962 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "paper"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0f4cb52f-5d60-4dc2-a1a3-12713ad44951 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cloth"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9d4a0044-52b3-4090-87c4-daceef6b16c0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cord"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:40137aae-f3c1-4d92-a4fd-3ea7712d5c32 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wood"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4be59f87-fdeb-4424-af8d-81a92cf47bde a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "mull"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:88a53cfd-5102-4db2-9118-e3b792bce6fe a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "glue"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1888fa9e-2aac-47be-9fc4-8e49dba0bf1a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gelatine"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:77f4e34a-635b-4f5c-a104-87fb6f7d8226 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "adhesive"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:eb03e2e1-248c-41e1-b7b7-10394a682d06 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "aluminium alkoxide"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3d0357fe-3da9-45eb-a61f-16c0d4567270 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "magnesium bicarbonate"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:edf012af-4caf-4312-b21e-ff78a8797a95 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "methyl magnesium carbonate"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2d0b5000-0a2f-491c-ad6e-671a4760f676 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "mill board"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1bfaba64-6b43-449d-b571-18edc0176bef a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "board fibres"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c4803b8e-0ca5-42f2-804e-594b1ee55b83 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "metal"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:efb11821-8f9e-4d16-a2b9-45837a2162ca a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "hydroxypropyl cellulose"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b1e6c630-c445-47cd-b686-a150674a00b1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "polyester film"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e7617fc2-4331-4a48-b671-c4b0af964269 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "dye"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0c2fceae-760b-4a9e-848c-178fde8515b4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "stain"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:749720c4-028b-410d-891b-94d913e3c147 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "mount board"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:dfc68bd7-0513-4d65-b5c0-94c91d60f01d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fibres"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:032f0765-6958-4e82-8d16-7f76e0b8be6d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "dyed"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:37fa4750-9d06-4d52-8b48-6288083d3ca1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "undyed"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:052606e4-dbb6-45a4-8ab6-9eb920ae7203 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "natural"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d4cb1e41-dd40-4c86-a8e0-d11a49575573 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "toned"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2692f08c-68a2-4e0f-8ab9-88ad2feab8f8 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "archival"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5ef59bcc-43bd-48bf-b974-85e2ba7501fc a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tengujo"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:116a1567-53e1-44cc-9a54-87cd86576878 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "usumino"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5c61097d-b5d6-4b4c-ae01-54c53a8d05fb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tinted"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:54d58a0a-a7ee-4948-8f36-9bcd008d70b9 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "brass"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b0a68006-b494-4a9a-a36c-bdc4da758276 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "stained"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:007fd6ce-1d84-4b25-9e81-4f8e521ea027 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "beech wood"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c3aa837f-387e-4da0-a48c-acf8d1817f1a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "hemp"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5fcf7aef-291f-462f-9344-f676cfaff72f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sewing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4298a7b3-d07f-412c-b376-7b7e135ebcc0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "oversewing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1dde836d-4f06-4d04-8843-f30651e74b05 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pasting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:97c653f8-931b-4bc6-ac47-da30f9dcf925 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "lining (technique)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:12b6d99f-cf02-44be-a0ea-a1419bc5f286 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "guarding"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f4d55db1-b5c0-45ae-aaa0-6d3f0b50b8e7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "slotting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3a43912d-2463-42c2-87d9-87768cd59385 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cutting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:dc938e11-20e8-49ba-98ab-10fa33ea2ae4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "lifting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c6a871bf-e46d-4056-98b1-2a0d5192c79d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "detaching"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8847f1fc-a0a3-41de-8565-7f759f064f22 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "repairing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7f5f1e60-a9b7-406f-83c5-5f59372c88d5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "paring"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:1dd10712-d62b-4b01-b365-caeee3727baa a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sanding"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a9ac50ad-d9ba-4395-8148-786616104e72 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "reinforcing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8fba4d34-5f2f-4c22-8c60-812d1507809d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "in the round"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:07fb76a7-7255-4324-a4d0-bd4ced9612c1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "folding"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3614c25b-fa67-40b1-8b6a-0da013f5ca89 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "brushing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b25d38c5-d851-4aaf-9d21-2056d413e93b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "washing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fb55256f-4206-4e49-9009-57500ffed262 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "deacidifying"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0bed6f5f-3045-4fc8-ad6c-64d861751c6e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "dry cleaning"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b54fa745-09af-4708-bb05-23bf4eb0622b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "drying"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0e1bf380-ea2b-4bfb-a395-f0914e630b30 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "dry (technique)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:395c51b9-0621-46c8-b0c5-ffdc1989194b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "lacing in"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ba194025-33cb-4550-a581-6bf73bf84982 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "humidification"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:99d9eb7e-646f-4714-b98f-d0f88c6cf49d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pinning"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fb5a65be-93f9-4894-9b0f-5c8ec6a57dda a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "folding in half"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:35d17a08-dcf1-4ab7-84ad-d69147cd1dfb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "one on- one off"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4b0d6764-8362-451d-bce0-12a941ae43c5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rebacking"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2d239a6d-8a73-4204-b5bd-9535bd236aba a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "link-stitch"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fb8d96bf-f6f3-4a3e-bf4c-5cad8cb4b4b4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rehitching"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:98325aa4-e850-4b85-a50e-cc0ec485fabc a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bevelling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d18e56ea-aff5-421b-a272-ff31ac8e6141 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rolling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:d1b16b4e-5520-42cf-8262-32d72c63a30e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "extending"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b3eb813d-3330-4e0e-bd59-825d5b81ef37 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "retanning"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:22edccf3-82e0-48e7-a713-ba7d3ccc2739 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "consolidation"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:452f6652-51d2-4629-bb65-66c72c19f62a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pulling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5a65c614-812d-48f9-b92a-9e802cf4680f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sizing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9bc9b6ba-601c-4eb9-bf34-794d05ab3964 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "furbishing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:03c14e0c-1254-484b-b0ac-22215684c4c3 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "reattaching"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:43edce6b-0404-49c1-9ec0-567c283d864b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "stitching"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0f54c72a-f5da-46f8-a33b-d4b522270767 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "fraying"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:761b9b09-14b3-4e80-b819-09523558b531 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "rubbing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4b255c0e-03ca-402d-a2fa-9ccdb7e4d882 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "infilling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0d718109-f085-4e63-93b0-58ad321788b7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "supporting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:fcf32b6d-99c1-4ade-a5f1-de5ffae0a7be a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tipping"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:bfc39c2e-893f-4723-9999-bfde1e36bf06 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "scraping"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:734405d0-2e5f-4e34-a126-1ab6ac14483a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "cleaning"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:33f5a048-1650-4551-acc3-a9591d30b96c a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "inserting"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e888dad9-62fb-44c2-852b-a9c83d38f1e0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "staining (coloring)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b3119a3e-99ce-4cce-a2f9-b6763e872738 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tying up"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6f580c45-6209-4253-9562-b46b306a2717 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "dyeing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a90a5536-af54-4d38-91a2-4dc8d942759b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "glueing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c219c541-fa18-40a2-a206-cc96509dbd4a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "building up"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f53d36d8-24d2-42b2-b1a5-caca80f1d4a2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "filling"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7654de0a-b394-4207-a4ec-2dd6101f95e6 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "scarfing"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f0a99e1b-472b-4001-baef-4914423975e4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "primary sewing (endband techniques)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a7d4e799-b826-4dd2-802b-bf469ebe51fd a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "secondary sewing (endband techniques)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:598824f7-0405-4aa0-bba2-d35f8a959637 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "front and back bead"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:eb055744-5f87-47d7-b238-710d6b3af06b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "front bead"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e65c476c-6409-4840-b0f4-c48261644a17 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "zig-zag gusset (stitching)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:898de4be-186d-47ed-a975-2bbe778a7ae3 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "under weight"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ea21dbfe-88e7-4d53-b92c-dbb16891b28a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "flush"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:413e7534-9887-43a0-aff9-8130e922c779 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "back bead reversing stitch"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0a86cfab-d3fa-42be-b0c4-51cd37359bdf a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "vat (dyeing)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:506e5b7a-5c6b-43ec-a90d-be720644fa04 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "double thread"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:305236f1-5eac-4127-b8a4-24e44025e5d7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "two needle"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:279b5458-3f25-4e69-80b5-ba12960b4d82 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "front cross-over bead"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b47f9e6f-c3cd-4372-b152-cae76a1b09ed a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "in situ"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:bc16ad2c-599c-406e-ab77-ff1841508fc5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "back reversing stitch"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f78d77b5-b714-49ab-bdb8-f5c18f8b2f75 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pastedowns"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4a04187f-a135-4d31-9143-27c8ca744129 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "flyleaves"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:41ec944b-6f0a-4eca-96c5-63534cb5035b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "'made' sheets"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:753d6434-c8f0-44c9-a498-14a3760a8192 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "stub"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:3ef9e52f-16f0-4e34-b41e-995545522257 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "core (endband)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7bb475ec-5535-47c8-9542-94b68044fd88 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "knife"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:94d7f47c-a1d9-4d50-bf1d-055dbaa82171 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "brush"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:04ecb33c-cdc0-4a99-b641-e3e3f2ae5556 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spatula"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a7d68b00-5bc5-47f2-b1d5-e7355b7ce36e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "curved needle"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b6dccca8-c50a-44b2-a0f8-ad4e7d4280da a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "needles"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:27191187-c34b-40a4-a23c-e0aec43feea1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "syringe"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:67780032-b759-4f2a-801e-18302ee32962 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "boards (flat objects)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:c1886d05-626a-47ef-a6f0-dad7a529e525 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bulldog clips"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7446267b-f761-4afb-89ff-6f387d9b18a9 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "foredom drill"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:16b01476-3767-4d6a-83cb-b7d52ad36498 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "blotters"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:880f1be0-c6dd-40eb-a89d-f046d9219ba9 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "covering material"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:65442018-18dd-4761-b2f4-ffc657187e1a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine stiffener"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:683d74d8-b3c7-4d21-8e7c-aea8ae7665f2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "lining"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4b14e55a-5a1a-48a9-863c-ddc248685c84 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "comb lining"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:06d51cb6-c495-4968-9929-a32f85443e96 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine (cover)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9390e72f-cae7-48e8-939c-696c4028024b a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine lining"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8fa3b487-b69a-40af-990a-9c71d654cc32 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "adhesive layer"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ad9523ed-4bb9-41fc-a951-a2f612162038 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "previous repairs"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:704b35eb-6457-457a-bc67-4c8cca0afefc a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "guard"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7520dffc-dfa9-466a-8d51-31cdebe00d12 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "braids"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4cdc50bc-b18b-4e78-815d-8c61fcffdb7f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "concertina guard"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:aad3d408-53b3-4363-a6f5-eedc2740b2fb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "furniture"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f19e9421-5101-481e-8e4b-20f7b89ff8a2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "tips (corners)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b648189c-340f-4ebe-a3a1-be87844501a1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "end-of-spine support bands"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:27c12f35-d672-4c92-a1fa-75702b42da5d a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "pins"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8afc6ab4-9ee4-45e5-ad2b-9ed7f16505bd a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine labels"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:4c7df360-c7bf-4fac-a435-87a8bf491855 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "slips"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7c001186-975e-4b38-9567-9925a69e87f5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "leaves"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a882b2a3-66f9-40c1-bfa9-7cb82706aebf a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "grain layer"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:5473370c-ef2c-40d4-bfd1-c4b51e9164c5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "infill"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:dbd30db6-2106-44eb-ae96-84f241f5dd7a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wedges"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:05873120-5bb8-49e2-9bac-58fee13fa64a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "insert"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a81df4d7-8802-46c2-b466-50b8a2610ae5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "white"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ecc6ecd7-5baa-4a45-bbb6-df7858ff272f a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "blue"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:91fede93-fdf0-40cd-970e-92a0bc2af847 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "red"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:73f242e7-6cfd-42cf-acbe-f87408cd3bbd a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "brown"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:920e8e48-86bd-4391-8963-3e2e7d06ffee a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "inch"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2636ec23-6b58-4797-9b50-a4a24d6b7c46 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gsm"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:55ac0c8b-4345-4d7d-840a-54f58ee14636 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "Gunze Count system"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:b182c082-1fd8-4153-9dde-1fd7468251f1 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "wt"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:355eb60c-2da3-469d-b169-c916b7edeb62 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "ml"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:0dd711bc-7767-4605-b71a-8acfd083ea06 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "ply"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f8d776cd-fb3b-4b79-ba67-4b25484b781a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "coloured pencils"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:457d71ca-21fc-48c9-9a0f-c9620d4f7893 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "degraded"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9631c43e-8455-49d5-8dc0-fe60233ba86a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "chalk pencils"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6af766e4-c2d0-44a4-a462-5eb171138af5 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "backing joints"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:632ac2b0-0c63-46d1-a5ac-7fd0170c346c a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bookbinding (process)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a3fd1b01-9245-4309-9a4c-4083e2973936 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "bookblocks"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:de5cfb3f-b98c-4426-a0d5-083c7e8b02b4 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "books"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:42d508aa-387f-4284-aa4f-27408c7a5841 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "collations"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:7261452a-59fc-4910-8b3a-ba9a83a10f41 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "color (perceived attribute)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:6fd886bc-1b95-461b-85b4-f2bc8bcadccc a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "conservation (process)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2d17fec8-df7c-46c0-945f-6a2826b6e22e a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "conservators (people in conservation)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:ff20e185-f4f3-491a-a16f-d62c6251d678 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "covers"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:f4b42795-d94d-4ff5-a0e1-f41e6d11f8c0 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "description"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:2fb5b74b-1202-4ba0-8246-581e1585059a a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "false bands"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:031d0575-2814-43cb-9e8a-a33c651416a7 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "gatherings"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:8021d03a-28c8-4211-bbad-ac9914a181ea a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "height"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:9391d5aa-9337-4fd3-a347-821741efeaec a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "sewn structures"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:528dd75e-1afa-4acd-a347-74abb52eb383 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "shelfmarks"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:597b6b56-0c58-45ce-a743-b67a9b1007c2 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "solution"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:a539e921-7886-4074-9fa4-83c7c25e0286 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "solvent"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:aaf9cd01-1ba5-4004-87cc-42ad4fd920fb a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "spine (bookblocks)"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:62c6d683-6b02-490c-b471-9b3bb84e9d40 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "textblocks"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:e19a29cb-0b2b-4a7e-a3ac-a62ddee9a270 a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "thickness"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .
+
+bvc:62f6a0e8-e255-4213-811d-3639c8d88baa a skos:Concept;
+  skos:inScheme <https://w3id.org/bod-vocab/>;
+  skos:prefLabel "width"@en;
+  skos:topConceptOf <https://w3id.org/bod-vocab/> .

@@ -1,0 +1,13 @@
+ConceptScheme URI,https://w3id.org/spg/,,,,,
+PREFIX,spgc,https://w3id.org/spg/concept/,,,,
+dct:title@en,Smithsonian vocabulary for paintings conservation,,,,,
+dct:title@fr,Vocabulaire Smithsonien pour la restauration des peintures,,,,,
+dct:description@en,,,,,,
+dct:description@fr,,,,,,
+dc:creator,Smithsonian Institution,,,,,
+dct:rights,https://creativecommons.org/licenses/by/4.0/,,,,,
+,,,,,,
+URI,skos:prefLabel@en,skos:prefLabel@fr,skos:altLabel@en,skos:broader,skos:related,skos:scopeNote@en
+spgc:20,oil,huile,,,,A general term from a water-insoluble viscous liquid.
+spgc:15,linseed oil,l'huile de lin,,spgc:20,spgc:5,The most popular drying oil used as paint medium.  The medium hardens over several weeks as components of the oil polymerize to form an insoluble matrix.  Driers can be added to accelerate this process.
+spgc:5,drier,siccatif,,,,Any catalytic material which when added to a drying oil accelerates drying or hardening of the film.
