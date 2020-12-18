@@ -1,0 +1,46 @@
+@prefix cam: <http://cameo.mfa.org/wiki/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix tna: <http://w3id.org/tna-vocab/> .
+
+<http://w3id.org/tna-vocab/tna-vocab--cam/20201218> {
+
+  <http://w3id.org/tna-vocab/tna-vocab--cam/20201218> 
+    dct:identifier "tna-vocab20201218--cam-20200518" ;
+    dc:creator "The National Archives";
+    dc:subject "alignment";
+    dct:created "2020-12-18T00:00:00.000+01:00"^^xsd:dateTime ;
+    dct:description "Alignment of the National Archives vocabulary with CAMEO for the LCD pilot"@en .
+
+<http://w3id.org/loc-vocab/> a skos:ConceptScheme;
+  dc:creator "The National Archives"@en;
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  skos:hasTopConcept tna:26f65c82-54a1-46ad-888c-42f9f9b776e1, tna:3ffd5ac8-c27e-470a-a090-32530094cbc8,
+    tna:c4a078e6-27ad-4ccb-bb28-e83bfb5c559a, tna:dcc3e0fd-d127-4021-98c3-7488c43944c1 .
+
+tna:26f65c82-54a1-46ad-888c-42f9f9b776e1 a skos:Concept;
+  skos:exactMatch cam:Dry_cleaning_sponge;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
+  skos:prefLabel "Smoke sponge"@en;
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
+
+tna:c4a078e6-27ad-4ccb-bb28-e83bfb5c559a a skos:Concept;
+  skos:exactMatch cam:Glass_fiber;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
+  skos:prefLabel "Glass fibres"@en;
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
+
+tna:3ffd5ac8-c27e-470a-a090-32530094cbc8 a skos:Concept;
+  skos:exactMatch cam:Mowital;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
+  skos:prefLabel "Mowital B 60HH"@en;
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
+
+tna:dcc3e0fd-d127-4021-98c3-7488c43944c1 a skos:Concept;
+  skos:exactMatch cam:Plastazote;
+  skos:inScheme <http://w3id.org/loc-vocab/>;
+  skos:prefLabel "Plastazote foam"@en;
+  skos:topConceptOf <http://w3id.org/loc-vocab/> .
+}
