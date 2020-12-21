@@ -14,33 +14,33 @@
     dct:created "2020-12-18T00:00:00.000+01:00"^^xsd:dateTime ;
     dct:description "Alignment of the National Archives vocabulary with CAMEO for the LCD pilot"@en .
 
-<http://w3id.org/tna-vocab/> a skos:ConceptScheme;
-  dc:creator "The National Archives"@en;
-  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
-  skos:hasTopConcept tna:26f65c82-54a1-46ad-888c-42f9f9b776e1, tna:3ffd5ac8-c27e-470a-a090-32530094cbc8,
-    tna:c4a078e6-27ad-4ccb-bb28-e83bfb5c559a, tna:dcc3e0fd-d127-4021-98c3-7488c43944c1 .
+  <http://w3id.org/tna-vocab/> a skos:ConceptScheme;
+    dc:creator "The National Archives"@en;
+    dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+    skos:hasTopConcept tna:26f65c82-54a1-46ad-888c-42f9f9b776e1, tna:3ffd5ac8-c27e-470a-a090-32530094cbc8,
+      tna:c4a078e6-27ad-4ccb-bb28-e83bfb5c559a, tna:dcc3e0fd-d127-4021-98c3-7488c43944c1 .
 
-tna:26f65c82-54a1-46ad-888c-42f9f9b776e1 a skos:Concept;
-  skos:exactMatch cam:Dry_cleaning_sponge;
-  skos:inScheme <http://w3id.org/tna-vocab/>;
-  skos:prefLabel "Smoke sponge"@en;
-  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+  tna:26f65c82-54a1-46ad-888c-42f9f9b776e1 a skos:Concept;
+    skos:exactMatch cam:Dry_cleaning_sponge;
+    skos:inScheme <http://w3id.org/tna-vocab/>;
+    skos:prefLabel "Smoke sponge"@en;
+    skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
-tna:c4a078e6-27ad-4ccb-bb28-e83bfb5c559a a skos:Concept;
-  skos:exactMatch cam:Glass_fiber;
-  skos:inScheme <http://w3id.org/tna-vocab/>;
-  skos:prefLabel "Glass fibres"@en;
-  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+  tna:c4a078e6-27ad-4ccb-bb28-e83bfb5c559a a skos:Concept;
+    skos:exactMatch cam:Glass_fiber;
+    skos:inScheme <http://w3id.org/tna-vocab/>;
+    skos:prefLabel "Glass fibres"@en;
+    skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
-tna:3ffd5ac8-c27e-470a-a090-32530094cbc8 a skos:Concept;
-  skos:exactMatch cam:Mowital;
-  skos:inScheme <http://w3id.org/tna-vocab/>;
-  skos:prefLabel "Mowital B 60HH"@en;
-  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+  tna:3ffd5ac8-c27e-470a-a090-32530094cbc8 a skos:Concept;
+    skos:exactMatch cam:Mowital;
+    skos:inScheme <http://w3id.org/tna-vocab/>;
+    skos:prefLabel "Mowital B 60HH"@en;
+    skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
-tna:dcc3e0fd-d127-4021-98c3-7488c43944c1 a skos:Concept;
-  skos:exactMatch cam:Plastazote;
-  skos:inScheme <http://w3id.org/tna-vocab/>;
-  skos:prefLabel "Plastazote foam"@en;
-  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+  tna:dcc3e0fd-d127-4021-98c3-7488c43944c1 a skos:Concept;
+    skos:exactMatch cam:Plastazote;
+    skos:inScheme <http://w3id.org/tna-vocab/>;
+    skos:prefLabel "Plastazote foam"@en;
+    skos:topConceptOf <http://w3id.org/tna-vocab/> .
 }
