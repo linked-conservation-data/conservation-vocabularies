@@ -17,8 +17,8 @@
 @prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/bod-vocab/20201218> {
-  <https://w3id.org/bod-vocab/20201218> a <http://rdfs.org/ns/void#Dataset> ;
+<http://w3id.org/loc-vocab/20201218> {
+  <http://w3id.org/loc-vocab/20201218> a <http://rdfs.org/ns/void#Dataset> ;
     owl:versionInfo "20201218" ;
     dct:issued "2020-12-18T00:00:00Z"^^xsd:dateTime ;
     dct:rights <https://creativecommons.org/licenses/by/4.0/> ;
