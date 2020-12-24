@@ -3,6 +3,10 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<<<<<<< HEAD
+=======
+@prefix lob: <http://w3id.org/lob/concept/> .
+>>>>>>> e4370fbc7895ff531089871b4acdc498948cf6c1
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -26,6 +30,7 @@
     dct:created "2020-12-18T00:00:00Z"^^xsd:dateTime .
 
 <http://w3id.org/tna-vocab/> a skos:ConceptScheme;
+<<<<<<< HEAD
   dc:creator "The National Arcives"@en;
   dct:description "Vocabulary compiled for the pilot of LCD2"@en;
   dct:rights <https://creativecommons.org/licenses/by/4.0/>;
@@ -1791,10 +1796,242 @@ tna:9cda351c-b3e9-4582-8c35-d3b304babcb6 a skos:Concept;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
 tna:1c607ecb-68ef-4a0d-bb9a-678009340651 a skos:Concept;
+=======
+  dc:creator "The National Archives"@en;
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  skos:hasTopConcept tna:0595a72e-deac-475e-ba0f-09cdaff26a69, tna:1c607ecb-68ef-4a0d-bb9a-678009340651,
+    tna:30b0fbe5-e54b-4689-a73a-c23e52c5c895, tna:3179d222-59e0-4738-a493-f25b9c0d9677,
+    tna:3d6d5cdb-da22-4256-bf5e-3edb34430d71, tna:3f737d65-10c3-4b0b-8b2b-1e2f430dfc1f,
+    tna:4275a531-43a2-4cd3-8642-f3858ccd5c95, tna:4545fd05-843c-483e-8c24-85b2960d41aa,
+    tna:472d02e2-a8e0-41ce-820f-1512f67ac2be, tna:4fd286d2-b1e5-4aca-bf61-63c75da60ca1,
+    tna:53c1430b-facd-4e12-8491-9ce2656526f9, tna:53c47de8-0c32-465c-afd3-16b02a29549a,
+    tna:5a3da7f3-eaf7-4de9-aa30-0f09ff4c95a2, tna:5ab16e58-5ffc-4dd7-8bcb-2fd5504e7bd1,
+    tna:5db1278d-45da-44c7-9291-badf0c8a451f, tna:62d23ed2-e7b4-43f8-b57a-8d9be4ca455f,
+    tna:6a394556-77f4-4b7c-8628-56be82c77743, tna:6aa637b5-06a0-42d9-89c0-b75a39e1e0e3,
+    tna:82467d6c-f4a6-4929-a972-70a23e808290, tna:853bcc22-8226-4690-9959-d7ea480fea99,
+    tna:8f7ad40c-b7c3-4c19-b4d2-069e04a1b6a1, tna:94af1a65-c10d-438d-ae68-8bbffcd44d53,
+    tna:95ad7657-95b3-4682-8432-fc0d5b258035, tna:a1d4348c-0f38-4db2-bfba-74b550e583d5,
+    tna:a5dcb2c7-a257-4e90-abab-bd1667b6699c, tna:abd768d0-5b65-4f84-8975-86d1bc3e3ddb,
+    tna:b4af833c-009a-44f7-b0aa-0724bb060aff, tna:ba57534a-8e19-461f-a92a-22439c4ebd42,
+    tna:bb984bad-24e6-44d3-a937-955852960aac, tna:bc6e4cfe-2f59-4de8-a91f-dfc0c2bbadab,
+    tna:bdc64bd6-5edc-404d-a4f9-be08561e096c, tna:ced5bfcb-38d9-41cc-9e9c-e47da92220db,
+    tna:dcb93a3a-e53a-49c6-8945-8dffb39ed045, tna:e14d77b9-98e9-4703-839f-1053868928b6,
+    tna:e24d8e07-7379-44aa-ab98-f15efc717806, tna:ef73eeb4-c695-4a2a-98d9-71a8b74d2aec,
+    tna:f4196db6-948f-43c1-be1c-035cb51a8921, tna:f498c977-30bf-4a18-9eb4-9f1de5720791,
+    tna:f69a19ba-12eb-48e4-9a7c-815f94348e64, tna:f8c4ecb4-1e45-495a-abc6-afac8cc99daf .
+
+tna:4545fd05-843c-483e-8c24-85b2960d41aa a skos:Concept;
+  skos:exactMatch lob:1197;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Alum tawed skin-calf"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:f498c977-30bf-4a18-9eb4-9f1de5720791 a skos:Concept;
+  skos:exactMatch lob:1197;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Alum tawed - not specified"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:bdc64bd6-5edc-404d-a4f9-be08561e096c a skos:Concept;
+  skos:exactMatch lob:1197;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Alum tawed skin-goat"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:6aa637b5-06a0-42d9-89c0-b75a39e1e0e3 a skos:Concept;
+  skos:exactMatch lob:1222;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "boards"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:853bcc22-8226-4690-9959-d7ea480fea99 a skos:Concept;
+  skos:exactMatch lob:1397;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "inner joints"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:4fd286d2-b1e5-4aca-bf61-63c75da60ca1 a skos:Concept;
+  skos:exactMatch lob:1619;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "spine lining"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:53c47de8-0c32-465c-afd3-16b02a29549a a skos:Concept;
+  skos:exactMatch lob:1622;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "spine-folds"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:f4196db6-948f-43c1-be1c-035cb51a8921 a skos:Concept;
+  skos:exactMatch lob:2352;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "spine piece"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:f8c4ecb4-1e45-495a-abc6-afac8cc99daf a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Blue ledger paper 65 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:95ad7657-95b3-4682-8432-fc0d5b258035 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Bodleian handmade laid paper 20lb"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:e24d8e07-7379-44aa-ab98-f15efc717806 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Cover paper, PC4BLU, Blue"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:5a3da7f3-eaf7-4de9-aa30-0f09ff4c95a2 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Dover laid paper"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:30b0fbe5-e54b-4689-a73a-c23e52c5c895 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Handmade cover paper blue"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:4275a531-43a2-4cd3-8642-f3858ccd5c95 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Indian brown handmade paper"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:53c1430b-facd-4e12-8491-9ce2656526f9 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Mould made cream laid 22lb"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:0595a72e-deac-475e-ba0f-09cdaff26a69 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Mould made cream laid 232lb"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:a1d4348c-0f38-4db2-bfba-74b550e583d5 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Mould made stone 20lb"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:a5dcb2c7-a257-4e90-abab-bd1667b6699c a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Mould made stone 22lb"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:ced5bfcb-38d9-41cc-9e9c-e47da92220db a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Moulin du verger cover paper 380 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:5ab16e58-5ffc-4dd7-8bcb-2fd5504e7bd1 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Moulin du verger 120 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:bb984bad-24e6-44d3-a937-955852960aac a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Moulin du verger paper 55 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:5db1278d-45da-44c7-9291-badf0c8a451f a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Moulin du verger 80 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:3f737d65-10c3-4b0b-8b2b-1e2f430dfc1f a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Queen Anne dark wove 65 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:ba57534a-8e19-461f-a92a-22439c4ebd42 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Rag endleaf - 120 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:3179d222-59e0-4738-a493-f25b9c0d9677 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Rag endleaf - 160 gsm"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:6a394556-77f4-4b7c-8628-56be82c77743 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Royal Greenwich laid paper"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:82467d6c-f4a6-4929-a972-70a23e808290 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill dark wove (65 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:62d23ed2-e7b4-43f8-b57a-8d9be4ca455f a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill 1890's laid (110 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:3d6d5cdb-da22-4256-bf5e-3edb34430d71 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill cream wove (65 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:f69a19ba-12eb-48e4-9a7c-815f94348e64 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill dark laid (65 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:b4af833c-009a-44f7-b0aa-0724bb060aff a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill dark wove (90 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:94af1a65-c10d-438d-ae68-8bbffcd44d53 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill off white (65 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:e14d77b9-98e9-4703-839f-1053868928b6 a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill fine off white laid (25 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:ef73eeb4-c695-4a2a-98d9-71a8b74d2aec a skos:Concept;
+  skos:exactMatch lob:2462;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Ruscombe Mill stone laid (65 gsm)"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:1c607ecb-68ef-4a0d-bb9a-678009340651 a skos:Concept;
+  skos:exactMatch lob:2462;
+>>>>>>> e4370fbc7895ff531089871b4acdc498948cf6c1
   skos:inScheme <http://w3id.org/tna-vocab/>;
   skos:prefLabel "Archival rag endleaf"@en;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
+<<<<<<< HEAD
 tna:aef6e62a-82d2-4bbd-8f6c-1555d0d2a4ac a skos:Concept;
   skos:inScheme <http://w3id.org/tna-vocab/>;
   skos:prefLabel "Linen"@en;
@@ -1921,10 +2158,21 @@ tna:47072b7c-4a4c-479c-a19b-27c1a8f4f09e a skos:Concept;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
 tna:dcb93a3a-e53a-49c6-8945-8dffb39ed045 a skos:Concept;
+=======
+tna:8f7ad40c-b7c3-4c19-b4d2-069e04a1b6a1 a skos:Concept;
+  skos:exactMatch lob:3256;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "outer joints"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:dcb93a3a-e53a-49c6-8945-8dffb39ed045 a skos:Concept;
+  skos:exactMatch lob:3810;
+>>>>>>> e4370fbc7895ff531089871b4acdc498948cf6c1
   skos:inScheme <http://w3id.org/tna-vocab/>;
   skos:prefLabel "spine"@en;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
+<<<<<<< HEAD
 tna:f4196db6-948f-43c1-be1c-035cb51a8921 a skos:Concept;
   skos:inScheme <http://w3id.org/tna-vocab/>;
   skos:prefLabel "spine piece"@en;
@@ -1941,10 +2189,21 @@ tna:7f7a1ec4-b4e9-41db-bf5d-96409fdc3d8c a skos:Concept;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
 tna:abd768d0-5b65-4f84-8975-86d1bc3e3ddb a skos:Concept;
+=======
+tna:472d02e2-a8e0-41ce-820f-1512f67ac2be a skos:Concept;
+  skos:exactMatch lob:4533;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "Polyester thread"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+
+tna:abd768d0-5b65-4f84-8975-86d1bc3e3ddb a skos:Concept;
+  skos:exactMatch lob:4543;
+>>>>>>> e4370fbc7895ff531089871b4acdc498948cf6c1
   skos:inScheme <http://w3id.org/tna-vocab/>;
   skos:prefLabel "corners"@en;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 
+<<<<<<< HEAD
 tna:4fd286d2-b1e5-4aca-bf61-63c75da60ca1 a skos:Concept;
   skos:inScheme <http://w3id.org/tna-vocab/>;
   skos:prefLabel "spine lining"@en;
@@ -1995,3 +2254,11 @@ tna:34ba4152-9f49-4857-93bc-b57bb3ff942c a skos:Concept;
   skos:prefLabel "washing"@en;
   skos:topConceptOf <http://w3id.org/tna-vocab/> .
 }
+=======
+tna:bc6e4cfe-2f59-4de8-a91f-dfc0c2bbadab a skos:Concept;
+  skos:exactMatch lob:4545;
+  skos:inScheme <http://w3id.org/tna-vocab/>;
+  skos:prefLabel "covering material"@en;
+  skos:topConceptOf <http://w3id.org/tna-vocab/> .
+}
+>>>>>>> e4370fbc7895ff531089871b4acdc498948cf6c1
