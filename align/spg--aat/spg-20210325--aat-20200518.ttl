@@ -1,0 +1,559 @@
+@prefix aat: <http://vocab.getty.edu/aat/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix spgc: <https://w3id.org/spg/concept/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/spg/> a skos:ConceptScheme;
+  dc:creator "Smithsonian Institution";
+  dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+  dct:title "Smithsonian vocabulary for paintings conservation"@en;
+  skos:hasTopConcept spgc:1, spgc:10, spgc:11, spgc:12, spgc:13, spgc:14, spgc:15, spgc:16,
+    spgc:17, spgc:18, spgc:19, spgc:2, spgc:20, spgc:21, spgc:22, spgc:23, spgc:24, spgc:25,
+    spgc:26, spgc:27, spgc:28, spgc:29, spgc:3, spgc:30, spgc:31, spgc:32, spgc:33, spgc:34,
+    spgc:35, spgc:36, spgc:37, spgc:38, spgc:39, spgc:4, spgc:40, spgc:41, spgc:42, spgc:43,
+    spgc:44, spgc:45, spgc:46, spgc:47, spgc:48, spgc:49, spgc:5, spgc:50, spgc:51, spgc:52,
+    spgc:53, spgc:54, spgc:55, spgc:56, spgc:57, spgc:58, spgc:59, spgc:6, spgc:60, spgc:61,
+    spgc:62, spgc:63, spgc:64, spgc:65, spgc:66, spgc:67, spgc:68, spgc:69, spgc:7, spgc:70,
+    spgc:71, spgc:72, spgc:73, spgc:74, spgc:75, spgc:76, spgc:77, spgc:78, spgc:79, spgc:8,
+    spgc:80, spgc:81, spgc:82, spgc:83, spgc:84, spgc:85, spgc:86, spgc:87, spgc:9 .
+
+spgc:1 a skos:Concept;
+  skos:broadMatch aat:300219449;
+  skos:exactMatch aat:300053077;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "abrasion"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:2 a skos:Concept;
+  skos:broadMatch aat:300435292;
+  skos:exactMatch aat:300014426;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:narrowMatch aat:300015058;
+  skos:prefLabel "acrylic"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:3 a skos:Concept;
+  skos:exactMatch aat:300014518;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:narrowMatch aat:300044085;
+  skos:prefLabel "alkyd"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:4 a skos:Concept;
+  skos:closeMatch aat:300053360;
+  skos:exactMatch aat:300389854;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "alla prima"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:5 a skos:Concept;
+  skos:broadMatch aat:300014720;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "binder"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:6 a skos:Concept;
+  skos:exactMatch aat:300252414;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "blanching"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:7 a skos:Concept;
+  skos:exactMatch aat:300053586;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "blending"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:8 a skos:Concept;
+  skos:closeMatch aat:300053402, aat:300178449;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "blocking-in"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:9 a skos:Concept;
+  skos:exactMatch aat:300186215;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "bloom"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:10 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "body"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:11 a skos:Concept;
+  skos:exactMatch aat:300386687;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "chalking"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:12 a skos:Concept;
+  skos:exactMatch aat:300053414;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "chiaroscuro"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:13 a skos:Concept;
+  skos:broadMatch aat:300131647;
+  skos:exactMatch aat:300056130;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "color"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:14 a skos:Concept;
+  skos:closeMatch aat:300054126, aat:300228347;
+  skos:exactMatch aat:300228345;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "craquelure"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:15 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "crawling"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:16 a skos:Concept;
+  skos:broadMatch aat:300054126;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "crazing"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:17 a skos:Concept;
+  skos:broadMatch aat:300219449;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "crocking"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:18 a skos:Concept;
+  skos:exactMatch aat:300014732;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "drier"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:19 a skos:Concept;
+  skos:exactMatch aat:300014286;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "drying oils"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:20 a skos:Concept;
+  skos:broadMatch aat:300214748;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "efflorescence"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:21 a skos:Concept;
+  skos:broadMatch aat:300015062;
+  skos:exactMatch aat:300015064;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "egg tempera painting"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:22 a skos:Concept;
+  skos:exactMatch aat:300015003;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "emulsion"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:23 a skos:Concept;
+  skos:closeMatch aat:300147678;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "enamel paints"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:24 a skos:Concept;
+  skos:broadMatch aat:300014740;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "extender"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:25 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "fly specks"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:26 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:narrowMatch aat:300311349;
+  skos:prefLabel "fugitive pigment"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:27 a skos:Concept;
+  skos:closeMatch aat:300015298;
+  skos:exactMatch aat:300014952;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "gesso"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:28 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:narrowMatch aat:300178925;
+  skos:prefLabel "glair"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:29 a skos:Concept;
+  skos:broadMatch aat:300015091;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "glaze (coloring)"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:30 a skos:Concept;
+  skos:exactMatch aat:300065242;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "gloss"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:31 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "grime"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:32 a skos:Concept;
+  skos:exactMatch aat:300015297;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "ground"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:33 a skos:Concept;
+  skos:broadMatch aat:300311041;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "haze"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:34 a skos:Concept;
+  skos:exactMatch aat:300053368;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "impasto"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:35 a skos:Concept;
+  skos:exactMatch aat:300053723;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "inpainting"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:36 a skos:Concept;
+  skos:exactMatch aat:300014916;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "lacquer"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:37 a skos:Concept;
+  skos:exactMatch aat:300014015;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "lake"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:38 a skos:Concept;
+  skos:exactMatch aat:300013021;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "latex"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:39 a skos:Concept;
+  skos:broadMatch aat:300053761;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "leaching"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:40 a skos:Concept;
+  skos:closeMatch aat:300053356;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "lean paint"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:41 a skos:Concept;
+  skos:exactMatch aat:300192092;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "light fastness (color quality)"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:42 a skos:Concept;
+  skos:exactMatch aat:300056147;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "lightness"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:43 a skos:Concept;
+  skos:exactMatch aat:300014292;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "linseed oil"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:44 a skos:Concept;
+  skos:closeMatch aat:300053368;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "loaded"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:45 a skos:Concept;
+  skos:closeMatch aat:300056162;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "luster"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:46 a skos:Concept;
+  skos:exactMatch aat:300014774;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "medium"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:47 a skos:Concept;
+  skos:exactMatch aat:300263220;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "mildew"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:48 a skos:Concept;
+  skos:exactMatch aat:300015275;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "mineral spirits"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:49 a skos:Concept;
+  skos:broadMatch aat:300252693;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "mottling"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:50 a skos:Concept;
+  skos:broadMatch aat:300014989;
+  skos:closeMatch aat:300014993;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "natural varnish"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:51 a skos:Concept;
+  skos:exactMatch aat:300014254;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "oil"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:52 a skos:Concept;
+  skos:closeMatch aat:300012891, aat:300014989;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "oleoresinous"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:53 a skos:Concept;
+  skos:closeMatch aat:300056217;
+  skos:exactMatch aat:300056216;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "opacity"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:54 a skos:Concept;
+  skos:exactMatch aat:300056216;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "opaque"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:55 a skos:Concept;
+  skos:broadMatch aat:300010247;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "orange peel"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:56 a skos:Concept;
+  skos:broadMatch aat:300178448;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "over paint"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:57 a skos:Concept;
+  skos:broadMatch aat:300178450;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "paint layer"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:58 a skos:Concept;
+  skos:exactMatch aat:300189805;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "pentimento"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:59 a skos:Concept;
+  skos:exactMatch aat:300013109;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "pigment"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:60 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "polar solvents"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:61 a skos:Concept;
+  skos:exactMatch aat:300218300;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "polymer"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:62 a skos:Concept;
+  skos:exactMatch aat:300053400;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "priming"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:63 a skos:Concept;
+  skos:exactMatch aat:300012882;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "resin"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:64 a skos:Concept;
+  skos:broadMatch aat:300136723;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "retouching"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:65 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "sagging"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:66 a skos:Concept;
+  skos:exactMatch aat:300065467;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "saturation"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:67 a skos:Concept;
+  skos:exactMatch aat:300178457;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "scumble"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:68 a skos:Concept;
+  skos:closeMatch aat:300056035;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "shade"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:69 a skos:Concept;
+  skos:broadMatch aat:300056210;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "sheen"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:70 a skos:Concept;
+  skos:closeMatch aat:300124200;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "sinking"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:71 a skos:Concept;
+  skos:broadMatch aat:300015312;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "size"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:72 a skos:Concept;
+  skos:broadMatch aat:300022630;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "stretcher"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:73 a skos:Concept;
+  skos:exactMatch aat:300231557;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "strainer"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:74 a skos:Concept;
+  skos:exactMatch aat:300378967;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "synthetic resin"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:75 a skos:Concept;
+  skos:broadMatch aat:300014974;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "synthetic varnishes"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:76 a skos:Concept;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "tacking edges"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:77 a skos:Concept;
+  skos:exactMatch aat:300015062;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "tempra"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:78 a skos:Concept;
+  skos:broadMatch aat:300014415;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "thermoplastic"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:79 a skos:Concept;
+  skos:broadMatch aat:300014515;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "thermosetting"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:80 a skos:Concept;
+  skos:broadMatch aat:300186622;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "toughness"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:81 a skos:Concept;
+  skos:exactMatch aat:300015288;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "turpentine (spirits)"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:82 a skos:Concept;
+  skos:exactMatch aat:300056056;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "ultraviolet"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:83 a skos:Concept;
+  skos:exactMatch aat:300014974;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "varnish"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:84 a skos:Concept;
+  skos:broadMatch aat:300014720;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "water sensitive binder"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:85 a skos:Concept;
+  skos:exactMatch aat:300015275;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "white spirit"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:86 a skos:Concept;
+  skos:broadMatch aat:300053914;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "glaze (glass-like surface production)"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .
+
+spgc:87 a skos:Concept;
+  skos:broadMatch aat:300192092;
+  skos:inScheme <https://w3id.org/spg/>;
+  skos:prefLabel "light fastness (dimension)"@en;
+  skos:topConceptOf <https://w3id.org/spg/> .

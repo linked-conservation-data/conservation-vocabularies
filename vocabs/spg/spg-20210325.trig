@@ -1,0 +1,640 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix spgc: <https://w3id.org/spg/concept/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/spg/20210325> {
+  <https://w3id.org/spg/20210325> a <http://rdfs.org/ns/void#Dataset> ;
+    owl:versionInfo "20200325" ;
+    dct:issued "2021-03-25T00:00:00Z"^^xsd:dateTime ;
+    dct:rights <https://creativecommons.org/licenses/by/4.0/> ;
+    dc:creator "Smithsonian Institution" ;
+    dct:created "2021-03-25T00:00:00Z"^^xsd:dateTime .
+
+  <https://w3id.org/spg/> a skos:ConceptScheme;
+    dc:creator "Smithsonian Institution";
+    dct:rights <https://creativecommons.org/licenses/by/4.0/>;
+    dct:title "Smithsonian vocabulary for paintings conservation"@en;
+    skos:hasTopConcept spgc:1, spgc:10, spgc:11, spgc:12, spgc:13, spgc:14, spgc:15, spgc:16,
+      spgc:17, spgc:18, spgc:20, spgc:22, spgc:23, spgc:24, spgc:26, spgc:27, spgc:28, spgc:29,
+      spgc:3, spgc:30, spgc:31, spgc:32, spgc:33, spgc:34, spgc:35, spgc:36, spgc:37, spgc:38,
+      spgc:39, spgc:4, spgc:40, spgc:41, spgc:42, spgc:44, spgc:45, spgc:46, spgc:47, spgc:48,
+      spgc:49, spgc:5, spgc:52, spgc:53, spgc:54, spgc:55, spgc:56, spgc:57, spgc:58, spgc:59,
+      spgc:6, spgc:60, spgc:61, spgc:62, spgc:63, spgc:64, spgc:65, spgc:66, spgc:68, spgc:69,
+      spgc:7, spgc:70, spgc:71, spgc:72, spgc:73, spgc:74, spgc:76, spgc:77, spgc:8, spgc:80,
+      spgc:82, spgc:83, spgc:86, spgc:87, spgc:9 .
+
+  spgc:1 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "abrasion"@en;
+    skos:related spgc:11, spgc:17, spgc:83;
+    skos:scopeNote "A paint loss caused by excess friction during improper varnish removal or a varnish loss caused by friction."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:2 a skos:Concept;
+    skos:broader spgc:22;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "acrylic"@en;
+    skos:related spgc:74;
+    skos:scopeNote "A family of synthetic resins made by polymerizing esters of acrylic acids."@en .
+
+  spgc:3 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "alkyd"@en;
+    skos:related spgc:74;
+    skos:scopeNote "A synthetic resin which is the condensation product of a polybasic acid such as phthalic, a polyhydric alcohol such as glycerin and an oil fatty acid."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:4 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "alla prima"@en;
+    skos:scopeNote "An Italian phrase meaning painted solely wet in wet and usually, but not necessarily, at a single sitting. It is used most commonly with reference to oil painting."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:5 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:51, spgc:84;
+    skos:prefLabel "binder"@en;
+    skos:related spgc:46, spgc:63, spgc:74;
+    skos:scopeNote "The nonvolatile portion of a coating vehicle which is the film-forming ingredient used to bind the pigment particles together."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:6 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "blanching"@en;
+    skos:related spgc:20, spgc:36;
+    skos:scopeNote "A term applied to lacquer when they become partially opaque, cloudy or transparent upon application or drying. Fast-evaporating solvents may cool the film enough to cause water condensation, precipitating solid materials."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:7 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "blending"@en;
+    skos:related spgc:13;
+    skos:scopeNote "Blending is most commonly used with reference to academic painting to mean the blending together of separate touches of color for half tones until the graduations of tone and the marks of the brush are imperceptible."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:8 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "blocking-in"@en;
+    skos:related spgc:13, spgc:68;
+    skos:scopeNote "Usually refers to the broad application of masses of light, shade, and color, in the early stages of a painting. It helped to obliterated rapidly the glaring bright of the ground."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:9 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "bloom"@en;
+    skos:scopeNote "A bluish fluorescent coat which forms on the surface of some films."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:10 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "body"@en;
+    skos:related spgc:57, spgc:83;
+    skos:scopeNote "Common term for the degree of viscosity of a paint or varnish, as \"a lot of body\" or \"not much body.\" A practical term used to give a qualitative picture of consistency."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:11 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "chalking"@en;
+    skos:related spgc:1;
+    skos:scopeNote "The presence of a loose powder on the surface of a paint after exposure to the elements."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:12 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "chiaroscuro"@en;
+    skos:scopeNote "The use of graduation of light and dark to describe forms in drawing and painting."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:13 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "color"@en;
+    skos:related spgc:17, spgc:42, spgc:57, spgc:59, spgc:66, spgc:7, spgc:8;
+    skos:scopeNote "A generic term referring exclusively to all colors of the spectrum, including white and black. Color is described by three properties: hue, lightness and saturation. (1) Hue (color, character, dominant wavelength): blue, green, red, etc. (2) Lightness (brightness, reflectance, value): position on the gray scale between pure black and pure white (3) Saturation (purity, grayness, cleanliness, muddiness, chroma): purity or intensity of color."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:14 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "craquelure"@en;
+    skos:related spgc:16;
+    skos:scopeNote "A pattern of cracks that develops on the surface of a painting as a result of the natural drying and aging of the paint film."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:15 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "crawling"@en;
+    skos:related spgc:55;
+    skos:scopeNote "The tendency of a liquid to draw up and bead on the surface."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:16 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "crazing"@en;
+    skos:related spgc:14;
+    skos:scopeNote "Fine lines or minute surface cracks occurring on painted surfaces due to unequal contraction in drying or cooling."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:17 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "crocking"@en;
+    skos:related spgc:1, spgc:13;
+    skos:scopeNote "Removal of color on abrasion or rubbing."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:18 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "drier"@en;
+    skos:related spgc:19, spgc:43;
+    skos:scopeNote "Any catalytic material which when added to a drying oil accelerates drying or hardening of the film."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:19 a skos:Concept;
+    skos:broader spgc:51;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "drying oils"@en;
+    skos:related spgc:18;
+    skos:scopeNote "Oils which have the property of forming a solid, elastic surface when exposed to air in thin layers. The drying oils most commonly used in oil painting were linseed oil, walnut oil and poppy oil. Examples of non-drying oil unsuitable for painting are olive oil and almond oil."@en .
+
+  spgc:20 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "efflorescence"@en;
+    skos:related spgc:33, spgc:6;
+    skos:scopeNote "A phenomena whereby a whitish crust of fine crystals forms on a painted surface. These are usually sodium salts which diffuse through the paint film from the substrate."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:21 a skos:Concept;
+    skos:broader spgc:77;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "egg tempera painting"@en;
+    skos:related spgc:28, spgc:46, spgc:57;
+    skos:scopeNote "Egg (either whole, yolk or white) can be used as a pigment binder. Tempera painting was very popular until the late fifteenth century."@en .
+
+  spgc:22 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:2;
+    skos:prefLabel "emulsion"@en;
+    skos:scopeNote "A suspension of fine particles or globules of a liquid within a liquid."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:23 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "enamel paints"@en;
+    skos:related spgc:36, spgc:45, spgc:57;
+    skos:scopeNote "Historically, enamel has described decorative and protective glassy coatings on metal as well as glassy, decorative coatings on glass. Enamel has also implied certain organic coating such as paints or lacquers."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:24 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "extender"@en;
+    skos:related spgc:30;
+    skos:scopeNote "A pigment which contributes very little hiding to the system, but does reinforce the film and alter the gloss."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:25 a skos:Concept;
+    skos:broader spgc:31;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "fly specks"@en;
+    skos:scopeNote "The bodily waste discharged by flies. Fresh specks can be cleaned off with moistened cotton swabs; however, aged specks can not be cleaned off at all."@en .
+
+  spgc:26 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "fugitive pigment"@en;
+    skos:related spgc:37, spgc:41, spgc:59, spgc:87;
+    skos:scopeNote "A phrase used to describe a pigment's impermanence and tendency to fade or change color under the influence of natural effects such as sunlight."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:27 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "gesso"@en;
+    skos:related spgc:32, spgc:71;
+    skos:scopeNote "Traditionally a lean layer of size and chalk to form a ground on which to paint."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:28 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "glair"@en;
+    skos:related spgc:21, spgc:83;
+    skos:scopeNote "Egg white. It is used in egg tempera painting and as a coating material."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:29 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "glaze (coloring)"@en;
+    skos:related spgc:46, spgc:57;
+    skos:scopeNote "To cover paler under painting with a layer consisting of transparent pigments and excess medium. Traditionally used to add color to forms modeled in monochrome opaque paint."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:30 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "gloss"@en;
+    skos:related spgc:24, spgc:45, spgc:66, spgc:69, spgc:86;
+    skos:scopeNote "The shine, sheen or luster of the surface of a coating."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:31 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:25;
+    skos:prefLabel "grime"@en;
+    skos:scopeNote "Surface dirt: a combination of air-borne soot, nicotine, and cooking grease. Dirt can be in the varnish, on top of the paint layer, or on top of the varnish."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:32 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "ground"@en;
+    skos:related spgc:27, spgc:62;
+    skos:scopeNote "A layer of opaque paint applied to a support to provide a suitable color and texture on which to draw or paint."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:33 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "haze"@en;
+    skos:related spgc:20, spgc:66;
+    skos:scopeNote "The dullness of a surface removable by polishing. It usually results from faulty solvent balance or incompatibility of ingredients."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:34 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "impasto"@en;
+    skos:related spgc:44, spgc:57;
+    skos:scopeNote "The texture created in a paint surface by the movement of the brush. Impasto usually implies thick, heavy brushwork, but the term also refers to the crisp, delicate textures found in smoother paint surfaces."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:35 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "inpainting"@en;
+    skos:related spgc:64;
+    skos:scopeNote "Paint applied over losses only. This is a technique commonly used by conservators to unify a painting that has suffered paint loss."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:36 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "lacquer"@en;
+    skos:related spgc:23, spgc:6, spgc:83;
+    skos:scopeNote "A term which usually indicates that the material dries by evaporation and forms a film from the nonvolatile constituents."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:37 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "lake"@en;
+    skos:related spgc:26, spgc:41, spgc:57;
+    skos:scopeNote "A colored natural or synthetic dye absorbed onto a semi-transparent base and used as a pigment."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:38 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "latex"@en;
+    skos:related spgc:61, spgc:63, spgc:79;
+    skos:scopeNote "a generic term describing stable dispersions of resin particles in a water system."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:39 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "leaching"@en;
+    skos:scopeNote "When solvents are applied to a paint film, solvent soluble compounds are removed and the film becomes more brittle."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:40 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "lean paint"@en;
+    skos:related spgc:51, spgc:57, spgc:81;
+    skos:scopeNote "Lean oil color is paint in which the oil or fat content has been reduced, usually by indirect means such as diluting the paint with turpentine."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:41 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "light fastness (color quality)"@en;
+    skos:related spgc:26, spgc:37, spgc:87;
+    skos:scopeNote "Ability to withstand color changes on exposure to light."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:42 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "lightness"@en;
+    skos:related spgc:13, spgc:66, spgc:68;
+    skos:scopeNote "(Brightness, reflectance, value) Position on the grey scale between pure black and pure white."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:43 a skos:Concept;
+    skos:broader spgc:51;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "linseed oil"@en;
+    skos:related spgc:18, spgc:46;
+    skos:scopeNote "The most popular drying oil used as paint medium. The medium hardens over several weeks as components of the oil polymerize to form an insoluble matrix. Driers can be added to accelerate this process."@en .
+
+  spgc:44 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "loaded"@en;
+    skos:related spgc:34;
+    skos:scopeNote "A painting is said to be loaded when it is painted thickly, often with a heavy impasto. A loaded brush is one charged to its full capacity with paint."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:45 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "luster"@en;
+    skos:related spgc:23, spgc:30, spgc:86;
+    skos:scopeNote "The gloss of a finish."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:46 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "medium"@en;
+    skos:related spgc:21, spgc:29, spgc:43, spgc:5, spgc:57, spgc:59;
+    skos:scopeNote "The component of paint in which the pigment is dispersed."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:47 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "mildew"@en;
+    skos:scopeNote "Organic surfaces exposed to high temperature-humidity atmospheres are attacked by fungus growth. This dark discoloration, usually a mold type of fungus but more commonly called \"mildew.\""@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:48 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:81, spgc:85;
+    skos:prefLabel "mineral spirits"@en;
+    skos:scopeNote "A petroleum fraction with boiling range between 300 to 400ºF."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:49 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "mottling"@en;
+    skos:scopeNote "A film defect associated with spraying. Appears as circular imperfections."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:50 a skos:Concept;
+    skos:broader spgc:83;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "natural varnish"@en;
+    skos:related spgc:63;
+    skos:scopeNote "Tree resins (mastic and dammar), fossil resins (copal and amber), and insect resin secretions (shellac)."@en .
+
+  spgc:51 a skos:Concept;
+    skos:broader spgc:5;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:19, spgc:43;
+    skos:prefLabel "oil"@en;
+    skos:related spgc:40, spgc:52;
+    skos:scopeNote "A general term from a water-insoluble viscous liquid"@en .
+
+  spgc:52 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "oleoresinous"@en;
+    skos:related spgc:51, spgc:63, spgc:83;
+    skos:scopeNote "Indicating a material which has been made by the combination of an oil and a resin."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:53 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "opacity"@en;
+    skos:related spgc:54;
+    skos:scopeNote "Hiding power or the degree of obliteration."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:54 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "opaque"@en;
+    skos:related spgc:53;
+    skos:scopeNote "Impervious to light or not translucent."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:55 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "orange peel"@en;
+    skos:related spgc:15;
+    skos:scopeNote "A pebbled film surface similar to the skin of an orange in appearance. It is caused by too rapid drying before leveling takes place."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:56 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "over paint"@en;
+    skos:scopeNote "This paint was not applied by the artist but applied at a later date. It not only covers the original paint, but its presence often indicates an excessive alteration of the image. Over painting is not an acceptable conservation technique."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:57 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:67;
+    skos:prefLabel "paint layer"@en;
+    skos:related spgc:10, spgc:13, spgc:21, spgc:23, spgc:29, spgc:34, spgc:37, spgc:40,
+      spgc:46;
+    skos:scopeNote "The paint layer is the actual layer or layers of color more-or-less opaque applied by the artist in the execution of the painting."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:58 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "pentimento"@en;
+    skos:scopeNote "Derived from the Italian meaning \"repentance.\" Pentimenti are the changes in composition which a painter makes while producing a painting. These alterations are often visible in the infra-red, to x-rays and sometimes to the naked eye."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:59 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "pigment"@en;
+    skos:related spgc:13, spgc:26, spgc:46;
+    skos:scopeNote "A finely divided, insoluble substance which imparts color to the material to which it is added."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:60 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "polar solvents"@en;
+    skos:scopeNote "Solvents such as alcohols, ketones, etc., which contain oxygen, etc. These have high dielectric constants."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:61 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:78, spgc:79;
+    skos:prefLabel "polymer"@en;
+    skos:related spgc:38, spgc:63, spgc:75;
+    skos:scopeNote "A large molecule formed when many molecules are linked together by polymerization."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:62 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "priming"@en;
+    skos:related spgc:32;
+    skos:scopeNote "The application of sizes and/or grounds to a support to prepare the painting's surface, modify its absorbency, texture and color."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:63 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "resin"@en;
+    skos:related spgc:38, spgc:5, spgc:50, spgc:52, spgc:61, spgc:74, spgc:78, spgc:79,
+      spgc:81, spgc:85;
+    skos:scopeNote "An organic polymer in the form of a crystalline or amorphous solid, or viscous liquid, of wither natural or synthetic origins."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:64 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "retouching"@en;
+    skos:related spgc:35;
+    skos:scopeNote "The work done by a restorer to replace areas of loss or damage in a painting."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:65 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "sagging"@en;
+    skos:scopeNote "The tendency of a wet paint film to flow downward and become thicker on vertical surfaces."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:66 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "saturation"@en;
+    skos:related spgc:13, spgc:30, spgc:33, spgc:42;
+    skos:scopeNote "Purity or intensity of color. Degree of freedom from grayness."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:67 a skos:Concept;
+    skos:broader spgc:57;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "scumble"@en;
+    skos:scopeNote "Very thin layer of opaque or semi-opaque paint that partially hides the underlayer."@en .
+
+  spgc:68 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "shade"@en;
+    skos:related spgc:42, spgc:8;
+    skos:scopeNote "The difference in appearance between colors of similar hue."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:69 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "sheen"@en;
+    skos:related spgc:30, spgc:86;
+    skos:scopeNote "A specular reflectance taken at a low angle, usually 85 degrees."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:70 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "sinking"@en;
+    skos:scopeNote "The absorption of paint medium by a lean underlayer to produce a matte or dead surface."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:71 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "size"@en;
+    skos:related spgc:27, spgc:77;
+    skos:scopeNote "An adhesive diluted in water. Usually means and animal glue consisting of collagen and gelatin, rabbit skin glue, parchment glue, and edible jelly are all forms of gelatin."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:72 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "stretcher"@en;
+    skos:related spgc:73;
+    skos:scopeNote "A rigid wooden frame over which a canvas is usually stretched. The stretcher can be expanded by tapping keys (wedges) inserted at the corners."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:73 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "strainer"@en;
+    skos:related spgc:72;
+    skos:scopeNote "A stretcher from with fixed corners. It cannot be expanded."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:74 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "synthetic resin"@en;
+    skos:related spgc:2, spgc:3, spgc:5, spgc:63;
+    skos:scopeNote "Complex, substantially amorphous organic semi-solid or solid materials built up by chemical reaction of simple molecules."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:75 a skos:Concept;
+    skos:broader spgc:83;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "synthetic varnishes"@en;
+    skos:related spgc:61;
+    skos:scopeNote "Polyvinyl acrylate."@en .
+
+  spgc:76 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "tacking edges"@en;
+    skos:scopeNote "The outside edges of a stretched canvas through which tacks are inserted attaching it onto the stretcher."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:77 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:21;
+    skos:prefLabel "tempra"@en;
+    skos:related spgc:71;
+    skos:scopeNote "Usually refers to egg (either whole, yolk, or white) used as the medium but can also refer to glue size."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:78 a skos:Concept;
+    skos:broader spgc:61;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "thermoplastic"@en;
+    skos:related spgc:63;
+    skos:scopeNote "The term applied to resins which soften and flow when heated."@en .
+
+  spgc:79 a skos:Concept;
+    skos:broader spgc:61;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "thermosetting"@en;
+    skos:related spgc:38, spgc:63;
+    skos:scopeNote "The term applied to resins which become hard after heating and cannot be resoftened."@en .
+
+  spgc:80 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "toughness"@en;
+    skos:scopeNote "The ability of a material to take bending, impact, etc., without cracking."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:81 a skos:Concept;
+    skos:broader spgc:48;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "turpentine (spirits)"@en;
+    skos:related spgc:40, spgc:63;
+    skos:scopeNote "The traditional solvent or thinner for a drying oil (such as linseed oil) distilled from the resin that is exuded by certain trees, e.g., the European larch, white fir, and American longleaf pine."@en .
+
+  spgc:82 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "ultraviolet"@en;
+    skos:scopeNote "The light rays which are outside of the visible spectrum at its violet end."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:83 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:narrower spgc:50, spgc:75;
+    skos:prefLabel "varnish"@en;
+    skos:related spgc:1, spgc:10, spgc:28, spgc:36, spgc:52, spgc:86;
+    skos:scopeNote "An applied surface film, usually of a transparent, cloudless resin. It imparts an even gloss to the surface, wetting the paint, and providing protection for it."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:84 a skos:Concept;
+    skos:broader spgc:5;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "water sensitive binder"@en;
+    skos:scopeNote "Glue, gum arabic, starch, cellulose esters. These materials were used by artists in the past and present in the construction of oil paintings."@en .
+
+  spgc:85 a skos:Concept;
+    skos:broader spgc:48;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "white spirit"@en;
+    skos:related spgc:63;
+    skos:scopeNote "Turpentine substitute consisting of naphtha thinners (solvent distilled from petroleum). They are colorless hydrocarbons, boiling range 100 to 160ºC, used as a paint thinner."@en .
+
+  spgc:86 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "glaze (glass-like surface production)"@en;
+    skos:related spgc:30, spgc:45, spgc:69, spgc:83;
+    skos:scopeNote "To impart a glass-like surface. Aged glaze is very sensitive to solvents."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+
+  spgc:87 a skos:Concept;
+    skos:inScheme <https://w3id.org/spg/>;
+    skos:prefLabel "light fastness (dimension)"@en;
+    skos:related spgc:26, spgc:41;
+    skos:scopeNote "The relative degree of change or lack of change in color of materials exposed to the same amount and character of light."@en;
+    skos:topConceptOf <https://w3id.org/spg/> .
+}
